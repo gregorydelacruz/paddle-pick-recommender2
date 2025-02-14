@@ -11,16 +11,16 @@ import { useNavigate } from "react-router-dom";
 
 const AllPaddles = () => {
   const navigate = useNavigate();
-  const [selectedCompany, setSelectedCompany] = useState<string>("");
-  const [selectedShape, setSelectedShape] = useState<string>("");
+  const [selectedCompany, setSelectedCompany] = useState<string>("all");
+  const [selectedShape, setSelectedShape] = useState<string>("all");
   const [maxPrice, setMaxPrice] = useState<number>(250);
 
   const companies = Array.from(new Set(paddles.map(paddle => paddle.Company)));
   const shapes = Array.from(new Set(paddles.map(paddle => paddle.Shape)));
 
   const filteredPaddles = paddles.filter(paddle => {
-    const companyMatch = selectedCompany ? paddle.Company === selectedCompany : true;
-    const shapeMatch = selectedShape ? paddle.Shape === selectedShape : true;
+    const companyMatch = selectedCompany === "all" ? true : paddle.Company === selectedCompany;
+    const shapeMatch = selectedShape === "all" ? true : paddle.Shape === selectedShape;
     const priceMatch = paddle.Price <= maxPrice;
     return companyMatch && shapeMatch && priceMatch;
   });
@@ -54,7 +54,7 @@ const AllPaddles = () => {
                       <SelectValue placeholder="All Manufacturers" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Manufacturers</SelectItem>
+                      <SelectItem value="all">All Manufacturers</SelectItem>
                       {companies.map(company => (
                         <SelectItem key={company} value={company}>
                           {company}
@@ -71,7 +71,7 @@ const AllPaddles = () => {
                       <SelectValue placeholder="All Shapes" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Shapes</SelectItem>
+                      <SelectItem value="all">All Shapes</SelectItem>
                       {shapes.map(shape => (
                         <SelectItem key={shape} value={shape}>
                           {shape}
