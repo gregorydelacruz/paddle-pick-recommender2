@@ -1,4 +1,3 @@
-
 import { Review } from "@/types/review";
 
 type PaddleReviews = {
@@ -142,6 +141,98 @@ const reviews: PaddleReviews = {
       controlRating: 4.8,
       powerRating: 3.8,
       date: "2024-01-25"
+    }
+  },
+  "body-helix-x4-gold-kevlar": {
+    productReview: {
+      summary: "The Body Helix X4 Gold Kevlar combines innovative Kevlar construction with exceptional spin capabilities, resulting in a hybrid-shaped paddle that offers impressive performance across all aspects of the game. Its balanced design and premium materials make it a versatile choice for players seeking both power and control.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "The X4 Gold Kevlar features a unique Kevlar 3K cloth face with a 16mm polypropylene honeycomb core. The thermoformed construction ensures exceptional durability and consistent performance. The hybrid shape provides an excellent balance between reach and maneuverability, while the premium materials contribute to superior feel and response."
+        },
+        {
+          section: "Performance Testing",
+          content: "Lab testing revealed outstanding spin generation at 2281 RPM, placing it in the top 14% of tested paddles. The balanced 115.9 swing weight (56th percentile) and 24.1 balance point (61st percentile) provide excellent stability without sacrificing maneuverability. Serve speeds averaging 56.2 mph demonstrate impressive power generation capabilities."
+        },
+        {
+          section: "Playing Experience",
+          content: "On the court, the X4 Gold Kevlar demonstrates remarkable versatility. The paddle excels in both power shots and controlled dinks, with the Kevlar face providing exceptional ball control and spin potential. The hybrid shape proves particularly effective for players transitioning between different playing styles."
+        },
+        {
+          section: "Durability",
+          content: "The Kevlar construction shows excellent resistance to wear and tear during extensive testing. The edge guard maintains its integrity well, and the surface texture remains consistent, suggesting superior long-term durability that justifies its investment."
+        }
+      ],
+      pros: [
+        "Superior spin generation (top 14% in testing)",
+        "Excellent power generation capability",
+        "Versatile hybrid shape design",
+        "Premium Kevlar construction",
+        "Balanced weight distribution"
+      ],
+      cons: [
+        "Mid-range price point",
+        "Moderate twist weight stability",
+        "May require adjustment period for shape"
+      ],
+      bestFor: [
+        "All-around players seeking versatility",
+        "Players who value spin generation",
+        "Athletes transitioning between playing styles",
+        "Those who prefer a hybrid paddle shape"
+      ],
+      valueRating: 4.6,
+      performanceRating: 4.7,
+      controlRating: 4.5,
+      powerRating: 4.7,
+      date: "2024-01-28"
+    }
+  },
+  "bread-and-butter-fat-boy": {
+    productReview: {
+      summary: "The Bread & Butter Fat Boy is a wide-body paddle that emphasizes stability and power, featuring a unique 3K Kevlar-Carbon Fiber weave construction. Its distinctive design caters to players who prioritize a solid platform for consistent shot-making and enhanced sweet spot area.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Built with a sophisticated 3K Kevlar-Carbon Fiber weave face and a 16mm polypropylene honeycomb core, the Fat Boy demonstrates robust construction quality. The thermoformed manufacturing process ensures uniform performance across the paddle face, while the wide-body shape provides an expanded sweet spot for consistent shot-making."
+        },
+        {
+          section: "Performance Testing",
+          content: "Our testing showed moderate spin generation at 2069 RPM (45th percentile), while the lower swing weight of 107.8 (20th percentile) contributes to enhanced maneuverability. The high twist weight of 7.11 (89th percentile) provides excellent stability on off-center hits. Punch volley speeds of 36.3 mph place it in the top 20% for pop performance."
+        },
+        {
+          section: "Playing Experience",
+          content: "The Fat Boy excels in providing a stable platform for all types of shots. The wide body design offers forgiveness on off-center hits, while the balanced construction allows for quick transitions between defensive and offensive play. The paddle particularly shines in volley exchanges where stability and quick response are crucial."
+        },
+        {
+          section: "Durability",
+          content: "The Kevlar-Carbon Fiber weave construction demonstrates excellent durability during extended testing. Edge protection and surface texture maintain their characteristics well, suggesting good long-term value despite regular use."
+        }
+      ],
+      pros: [
+        "Excellent stability on off-center hits",
+        "Superior punch volley performance",
+        "Large sweet spot area",
+        "Good maneuverability for its size",
+        "Durable construction"
+      ],
+      cons: [
+        "Moderate spin generation",
+        "Higher price point",
+        "Wide body may not suit all players"
+      ],
+      bestFor: [
+        "Players valuing stability and consistency",
+        "Those who prefer a larger sweet spot",
+        "Power-oriented players",
+        "Players transitioning from tennis"
+      ],
+      valueRating: 4.3,
+      performanceRating: 4.5,
+      controlRating: 4.4,
+      powerRating: 4.7,
+      date: "2024-02-01"
     }
   }
 };
