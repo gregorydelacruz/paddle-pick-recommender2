@@ -5,6 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowLeft } from "lucide-react";
 import { getRecommendedPaddles } from "@/utils/paddleRecommendations";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
 const Results = () => {
   const location = useLocation();
@@ -20,7 +28,7 @@ const Results = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-muted to-background">
-      <div className="container max-w-4xl mx-auto px-4 py-12">
+      <div className="container max-w-7xl mx-auto px-4 py-12">
         <Button
           variant="outline"
           onClick={() => navigate("/questionnaire")}
@@ -41,7 +49,7 @@ const Results = () => {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-8">
             {recommendedPaddles.map((paddle, index) => (
               <motion.div
                 key={`${paddle.Company}-${paddle.Paddle}`}
@@ -49,24 +57,97 @@ const Results = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
-                <Card className="p-6 h-full flex flex-col">
-                  <h3 className="text-xl font-semibold mb-2">{paddle.Paddle}</h3>
-                  <p className="text-sm text-muted-foreground mb-2">{paddle.Company}</p>
-                  <div className="space-y-2 flex-grow">
-                    <p><span className="font-medium">Price:</span> ${paddle.Price}</p>
-                    <p><span className="font-medium">Weight:</span> {paddle.StaticWeight}oz</p>
-                    <p><span className="font-medium">Shape:</span> {paddle.Shape}</p>
-                    <p><span className="font-medium">Core:</span> {paddle.CoreThickness}mm</p>
-                  </div>
-                  <div className="mt-4 space-y-1">
-                    <div className="text-sm">
-                      <span className="font-medium">Power:</span> {paddle.PowerPercentile}%
+                <Card className="p-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <h2 className="text-2xl font-bold mb-2">{paddle.Paddle}</h2>
+                      <p className="text-lg text-muted-foreground mb-4">{paddle.Company}</p>
+                      
+                      <div className="space-y-4">
+                        <h3 className="text-lg font-semibold">Basic Information</h3>
+                        <Table>
+                          <TableBody>
+                            <TableRow>
+                              <TableCell className="font-medium">Price</TableCell>
+                              <TableCell>${paddle.Price}</TableCell>
+                            </TableRow>
+                            <TableRow>
+                              <TableCell className="font-medium">Shape</TableCell>
+                              <TableCell>{paddle.Shape}</TableCell>
+                            </TableRow>
+                            <TableRow>
+                              <TableCell className="font-medium">Core Thickness</TableCell>
+                              <TableCell>{paddle.CoreThickness}mm</TableCell>
+                            </TableRow>
+                            <TableRow>
+                              <TableCell className="font-medium">Manufacturing Process</TableCell>
+                              <TableCell>{paddle.ManufacturingProcess}</TableCell>
+                            </TableRow>
+                            <TableRow>
+                              <TableCell className="font-medium">Surface Material</TableCell>
+                              <TableCell>{paddle.SurfaceMaterial}</TableCell>
+                            </TableRow>
+                            <TableRow>
+                              <TableCell className="font-medium">Core Material</TableCell>
+                              <TableCell>{paddle.CoreMaterial}</TableCell>
+                            </TableRow>
+                          </TableBody>
+                        </Table>
+                      </div>
                     </div>
-                    <div className="text-sm">
-                      <span className="font-medium">Spin:</span> {paddle.SpinPercentile}%
-                    </div>
-                    <div className="text-sm">
-                      <span className="font-medium">Control:</span> {paddle.PopPercentile}%
+
+                    <div className="space-y-4">
+                      <h3 className="text-lg font-semibold">Performance Metrics</h3>
+                      <Table>
+                        <TableBody>
+                          <TableRow>
+                            <TableCell className="font-medium">Spin (RPM)</TableCell>
+                            <TableCell>{paddle.SpinRPM} ({paddle.SpinPercentile}%)</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Serve Speed</TableCell>
+                            <TableCell>{paddle.ServeSpeed} ({paddle.PowerPercentile}%)</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Punch Volley Speed</TableCell>
+                            <TableCell>{paddle.PunchVolleySpeed} ({paddle.PopPercentile}%)</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Firepower Rating</TableCell>
+                            <TableCell>{paddle.Firepower}</TableCell>
+                          </TableRow>
+                        </TableBody>
+                      </Table>
+
+                      <h3 className="text-lg font-semibold mt-4">Physical Specifications</h3>
+                      <Table>
+                        <TableBody>
+                          <TableRow>
+                            <TableCell className="font-medium">Dimensions (L×W)</TableCell>
+                            <TableCell>{paddle.Length}" × {paddle.Width}"</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Handle Length</TableCell>
+                            <TableCell>{paddle.HandleLength}"</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Weight</TableCell>
+                            <TableCell>{paddle.StaticWeight}oz</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Swing Weight</TableCell>
+                            <TableCell>{paddle.SwingWeight} ({paddle.SwingWeightPercentile}%)</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Twist Weight</TableCell>
+                            <TableCell>{paddle.TwistWeight} ({paddle.TwistWeightPercentile}%)</TableCell>
+                          </TableRow>
+                          <TableRow>
+                            <TableCell className="font-medium">Balance Point</TableCell>
+                            <TableCell>{paddle.BalancePoint}" ({paddle.BalancePointPercentile}%)</TableCell>
+                          </TableRow>
+                        </TableBody>
+                      </Table>
                     </div>
                   </div>
                 </Card>
