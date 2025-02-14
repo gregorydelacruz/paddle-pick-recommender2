@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useForm } from "react-hook-form";
@@ -83,9 +82,7 @@ const Questionnaire = () => {
   const onSubmit = (data: QuestionnaireData) => {
     if (isLastStep) {
       console.log("Final form data:", data);
-      // Here we would process the recommendations
-      // For now, we'll just log the data
-      navigate("/");
+      navigate("/results", { state: { preferences: data } });
     } else {
       setCurrentStep((prev) => prev + 1);
     }
@@ -94,7 +91,6 @@ const Questionnaire = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-muted to-background">
       <div className="container max-w-2xl mx-auto px-4 py-12">
-        {/* Progress Bar */}
         <div className="w-full bg-secondary rounded-full h-2 mb-8">
           <div
             className="bg-primary h-2 rounded-full transition-all duration-300"
