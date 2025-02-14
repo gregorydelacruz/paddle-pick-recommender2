@@ -62,8 +62,7 @@ const Results = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="group cursor-pointer"
-                onClick={() => navigate(`/paddle/${paddle.Company}-${paddle.Paddle}`.toLowerCase().replace(/\s+/g, '-'))}
+                className="group"
               >
                 <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/10 hover:border-primary/30 transition-all duration-300 hover:shadow-lg">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -72,6 +71,23 @@ const Results = () => {
                         <h2 className="text-3xl font-bold text-foreground/90">{paddle.Paddle}</h2>
                         <p className="text-xl text-primary">{paddle.Company}</p>
                         <p className="text-2xl font-semibold">${paddle.Price}</p>
+                        <div className="flex gap-4 mt-4">
+                          <Button
+                            variant="default"
+                            onClick={() => navigate(`/paddle/${paddle.Company}-${paddle.Paddle}`.toLowerCase().replace(/\s+/g, '-'))}
+                          >
+                            View Details
+                          </Button>
+                          <Button
+                            variant="secondary"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              window.open("#", "_blank");
+                            }}
+                          >
+                            Buy Now
+                          </Button>
+                        </div>
                       </div>
                       
                       <div className="space-y-4">

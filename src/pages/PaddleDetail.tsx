@@ -59,6 +59,16 @@ const PaddleDetail = () => {
             <h1 className="text-4xl font-bold">{paddle.Paddle}</h1>
             <p className="text-xl text-muted-foreground">{paddle.Company}</p>
             <p className="text-2xl font-semibold">${paddle.Price}</p>
+            <div className="flex justify-center gap-4 mt-4">
+              <Button
+                variant="default"
+                size="lg"
+                onClick={() => window.open("#", "_blank")}
+                className="px-8"
+              >
+                Buy Now
+              </Button>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
