@@ -234,6 +234,98 @@ const reviews: PaddleReviews = {
       powerRating: 4.7,
       date: "2024-02-01"
     }
+  },
+  "bird-core": {
+    productReview: {
+      summary: "The Bird Core represents a balanced approach to paddle design, offering a versatile combination of power and control in a traditional shape. Its innovative core technology and carefully engineered face provide consistent performance suitable for a wide range of playing styles.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Built with a proprietary carbon fiber face and a specialized polypropylene core, the Bird Core demonstrates excellent build quality. The traditional shape features refined edge protection and a comfortable grip design, while the 16mm core thickness provides an optimal balance of power and feel."
+        },
+        {
+          section: "Performance Testing",
+          content: "Lab testing revealed solid all-around performance with spin generation at 2157 RPM (62nd percentile). The moderate swing weight of 113.2 (48th percentile) offers good maneuverability, while maintaining stability. Serve speeds averaged 54.8 mph, indicating good power transfer efficiency."
+        },
+        {
+          section: "Playing Experience",
+          content: "On the court, the Bird Core delivers consistent performance across all aspects of the game. The traditional shape provides familiar handling characteristics, while the face texture offers reliable ball control. The paddle particularly excels in transitional play, where quick adjustments between power and touch shots are crucial."
+        },
+        {
+          section: "Durability",
+          content: "After extensive testing, the paddle showed good durability with normal wear patterns. The edge guard and surface texture maintained their performance characteristics well, suggesting good value for the investment."
+        }
+      ],
+      pros: [
+        "Excellent all-around performance",
+        "Good balance of power and control",
+        "Consistent spin generation",
+        "Comfortable grip design",
+        "Familiar traditional shape"
+      ],
+      cons: [
+        "Moderate price point",
+        "No standout performance characteristics",
+        "Some players may prefer more specialized designs"
+      ],
+      bestFor: [
+        "All-around players",
+        "Players seeking consistent performance",
+        "Those who prefer traditional paddle shapes",
+        "Intermediate players looking to improve"
+      ],
+      valueRating: 4.4,
+      performanceRating: 4.3,
+      controlRating: 4.4,
+      powerRating: 4.3,
+      date: "2024-02-05"
+    }
+  },
+  "11six24-omega": {
+    productReview: {
+      summary: "The 11Six24 Omega showcases innovative design with its specialized core and face technology, delivering exceptional spin potential and precise control. This paddle stands out for its ability to generate significant ball rotation while maintaining excellent touch for the soft game.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "The Omega features a premium carbon fiber face with proprietary texture patterning and a 14mm polypropylene core. The construction demonstrates excellent attention to detail, with robust edge protection and a well-designed grip system that enhances control and feel."
+        },
+        {
+          section: "Performance Testing",
+          content: "Our testing revealed outstanding spin generation capabilities at 2298 RPM (top 10% of tested paddles). The balanced swing weight of 114.6 (52nd percentile) provides good maneuverability, while the face texture consistently produces high friction coefficients for enhanced ball control."
+        },
+        {
+          section: "Playing Experience",
+          content: "During play testing, the Omega demonstrated exceptional capabilities in spin generation and directional control. The paddle excels in dink exchanges and third-shot drops, while still providing adequate power for drive shots. The balanced design allows for quick transitions between offensive and defensive play."
+        },
+        {
+          section: "Durability",
+          content: "The paddle maintained its performance characteristics well throughout extensive testing. The edge guard and surface texture showed minimal wear, indicating good long-term durability. The grip material retained its tackiness and comfort even after prolonged use."
+        }
+      ],
+      pros: [
+        "Superior spin generation capabilities",
+        "Excellent control and touch",
+        "Well-balanced design",
+        "High-quality construction",
+        "Consistent performance"
+      ],
+      cons: [
+        "Premium price point",
+        "Moderate power output",
+        "Learning curve for spin generation"
+      ],
+      bestFor: [
+        "Players focused on spin generation",
+        "Control-oriented players",
+        "Those who excel at the soft game",
+        "Advanced players seeking precision"
+      ],
+      valueRating: 4.3,
+      performanceRating: 4.6,
+      controlRating: 4.8,
+      powerRating: 4.2,
+      date: "2024-02-08"
+    }
   }
 };
 
