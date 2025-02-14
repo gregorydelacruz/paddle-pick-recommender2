@@ -1,13 +1,31 @@
 
 import { Paddle } from "@/types/paddle";
-import elevenSix24Paddles from "./manufacturers/11Six24";
-import birdPaddles from "./manufacturers/Bird";
-import bodyHelixPaddles from "./manufacturers/BodyHelix";
+import { 
+  elevenSix24Paddles,
+  birdPaddles,
+  bodyHelixPaddles,
+  breadAndButterPaddles,
+  cheetahPaddles,
+  chorusPaddles,
+  corePaddles,
+  crbnPaddles,
+  diademPaddles,
+  dymonPaddles,
+  electrumPaddles
+} from "./manufacturers";
 
 const paddles: Paddle[] = [
   ...elevenSix24Paddles,
   ...birdPaddles,
   ...bodyHelixPaddles,
+  ...breadAndButterPaddles,
+  ...cheetahPaddles,
+  ...chorusPaddles,
+  ...corePaddles,
+  ...crbnPaddles,
+  ...diademPaddles,
+  ...dymonPaddles,
+  ...electrumPaddles
 ];
 
 export default paddles;
