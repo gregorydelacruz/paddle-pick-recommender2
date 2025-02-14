@@ -29,6 +29,34 @@ const rawData = [
     PunchVolleySpeed: 34.4,
     PopPercentile: "25%",
     Firepower: 30
+  },
+  {
+    Company: "CRBN",
+    Paddle: "CRBN 2X",
+    CoreThickness: 16,
+    Price: "$229.99",
+    Shape: "Standard",
+    ManufacturingProcess: "Thermoformed",
+    SurfaceTexture: "Peel Ply-Coarse",
+    SurfaceMaterial: "Toray Carbon Fiber",
+    CoreMaterial: "Polypropylene Honeycomb",
+    SpinRPM: 1975,
+    SpinPercentile: "32%",
+    Length: 15.8,
+    Width: 8,
+    HandleLength: 4.75,
+    StaticWeight: 8,
+    SwingWeight: 110,
+    SwingWeightPercentile: "27%",
+    TwistWeight: 7.5,
+    TwistWeightPercentile: "99%",
+    BalancePoint: 23.5,
+    BalancePointPercentile: "25%",
+    ServeSpeed: 53.5,
+    PowerPercentile: "17%",
+    PunchVolleySpeed: 34.4,
+    PopPercentile: "25%",
+    Firepower: 21
   }
 ] as const;
 

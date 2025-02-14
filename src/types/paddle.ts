@@ -35,3 +35,7 @@ export const formatPrice = (priceStr: string): number => {
 export const formatPercentile = (percentStr: string): number => {
   return parseFloat(percentStr.replace('%', ''));
 };
+
+export const generatePaddleSlug = (company: string, paddle: string): string => {
+  return `${company}-${paddle}`.toLowerCase().replace(/\s+/g, '-');
+};
