@@ -12,6 +12,15 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { 
+  RadarChart, 
+  PolarGrid, 
+  PolarAngleAxis, 
+  PolarRadiusAxis, 
+  Radar, 
+  ResponsiveContainer,
+  Tooltip
+} from 'recharts';
 
 const PaddleDetail = () => {
   const { slug } = useParams();
@@ -41,26 +50,26 @@ const PaddleDetail = () => {
     );
   }
 
-  const renderStars = (rating: number) => {
-    const stars = [];
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 !== 0;
+  const performanceData = [
+    { metric: "Power", value: paddle.PowerPercentile },
+    { metric: "Spin", value: paddle.SpinPercentile },
+    { metric: "Control", value: paddle.TwistWeightPercentile },
+    { metric: "Maneuverability", value: 100 - paddle.SwingWeightPercentile },
+    { metric: "Balance", value: paddle.BalancePointPercentile },
+  ];
 
-    for (let i = 0; i < fullStars; i++) {
-      stars.push(<Star key={`star-${i}`} className="w-4 h-4 fill-yellow-400 text-yellow-400" />);
-    }
-
-    if (hasHalfStar) {
-      stars.push(<StarHalf key="half-star" className="w-4 h-4 fill-yellow-400 text-yellow-400" />);
-    }
-
-    const remainingStars = 5 - Math.ceil(rating);
-    for (let i = 0; i < remainingStars; i++) {
-      stars.push(<Star key={`empty-star-${i}`} className="w-4 h-4 text-yellow-400" />);
-    }
-
-    return stars;
-  };
+  const metricsData = [
+    { metric: "Value", value: paddleReview?.productReview.valueRating * 20 || 0 },
+    { metric: "Performance", value: paddleReview?.productReview.performanceRating * 20 || 0 },
+    { metric: "Control", value: paddleReview?.productReview.controlRating * 20 || 0 },
+    { metric: "Power", value: paddleReview?.productReview.powerRating * 20 || 0 },
+    { metric: "Overall", value: (
+      ((paddleReview?.productReview.valueRating || 0) +
+      (paddleReview?.productReview.performanceRating || 0) +
+      (paddleReview?.productReview.controlRating || 0) +
+      (paddleReview?.productReview.powerRating || 0)) / 4 * 20
+    )},
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-primary/5 via-background to-background">
