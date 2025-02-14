@@ -10,6 +10,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import Index from "./pages/Index";
 import Questionnaire from "./pages/Questionnaire";
 import Results from "./pages/Results";
+import AllPaddles from "./pages/AllPaddles";
 import NotFound from "./pages/NotFound";
 
 // Create a client
@@ -35,6 +36,7 @@ const App = () => {
                 <Route path="/" element={<Index />} />
                 <Route path="/questionnaire" element={<Questionnaire />} />
                 <Route path="/results" element={<Results />} />
+                <Route path="/all-paddles" element={<AllPaddles />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </BrowserRouter>

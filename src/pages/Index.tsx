@@ -31,13 +31,22 @@ const Index = () => {
             your playing style and preferences.
           </p>
           
-          <Button
-            onClick={() => navigate("/questionnaire")}
-            className="mt-8 hover:bg-primary/90 text-white px-8 py-6 rounded-full text-lg group transition-all duration-300 ease-in-out"
-          >
-            Start Recommendation
-            <ArrowRight className="ml-2 h-5 w-5 group-hover:transform group-hover:translate-x-1 transition-transform" />
-          </Button>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+            <Button
+              onClick={() => navigate("/questionnaire")}
+              className="hover:bg-primary/90 text-white px-8 py-6 rounded-full text-lg group transition-all duration-300 ease-in-out"
+            >
+              Start Recommendation
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:transform group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <Button
+              variant="outline"
+              onClick={() => navigate("/all-paddles")}
+              className="px-8 py-6 rounded-full text-lg border-primary/20 hover:bg-primary/10"
+            >
+              Browse All Paddles
+            </Button>
+          </div>
         </motion.div>
 
         <motion.div
