@@ -1,4 +1,3 @@
-
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -234,42 +233,6 @@ const PaddleDetail = () => {
                   </CardContent>
                 </Card>
               </div>
-            )}
-
-            <Separator className="my-8" />
-
-            <h2 className="text-3xl font-bold">Customer Reviews</h2>
-            {paddleReview?.customerReviews?.length > 0 ? (
-              <div className="grid gap-6">
-                {paddleReview.customerReviews.map((review, index) => (
-                  <Card key={index}>
-                    <CardHeader>
-                      <div className="flex justify-between items-start">
-                        <div className="space-y-1">
-                          <CardTitle>{review.title}</CardTitle>
-                          <CardDescription>
-                            by {review.author} • {review.playingLevel} Player
-                            {review.verifiedPurchase && " • Verified Purchase"}
-                          </CardDescription>
-                        </div>
-                        <div className="flex">{renderStars(review.rating)}</div>
-                      </div>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-muted-foreground">{review.content}</p>
-                      <p className="text-sm text-muted-foreground mt-4">
-                        Reviewed on {new Date(review.date).toLocaleDateString()}
-                      </p>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            ) : (
-              <Card>
-                <CardContent className="py-8">
-                  <p className="text-center text-muted-foreground">No customer reviews yet for this paddle.</p>
-                </CardContent>
-              </Card>
             )}
           </div>
         </motion.div>

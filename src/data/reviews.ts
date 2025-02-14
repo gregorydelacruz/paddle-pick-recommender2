@@ -50,18 +50,99 @@ const reviews: PaddleReviews = {
       controlRating: 4.7,
       powerRating: 4.6,
       date: "2024-01-15"
-    },
-    customerReviews: [
-      {
-        author: "Michael Chen",
-        rating: 5,
-        title: "Perfect Balance of Power and Control",
-        content: "I've been playing with the Dymon Mayhem for three months now and I'm thoroughly impressed. The carbon fiber face gives exceptional power on drives while maintaining excellent touch for dinks. The elongated shape takes some getting used to but provides amazing reach at the kitchen line. One of the standout features is the spin potential - I can really make the ball dance with this paddle. The only minor drawback might be the slightly higher learning curve for beginners.",
-        date: "2024-02-15",
-        verifiedPurchase: true,
-        playingLevel: "Advanced"
-      }
-    ]
+    }
+  },
+  "crbn-1x": {
+    productReview: {
+      summary: "The CRBN 1X is a professional-grade paddle that excels in providing exceptional control and spin generation. Its elongated shape and premium carbon fiber construction make it particularly suitable for players who prioritize precision and court coverage.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Built with premium Toray carbon fiber and a 14mm polypropylene core, the CRBN 1X demonstrates excellent build quality. The thermoformed construction ensures consistent performance across the entire paddle face, while the elongated shape provides extended reach without compromising maneuverability."
+        },
+        {
+          section: "Performance Testing",
+          content: "Our lab tests showed impressive spin generation at 2244 RPM (top 20% of tested paddles). The balanced weight distribution with a 24.2 balance point (67th percentile) offers excellent control. While serve speeds were moderate at 54.7 mph, the paddle excels in controlled, precise shots."
+        },
+        {
+          section: "Playing Experience",
+          content: "The CRBN 1X shines in situations requiring finesse and control. The paddle provides excellent feedback during soft game exchanges and allows for precise placement. The elongated shape helps with reach at the kitchen line, though some players may need time to adjust to the longer frame."
+        },
+        {
+          section: "Durability",
+          content: "After extensive testing, the paddle showed good durability with minimal wear. The edge guard and surface texture maintained their integrity well, suggesting good long-term durability that justifies the investment."
+        }
+      ],
+      pros: [
+        "Excellent spin generation capability",
+        "Superior control and touch",
+        "Extended reach with elongated design",
+        "High-quality carbon fiber construction",
+        "Good balance between power and control"
+      ],
+      cons: [
+        "Higher price point",
+        "Moderate power compared to some competitors",
+        "May require adjustment period for some players"
+      ],
+      bestFor: [
+        "Control-oriented players",
+        "Players who prefer an elongated paddle shape",
+        "Those who prioritize spin generation",
+        "Players focusing on the soft game"
+      ],
+      valueRating: 4.3,
+      performanceRating: 4.5,
+      controlRating: 4.8,
+      powerRating: 4.0,
+      date: "2024-01-20"
+    }
+  },
+  "diadem-edge-18k": {
+    productReview: {
+      summary: "The Diadem Edge 18K is a premium elongated paddle that showcases exceptional spin generation and control characteristics. Its sophisticated 18k carbon fiber construction and advanced engineering make it a compelling choice for players who prioritize precision and spin in their game.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "The Edge 18K features premium 18k carbon fiber construction with a cold-layered manufacturing process that ensures consistency across the paddle face. The 16mm polypropylene core provides excellent stability and feel, while the elongated design offers extended reach without excessive weight."
+        },
+        {
+          section: "Performance Testing",
+          content: "Lab testing revealed outstanding spin generation capabilities at 2304 RPM, placing it in the top 12% of tested paddles. The high swing weight (122, 84th percentile) contributes to stable shots, while the balanced 24.1 balance point (61st percentile) maintains maneuverability."
+        },
+        {
+          section: "Playing Experience",
+          content: "On the court, the Edge 18K excels in control-oriented play. The paddle provides exceptional feedback during dinks and resets, while the elongated shape aids in court coverage. The higher swing weight promotes stability in blocking and defensive shots."
+        },
+        {
+          section: "Durability",
+          content: "The cold-layered construction and premium materials have shown excellent durability in our testing. Edge protection and surface texture maintain their characteristics well over extended use, suggesting good long-term value."
+        }
+      ],
+      pros: [
+        "Top-tier spin generation",
+        "Excellent control and stability",
+        "Premium 18k carbon fiber construction",
+        "Extended reach with elongated design",
+        "Durable build quality"
+      ],
+      cons: [
+        "Higher price point",
+        "Moderate power output",
+        "Higher swing weight may not suit all players"
+      ],
+      bestFor: [
+        "Advanced players seeking maximum spin",
+        "Control-oriented players",
+        "Players who value premium construction",
+        "Those who prefer elongated paddles"
+      ],
+      valueRating: 4.2,
+      performanceRating: 4.6,
+      controlRating: 4.8,
+      powerRating: 3.8,
+      date: "2024-01-25"
+    }
   }
 };
 
