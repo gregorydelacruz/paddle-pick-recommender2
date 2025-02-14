@@ -6,7 +6,10 @@ import {
   PolarRadiusAxis, 
   Radar, 
   ResponsiveContainer,
-  Tooltip
+  Tooltip,
+  PieChart,
+  Pie,
+  Cell,
 } from 'recharts';
 import {
   Card,
@@ -31,18 +34,23 @@ export const PaddleCharts = ({ paddle, paddleReview }: PaddleChartsProps) => {
     { metric: "Balance", value: paddle.BalancePointPercentile },
   ];
 
-  const metricsData = [
-    { metric: "Value", value: paddleReview?.productReview.valueRating * 20 || 0 },
-    { metric: "Performance", value: paddleReview?.productReview.performanceRating * 20 || 0 },
-    { metric: "Control", value: paddleReview?.productReview.controlRating * 20 || 0 },
-    { metric: "Power", value: paddleReview?.productReview.powerRating * 20 || 0 },
-    { metric: "Overall", value: (
-      ((paddleReview?.productReview.valueRating || 0) +
-      (paddleReview?.productReview.performanceRating || 0) +
-      (paddleReview?.productReview.controlRating || 0) +
-      (paddleReview?.productReview.powerRating || 0)) / 4 * 20
-    )},
+  const reviewMetricsData = [
+    { name: "Value", value: paddleReview?.productReview.valueRating || 0, color: "#8B5CF6" },
+    { name: "Performance", value: paddleReview?.productReview.performanceRating || 0, color: "#D946EF" },
+    { name: "Control", value: paddleReview?.productReview.controlRating || 0, color: "#2563EB" },
+    { name: "Power", value: paddleReview?.productReview.powerRating || 0, color: "#10B981" },
   ];
+
+  // Convert review metrics to the circular format
+  const TOTAL_ANGLE = 360;
+  const RATING_MAX = 5;
+  const circularData = reviewMetricsData.map((metric, index) => ({
+    name: metric.name,
+    startAngle: (index * TOTAL_ANGLE) / reviewMetricsData.length,
+    value: (metric.value / RATING_MAX) * (TOTAL_ANGLE / reviewMetricsData.length),
+    color: metric.color,
+    rating: metric.value,
+  }));
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -76,22 +84,51 @@ export const PaddleCharts = ({ paddle, paddleReview }: PaddleChartsProps) => {
           <CardTitle>Review Metrics</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="h-[300px] w-full">
+          <div className="h-[300px] w-full relative">
             <ResponsiveContainer width="100%" height="100%">
-              <RadarChart data={metricsData}>
-                <PolarGrid stroke="#333" />
-                <PolarAngleAxis dataKey="metric" />
-                <PolarRadiusAxis angle={90} domain={[0, 100]} />
-                <Radar
-                  name="Ratings"
+              <PieChart>
+                <Pie
+                  data={circularData}
                   dataKey="value"
-                  stroke="#D946EF"
-                  fill="#D946EF"
-                  fillOpacity={0.5}
-                />
-                <Tooltip />
-              </RadarChart>
+                  nameKey="name"
+                  cx="50%"
+                  cy="50%"
+                  innerRadius={60}
+                  outerRadius={80}
+                  startAngle={90}
+                  endAngle={-270}
+                >
+                  {circularData.map((entry, index) => (
+                    <Cell 
+                      key={`cell-${index}`} 
+                      fill={entry.color}
+                      strokeWidth={0}
+                    />
+                  ))}
+                </Pie>
+              </PieChart>
             </ResponsiveContainer>
+            <div className="absolute inset-0 flex items-center justify-center flex-col">
+              <p className="text-3xl font-bold">
+                {((reviewMetricsData.reduce((acc, curr) => acc + curr.value, 0) / reviewMetricsData.length)).toFixed(1)}
+              </p>
+              <p className="text-sm text-muted-foreground">Average Rating</p>
+            </div>
+            <div className="absolute inset-x-0 bottom-0">
+              <div className="flex justify-center gap-4 flex-wrap">
+                {reviewMetricsData.map((metric, index) => (
+                  <div key={index} className="flex items-center gap-2">
+                    <div 
+                      className="w-3 h-3 rounded-full" 
+                      style={{ backgroundColor: metric.color }}
+                    />
+                    <span className="text-sm">
+                      {metric.name}: {metric.value}/5
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </CardContent>
       </Card>
