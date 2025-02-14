@@ -2,8 +2,9 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Star, StarHalf } from "lucide-react";
 import paddles from "@/data/paddles";
+import reviews from "@/data/reviews";
 import {
   Card,
   CardContent,
@@ -11,6 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
 
 const PaddleDetail = () => {
   const { slug } = useParams();
@@ -19,6 +21,8 @@ const PaddleDetail = () => {
   const paddle = paddles.find(p => 
     `${p.Company}-${p.Paddle}`.toLowerCase().replace(/\s+/g, '-') === slug
   );
+
+  const paddleReviews = reviews[slug || ""] || [];
 
   if (!paddle) {
     return (
@@ -37,6 +41,27 @@ const PaddleDetail = () => {
       </div>
     );
   }
+
+  const renderStars = (rating: number) => {
+    const stars = [];
+    const fullStars = Math.floor(rating);
+    const hasHalfStar = rating % 1 !== 0;
+
+    for (let i = 0; i < fullStars; i++) {
+      stars.push(<Star key={`star-${i}`} className="w-4 h-4 fill-yellow-400 text-yellow-400" />);
+    }
+
+    if (hasHalfStar) {
+      stars.push(<StarHalf key="half-star" className="w-4 h-4 fill-yellow-400 text-yellow-400" />);
+    }
+
+    const remainingStars = 5 - Math.ceil(rating);
+    for (let i = 0; i < remainingStars; i++) {
+      stars.push(<Star key={`empty-star-${i}`} className="w-4 h-4 text-yellow-400" />);
+    }
+
+    return stars;
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-primary/5 via-background to-background">
@@ -112,6 +137,44 @@ const PaddleDetail = () => {
                 <p>Firepower Rating: {paddle.Firepower}</p>
               </CardContent>
             </Card>
+          </div>
+
+          <Separator className="my-8" />
+
+          <div className="space-y-6">
+            <h2 className="text-3xl font-bold">Reviews</h2>
+            {paddleReviews.length > 0 ? (
+              <div className="grid gap-6">
+                {paddleReviews.map((review, index) => (
+                  <Card key={index}>
+                    <CardHeader>
+                      <div className="flex justify-between items-start">
+                        <div className="space-y-1">
+                          <CardTitle>{review.title}</CardTitle>
+                          <CardDescription>
+                            by {review.author} • {review.playingLevel} Player
+                            {review.verifiedPurchase && " • Verified Purchase"}
+                          </CardDescription>
+                        </div>
+                        <div className="flex">{renderStars(review.rating)}</div>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">{review.content}</p>
+                      <p className="text-sm text-muted-foreground mt-4">
+                        Reviewed on {new Date(review.date).toLocaleDateString()}
+                      </p>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            ) : (
+              <Card>
+                <CardContent className="py-8">
+                  <p className="text-center text-muted-foreground">No reviews yet for this paddle.</p>
+                </CardContent>
+              </Card>
+            )}
           </div>
         </motion.div>
       </div>
