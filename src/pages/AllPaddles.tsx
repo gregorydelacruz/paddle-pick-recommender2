@@ -103,6 +103,8 @@ const AllPaddles = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}
+                  onClick={() => navigate(`/paddle/${paddle.Company}-${paddle.Paddle}`.toLowerCase().replace(/\s+/g, '-'))}
+                  className="cursor-pointer"
                 >
                   <div className="p-6 bg-card/50 backdrop-blur-sm border border-primary/10 hover:border-primary/30 rounded-2xl transition-all duration-300">
                     <h3 className="font-semibold text-lg">{paddle.Paddle}</h3>

@@ -62,7 +62,8 @@ const Results = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="group"
+                className="group cursor-pointer"
+                onClick={() => navigate(`/paddle/${paddle.Company}-${paddle.Paddle}`.toLowerCase().replace(/\s+/g, '-'))}
               >
                 <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/10 hover:border-primary/30 transition-all duration-300 hover:shadow-lg">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
