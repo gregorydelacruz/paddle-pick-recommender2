@@ -1,26 +1,14 @@
+
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Star, StarHalf } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 import paddles from "@/data/paddles";
 import reviews from "@/data/reviews";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { 
-  RadarChart, 
-  PolarGrid, 
-  PolarAngleAxis, 
-  PolarRadiusAxis, 
-  Radar, 
-  ResponsiveContainer,
-  Tooltip
-} from 'recharts';
+import { PaddleCharts } from "@/components/paddle-detail/PaddleCharts";
+import { PaddleSpecifications } from "@/components/paddle-detail/PaddleSpecifications";
+import { PaddleReview } from "@/components/paddle-detail/PaddleReview";
 
 const PaddleDetail = () => {
   const { slug } = useParams();
@@ -49,27 +37,6 @@ const PaddleDetail = () => {
       </div>
     );
   }
-
-  const performanceData = [
-    { metric: "Power", value: paddle.PowerPercentile },
-    { metric: "Spin", value: paddle.SpinPercentile },
-    { metric: "Control", value: paddle.TwistWeightPercentile },
-    { metric: "Maneuverability", value: 100 - paddle.SwingWeightPercentile },
-    { metric: "Balance", value: paddle.BalancePointPercentile },
-  ];
-
-  const metricsData = [
-    { metric: "Value", value: paddleReview?.productReview.valueRating * 20 || 0 },
-    { metric: "Performance", value: paddleReview?.productReview.performanceRating * 20 || 0 },
-    { metric: "Control", value: paddleReview?.productReview.controlRating * 20 || 0 },
-    { metric: "Power", value: paddleReview?.productReview.powerRating * 20 || 0 },
-    { metric: "Overall", value: (
-      ((paddleReview?.productReview.valueRating || 0) +
-      (paddleReview?.productReview.performanceRating || 0) +
-      (paddleReview?.productReview.controlRating || 0) +
-      (paddleReview?.productReview.powerRating || 0)) / 4 * 20
-    )},
-  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-primary/5 via-background to-background">
@@ -104,146 +71,13 @@ const PaddleDetail = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card>
-              <CardHeader>
-                <CardTitle>Physical Specifications</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                <p>Length: {paddle.Length} inches</p>
-                <p>Width: {paddle.Width} inches</p>
-                <p>Handle Length: {paddle.HandleLength} inches</p>
-                <p>Static Weight: {paddle.StaticWeight} oz</p>
-                <p>Shape: {paddle.Shape}</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Construction</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                <p>Manufacturing Process: {paddle.ManufacturingProcess}</p>
-                <p>Surface Texture: {paddle.SurfaceTexture}</p>
-                <p>Surface Material: {paddle.SurfaceMaterial}</p>
-                <p>Core Material: {paddle.CoreMaterial}</p>
-                <p>Core Thickness: {paddle.CoreThickness}mm</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Performance Metrics</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                <p>Spin RPM: {paddle.SpinRPM} (Top {paddle.SpinPercentile}%)</p>
-                <p>Swing Weight: {paddle.SwingWeight} (Top {paddle.SwingWeightPercentile}%)</p>
-                <p>Twist Weight: {paddle.TwistWeight} (Top {paddle.TwistWeightPercentile}%)</p>
-                <p>Balance Point: {paddle.BalancePoint} (Top {paddle.BalancePointPercentile}%)</p>
-                <p>Serve Speed: {paddle.ServeSpeed} mph (Top {paddle.PowerPercentile}%)</p>
-                <p>Punch Volley Speed: {paddle.PunchVolleySpeed} mph (Top {paddle.PopPercentile}%)</p>
-                <p>Firepower Rating: {paddle.Firepower}</p>
-              </CardContent>
-            </Card>
-          </div>
+          <PaddleCharts paddle={paddle} paddleReview={paddleReview} />
+          
+          <PaddleSpecifications paddle={paddle} />
 
           <Separator className="my-8" />
 
-          <div className="space-y-6">
-            <h2 className="text-3xl font-bold">Expert Review</h2>
-            {paddleReview?.productReview && (
-              <div className="space-y-8">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Summary</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">{paddleReview.productReview.summary}</p>
-                  </CardContent>
-                </Card>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Pros</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <ul className="list-disc list-inside space-y-2">
-                        {paddleReview.productReview.pros.map((pro, index) => (
-                          <li key={index} className="text-muted-foreground">{pro}</li>
-                        ))}
-                      </ul>
-                    </CardContent>
-                  </Card>
-
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Cons</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <ul className="list-disc list-inside space-y-2">
-                        {paddleReview.productReview.cons.map((con, index) => (
-                          <li key={index} className="text-muted-foreground">{con}</li>
-                        ))}
-                      </ul>
-                    </CardContent>
-                  </Card>
-                </div>
-
-                <div className="grid grid-cols-1 gap-6">
-                  {paddleReview.productReview.detailedAnalysis.map((section, index) => (
-                    <Card key={index}>
-                      <CardHeader>
-                        <CardTitle>{section.section}</CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <p className="text-muted-foreground">{section.content}</p>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Ratings</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                      <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReview.productReview.valueRating}/5</p>
-                        <p className="text-sm text-muted-foreground">Value</p>
-                      </div>
-                      <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReview.productReview.performanceRating}/5</p>
-                        <p className="text-sm text-muted-foreground">Performance</p>
-                      </div>
-                      <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReview.productReview.controlRating}/5</p>
-                        <p className="text-sm text-muted-foreground">Control</p>
-                      </div>
-                      <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReview.productReview.powerRating}/5</p>
-                        <p className="text-sm text-muted-foreground">Power</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Best For</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="list-disc list-inside space-y-2">
-                      {paddleReview.productReview.bestFor.map((item, index) => (
-                        <li key={index} className="text-muted-foreground">{item}</li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              </div>
-            )}
-          </div>
+          <PaddleReview review={paddleReview} />
         </motion.div>
       </div>
     </div>
