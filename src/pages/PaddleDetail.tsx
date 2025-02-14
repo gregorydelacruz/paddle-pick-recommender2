@@ -1,5 +1,5 @@
 
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useEffect } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
@@ -13,6 +13,10 @@ import { PaddleReview } from "@/components/paddle-detail/PaddleReview";
 const PaddleDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
   const paddle = paddles.find(p => 
     `${p.Company}-${p.Paddle}`.toLowerCase().replace(/\s+/g, '-') === slug
