@@ -1,7 +1,8 @@
-import { useState } from "react";
+
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import {
@@ -67,8 +68,11 @@ const questions = [
 const Questionnaire = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const navigate = useNavigate();
+  const location = useLocation();
+  const existingPreferences = location.state?.preferences;
+
   const form = useForm<QuestionnaireData>({
-    defaultValues: {
+    defaultValues: existingPreferences || {
       skillLevel: undefined,
       playingStyle: undefined,
       price: undefined,
@@ -76,12 +80,21 @@ const Questionnaire = () => {
     },
   });
 
+  useEffect(() => {
+    if (existingPreferences) {
+      // Find the last answered question
+      const answeredQuestions = Object.entries(existingPreferences)
+        .filter(([_, value]) => value !== undefined)
+        .length;
+      setCurrentStep(answeredQuestions - 1);
+    }
+  }, [existingPreferences]);
+
   const currentQuestion = questions[currentStep];
   const isLastStep = currentStep === questions.length - 1;
 
   const onSubmit = (data: QuestionnaireData) => {
     if (isLastStep) {
-      console.log("Final form data:", data);
       navigate("/results", { state: { preferences: data } });
     } else {
       setCurrentStep((prev) => prev + 1);
