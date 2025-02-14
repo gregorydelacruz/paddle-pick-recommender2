@@ -49,12 +49,12 @@ const Index = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 bg-white/50 backdrop-blur-sm rounded-2xl shadow-sm hover:shadow-md transition-all duration-300"
+              className="p-6 bg-card/50 backdrop-blur-sm border-primary/10 hover:border-primary/30 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300"
             >
               <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center mb-4">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+              <h3 className="text-xl font-semibold text-foreground">{feature.title}</h3>
               <p className="text-muted-foreground">{feature.description}</p>
             </div>
           ))}
