@@ -22,7 +22,7 @@ const PaddleDetail = () => {
     `${p.Company}-${p.Paddle}`.toLowerCase().replace(/\s+/g, '-') === slug
   );
 
-  const paddleReviews = reviews[slug || ""] || [];
+  const paddleReview = reviews[slug || ""];
 
   if (!paddle) {
     return (
@@ -143,14 +143,14 @@ const PaddleDetail = () => {
 
           <div className="space-y-6">
             <h2 className="text-3xl font-bold">Expert Review</h2>
-            {paddleReviews?.productReview && (
+            {paddleReview?.productReview && (
               <div className="space-y-8">
                 <Card>
                   <CardHeader>
                     <CardTitle>Summary</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground">{paddleReviews.productReview.summary}</p>
+                    <p className="text-muted-foreground">{paddleReview.productReview.summary}</p>
                   </CardContent>
                 </Card>
 
@@ -161,7 +161,7 @@ const PaddleDetail = () => {
                     </CardHeader>
                     <CardContent>
                       <ul className="list-disc list-inside space-y-2">
-                        {paddleReviews.productReview.pros.map((pro, index) => (
+                        {paddleReview.productReview.pros.map((pro, index) => (
                           <li key={index} className="text-muted-foreground">{pro}</li>
                         ))}
                       </ul>
@@ -174,7 +174,7 @@ const PaddleDetail = () => {
                     </CardHeader>
                     <CardContent>
                       <ul className="list-disc list-inside space-y-2">
-                        {paddleReviews.productReview.cons.map((con, index) => (
+                        {paddleReview.productReview.cons.map((con, index) => (
                           <li key={index} className="text-muted-foreground">{con}</li>
                         ))}
                       </ul>
@@ -183,7 +183,7 @@ const PaddleDetail = () => {
                 </div>
 
                 <div className="grid grid-cols-1 gap-6">
-                  {paddleReviews.productReview.detailedAnalysis.map((section, index) => (
+                  {paddleReview.productReview.detailedAnalysis.map((section, index) => (
                     <Card key={index}>
                       <CardHeader>
                         <CardTitle>{section.section}</CardTitle>
@@ -202,19 +202,19 @@ const PaddleDetail = () => {
                   <CardContent>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                       <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReviews.productReview.valueRating}/5</p>
+                        <p className="text-lg font-semibold">{paddleReview.productReview.valueRating}/5</p>
                         <p className="text-sm text-muted-foreground">Value</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReviews.productReview.performanceRating}/5</p>
+                        <p className="text-lg font-semibold">{paddleReview.productReview.performanceRating}/5</p>
                         <p className="text-sm text-muted-foreground">Performance</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReviews.productReview.controlRating}/5</p>
+                        <p className="text-lg font-semibold">{paddleReview.productReview.controlRating}/5</p>
                         <p className="text-sm text-muted-foreground">Control</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-lg font-semibold">{paddleReviews.productReview.powerRating}/5</p>
+                        <p className="text-lg font-semibold">{paddleReview.productReview.powerRating}/5</p>
                         <p className="text-sm text-muted-foreground">Power</p>
                       </div>
                     </div>
@@ -227,7 +227,7 @@ const PaddleDetail = () => {
                   </CardHeader>
                   <CardContent>
                     <ul className="list-disc list-inside space-y-2">
-                      {paddleReviews.productReview.bestFor.map((item, index) => (
+                      {paddleReview.productReview.bestFor.map((item, index) => (
                         <li key={index} className="text-muted-foreground">{item}</li>
                       ))}
                     </ul>
@@ -239,9 +239,9 @@ const PaddleDetail = () => {
             <Separator className="my-8" />
 
             <h2 className="text-3xl font-bold">Customer Reviews</h2>
-            {paddleReviews?.customerReviews.length > 0 ? (
+            {paddleReview?.customerReviews?.length > 0 ? (
               <div className="grid gap-6">
-                {paddleReviews.customerReviews.map((review, index) => (
+                {paddleReview.customerReviews.map((review, index) => (
                   <Card key={index}>
                     <CardHeader>
                       <div className="flex justify-between items-start">
