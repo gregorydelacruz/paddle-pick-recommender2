@@ -4,42 +4,42 @@ import { Review } from "@/types/review";
 export const diademReviews: Record<string, Review> = {
   "diadem-edge-18k": {
     productReview: {
-      summary: "The Diadem Edge 18K represents the pinnacle of paddle engineering, featuring advanced 18k carbon fiber construction and sophisticated design elements. Our comprehensive testing revealed exceptional performance characteristics that position it among the elite offerings in the market, particularly excelling in spin generation and precise control.",
+      summary: "The Diadem Edge 18K showcases cutting-edge paddle technology, featuring premium 18k carbon fiber construction and advanced core design. Our extensive testing revealed exceptional performance characteristics that particularly benefit players seeking maximum spin potential while maintaining excellent control.",
       detailedAnalysis: [
         {
           section: "Construction Quality",
-          content: "The Edge 18K showcases premium 18k carbon fiber construction with a meticulously engineered 16mm polypropylene core. The cold-layered manufacturing process ensures remarkable consistency across the paddle face, while the optimized surface texture provides exceptional ball grip. The elongated design features refined edge protection and an ergonomic handle system that enhances control and feel during extended play sessions."
+          content: "The Edge 18K utilizes premium 18k carbon fiber face construction with precision-engineered surface texture for optimal ball control. The 16mm polypropylene core delivers excellent stability and feel, while the elongated shape provides extended reach. Build quality is exceptional, featuring advanced edge protection and sophisticated handle construction."
         },
         {
           section: "Performance Testing",
-          content: "Lab testing demonstrated outstanding spin generation capabilities at 2304 RPM, placing it in the top 12% of all paddles tested. The high swing weight of 122 (84th percentile) contributes to exceptional stability, while the balanced 24.1 balance point (61st percentile) maintains excellent maneuverability. Serve speeds averaged 55.8 mph, with punch volley speeds reaching 37.2 mph (78th percentile). The paddle's twist weight of 7.04 (86th percentile) ensures remarkable stability on off-center hits."
+          content: "In our lab testing, the Edge 18K demonstrated outstanding spin generation capabilities, recording 2304 RPM in controlled tests - placing it in the top 12% of all paddles tested. The paddle's optimized weight distribution (24.1 balance point) ensures excellent control while maintaining power for decisive shots. Serve speeds averaged 55.8 mph, indicating strong power transfer efficiency."
         },
         {
           section: "Playing Experience",
-          content: "During extensive court testing, the Edge 18K displayed exceptional performance across all aspects of the game, with particular excellence in spin-oriented play. The paddle provides outstanding feedback during soft game exchanges, with a 96% success rate in dink consistency tests. The elongated shape proves advantageous for court coverage while maintaining precise control. Power generation remained consistent throughout extended rallies, with velocity retention rates of 98% after 20-shot exchanges."
+          content: "On the court, the Edge 18K excels in spin-oriented play while maintaining excellent all-around capabilities. The paddle's face provides exceptional feedback, enabling precise shot placement and controlled volleys. The elongated shape offers extended reach without compromising maneuverability, though some adjustment may be needed for players new to this format."
         },
         {
           section: "Durability",
-          content: "Following 150+ hours of rigorous testing across diverse playing conditions, the Edge 18K demonstrated exceptional durability. The edge guard integrity remained at 100%, while surface texture maintained 96% of its original characteristics. Impact testing showed only a 1.5% performance degradation after 1200 ball strikes, confirming its outstanding long-term durability and value proposition."
+          content: "After 150+ hours of intensive testing, the paddle showed remarkable durability. The edge protection remained fully intact, and the face texture maintained its performance characteristics. This demonstrates excellent long-term durability, justifying its premium positioning."
         }
       ],
       pros: [
-        "Elite spin generation (2304 RPM, top 12%)",
-        "Superior stability (7.04 twist weight)",
-        "Premium 18k carbon fiber construction",
-        "Excellent speed retention in extended rallies",
-        "Outstanding durability metrics"
+        "Elite spin generation (top 12% in testing)",
+        "Superior control and feedback",
+        "Extended reach with elongated design",
+        "Premium 18k carbon construction",
+        "Outstanding durability"
       ],
       cons: [
-        "Premium price point may be prohibitive",
-        "Higher swing weight requires adjustment",
-        "Learning curve for optimal spin utilization"
+        "High premium price point",
+        "Elongated shape requires adaptation",
+        "Learning curve for optimal spin usage"
       ],
       bestFor: [
-        "Advanced players seeking maximum spin potential",
-        "Control-oriented players",
+        "Advanced players seeking spin control",
         "Those who value premium construction",
-        "Players focusing on strategic placement"
+        "Players comfortable with elongated shapes",
+        "Spin-oriented strategists"
       ],
       valueRating: 4.2,
       performanceRating: 4.6,
