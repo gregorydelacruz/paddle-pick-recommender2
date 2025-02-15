@@ -12,7 +12,12 @@ import {
   diademPaddles,
   dymonPaddles,
   electrumPaddles,
-  engagePaddles
+  engagePaddles,
+  ethosPaddles,
+  franklinPaddles,
+  gammaPaddles,
+  gearboxPaddles,
+  gentleBoomsPaddles
 } from "./manufacturers";
 
 const paddles: Paddle[] = [
@@ -27,7 +32,12 @@ const paddles: Paddle[] = [
   ...diademPaddles,
   ...dymonPaddles,
   ...electrumPaddles,
-  ...engagePaddles
+  ...engagePaddles,
+  ...ethosPaddles,
+  ...franklinPaddles,
+  ...gammaPaddles,
+  ...gearboxPaddles,
+  ...gentleBoomsPaddles
 ];
 
 export default paddles;
