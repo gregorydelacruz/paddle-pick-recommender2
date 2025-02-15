@@ -9,6 +9,8 @@ import { birdReviews } from "./bird";
 import { elevenSix24Reviews } from "./11six24";
 import { cheetahReviews } from "./cheetah";
 import { chorusReviews } from "./chorus";
+import { coreReviews } from "./core";
+import { electrumReviews } from "./electrum";
 
 const reviews: Record<string, Review> = {
   ...dymonReviews,
@@ -20,6 +22,8 @@ const reviews: Record<string, Review> = {
   ...elevenSix24Reviews,
   ...cheetahReviews,
   ...chorusReviews,
+  ...coreReviews,
+  ...electrumReviews,
 };
 
 export default reviews;
