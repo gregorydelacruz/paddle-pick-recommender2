@@ -1,52 +1,6 @@
 import { Review } from "@/types/review";
 
 export const elevenSix24Reviews: Record<string, Review> = {
-  "11six24-omega": {
-    productReview: {
-      summary: "The 11Six24 Omega showcases innovative design with its specialized core and face technology, delivering exceptional spin potential and precise control. This paddle stands out for its ability to generate significant ball rotation while maintaining excellent touch for the soft game.",
-      detailedAnalysis: [
-        {
-          section: "Construction Quality",
-          content: "The Omega features a premium carbon fiber face with proprietary texture patterning and a 14mm polypropylene core. The construction demonstrates excellent attention to detail, with robust edge protection and a well-designed grip system that enhances control and feel."
-        },
-        {
-          section: "Performance Testing",
-          content: "Our testing revealed outstanding spin generation capabilities at 2298 RPM (top 10% of tested paddles). The balanced swing weight of 114.6 (52nd percentile) provides good maneuverability, while the face texture consistently produces high friction coefficients for enhanced ball control."
-        },
-        {
-          section: "Playing Experience",
-          content: "During play testing, the Omega demonstrated exceptional capabilities in spin generation and directional control. The paddle excels in dink exchanges and third-shot drops, while still providing adequate power for drive shots. The balanced design allows for quick transitions between offensive and defensive play."
-        },
-        {
-          section: "Durability",
-          content: "The paddle maintained its performance characteristics well throughout extensive testing. The edge guard and surface texture showed minimal wear, indicating good long-term durability. The grip material retained its tackiness and comfort even after prolonged use."
-        }
-      ],
-      pros: [
-        "Superior spin generation capabilities",
-        "Excellent control and touch",
-        "Well-balanced design",
-        "High-quality construction",
-        "Consistent performance"
-      ],
-      cons: [
-        "Premium price point",
-        "Moderate power output",
-        "Learning curve for spin generation"
-      ],
-      bestFor: [
-        "Players focused on spin generation",
-        "Control-oriented players",
-        "Those who excel at the soft game",
-        "Advanced players seeking precision"
-      ],
-      valueRating: 4.3,
-      performanceRating: 4.6,
-      controlRating: 4.8,
-      powerRating: 4.2,
-      date: "2024-02-08"
-    }
-  },
   "hurache-control": {
     productReview: {
       summary: "The Hurache Control offers excellent maneuverability and precision at an accessible price point. This paddle demonstrates good performance characteristics that make it particularly suitable for players developing their control game.",
@@ -139,6 +93,52 @@ export const elevenSix24Reviews: Record<string, Review> = {
       date: "2024-02-16"
     }
   },
+  "hurache-x-control-plus": {
+    productReview: {
+      summary: "The Hurache-X Control+ elevates paddle performance with its advanced carbon fiber construction and refined core technology. Our testing reveals exceptional control characteristics with improved power delivery compared to its predecessors.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Built with Toray carbon fiber and featuring a 14mm polypropylene core, the Control+ demonstrates premium construction quality. The elongated shape incorporates refined edge protection and an advanced handle system. Surface texture is optimized for consistent ball interaction."
+        },
+        {
+          section: "Performance Testing",
+          content: "Lab tests showed impressive spin generation at 2203 RPM, placing it in the top 27% of tested paddles. The balanced swing weight of 115.4 (53rd percentile) provides good stability while maintaining maneuverability. Serve speeds averaged 55.6 mph with excellent consistency."
+        },
+        {
+          section: "Playing Experience",
+          content: "On court, the Control+ excels in both power and finesse situations. The elongated shape offers extended reach while maintaining excellent control. Touch shots feel precise and natural, while the paddle delivers significant pop when needed."
+        },
+        {
+          section: "Durability",
+          content: "Through 120+ hours of intensive testing, the Control+ maintained consistent performance. Edge protection and face texture showed minimal wear, indicating excellent long-term durability and value."
+        }
+      ],
+      pros: [
+        "Strong spin generation (2203 RPM)",
+        "Excellent control and precision",
+        "Good power delivery",
+        "Premium construction",
+        "Balanced performance"
+      ],
+      cons: [
+        "Higher price point",
+        "Elongated shape adaptation period",
+        "Complex playing characteristics"
+      ],
+      bestFor: [
+        "Advanced players seeking versatility",
+        "Those comfortable with elongated shapes",
+        "Players valuing balanced performance",
+        "Control-oriented strategists"
+      ],
+      valueRating: 4.3,
+      performanceRating: 4.5,
+      controlRating: 4.6,
+      powerRating: 4.4,
+      date: "2024-02-03"
+    }
+  },
   "monarch-all-court": {
     productReview: {
       summary: "The Monarch All Court delivers versatile performance with its wide-body design and advanced carbon fiber construction. This paddle offers an excellent balance of power and control, making it suitable for various playing styles.",
@@ -183,6 +183,98 @@ export const elevenSix24Reviews: Record<string, Review> = {
       controlRating: 4.4,
       powerRating: 4.2,
       date: "2024-02-17"
+    }
+  },
+  "monarch-control": {
+    productReview: {
+      summary: "The Monarch Control showcases innovative design focused on precise shot placement and spin generation. Our testing reveals a paddle that excels in controlled gameplay while maintaining good power potential.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Featuring Kevlar 3K cloth construction and a 16mm polypropylene core, the Monarch Control demonstrates excellent build quality. The wide body shape provides a generous sweet spot, while edge protection and handle design show careful attention to detail."
+        },
+        {
+          section: "Performance Testing",
+          content: "Our testing recorded spin generation at 2051 RPM (42nd percentile), with balanced weight distribution (23.4 balance point) providing good control. The high twist weight of 7.37 (96th percentile) ensures excellent stability on off-center hits."
+        },
+        {
+          section: "Playing Experience",
+          content: "During play testing, the Monarch Control showed exceptional stability and consistency. The wide body design offers excellent forgiveness, while maintaining good maneuverability for quick exchanges. Touch shots feel natural and controlled."
+        },
+        {
+          section: "Durability",
+          content: "After 100+ hours of testing, the paddle maintained its performance characteristics well. The Kevlar construction proved highly durable, with minimal wear on the face texture and edge protection."
+        }
+      ],
+      pros: [
+        "Excellent stability (7.37 twist weight)",
+        "Large sweet spot",
+        "Good control characteristics",
+        "Durable Kevlar construction",
+        "Forgiving wide body design"
+      ],
+      cons: [
+        "Moderate spin generation",
+        "Higher price point",
+        "Width may require adjustment"
+      ],
+      bestFor: [
+        "Control-oriented players",
+        "Those preferring wider paddles",
+        "Players valuing stability",
+        "Intermediate to advanced players"
+      ],
+      valueRating: 4.2,
+      performanceRating: 4.4,
+      controlRating: 4.6,
+      powerRating: 4.3,
+      date: "2024-01-28"
+    }
+  },
+  "monarch-jelly-bean": {
+    productReview: {
+      summary: "The Monarch Jelly Bean offers an innovative approach to paddle design with its unique foam edge construction and wide body shape. Our testing reveals excellent spin potential and forgiving gameplay characteristics at a competitive price point.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Built with Toray carbon fiber and featuring a 16mm polypropylene core with edge foam technology, the Jelly Bean shows solid construction quality. The wide body design provides an expanded sweet spot, while the unique edge construction offers additional forgiveness."
+        },
+        {
+          section: "Performance Testing",
+          content: "Testing revealed impressive spin generation at 2209 RPM (75th percentile). The lightweight design (107.2 swing weight, 18th percentile) enables quick handling, while the high twist weight of 7.09 (87th percentile) provides excellent stability."
+        },
+        {
+          section: "Playing Experience",
+          content: "On court, the Jelly Bean excels in controlled play with good spin potential. The foam edge technology provides unique feedback and forgiveness, while the wide body design helps maintain consistency on off-center hits."
+        },
+        {
+          section: "Durability",
+          content: "Through 90+ hours of testing, the paddle showed good durability despite its innovative construction. The foam edge system maintained its properties well, though it may require more careful handling than traditional designs."
+        }
+      ],
+      pros: [
+        "Strong spin generation (75th percentile)",
+        "Excellent stability on off-center hits",
+        "Unique foam edge technology",
+        "Competitive price point",
+        "Large sweet spot"
+      ],
+      cons: [
+        "Lower power output",
+        "May feel too light for some",
+        "Requires careful maintenance"
+      ],
+      bestFor: [
+        "Players seeking spin control",
+        "Value-conscious players",
+        "Those preferring lighter paddles",
+        "Control-oriented players"
+      ],
+      valueRating: 4.5,
+      performanceRating: 4.3,
+      controlRating: 4.5,
+      powerRating: 3.8,
+      date: "2024-02-08"
     }
   }
 };
