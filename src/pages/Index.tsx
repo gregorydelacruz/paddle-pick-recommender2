@@ -19,7 +19,7 @@ const Index = () => {
          
           
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent mt-4">
-            The Paddle Genius Will <br />Pick Your Perfect
+            The Paddle Genius Will Pick Your Perfect
             <br />
             Pickleball Paddle
           </h1>
