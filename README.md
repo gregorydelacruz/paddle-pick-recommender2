@@ -1,5 +1,12 @@
 # Welcome to your Lovable project
 
+
+https://paddle-pick-recommender.lovable.app/ 
+
+or
+
+https://paddlepick.netlify.app/
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/758e092c-f0ef-448b-a758-c20e4f68d953
