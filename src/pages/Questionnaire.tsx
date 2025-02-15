@@ -18,6 +18,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 type QuestionnaireData = {
   skillLevel: "beginner" | "intermediate" | "advanced";
   playingStyle: "defensive" | "offensive" | "balanced";
+  paddleShape: "traditional" | "elongated" | "wide";
   spinImportance: "notImportant" | "somewhat" | "veryImportant";
   price: "budgetFriendly" | "midRange" | "premium";
   weight: "lightweight" | "medium" | "heavyweight";
@@ -45,6 +46,16 @@ const questions = [
       { value: "defensive", label: "Defensive/Control", description: "Prioritize placement and precision" },
       { value: "offensive", label: "Offensive/Power", description: "Look for strong shots and fast-paced play" },
       { value: "balanced", label: "Balanced", description: "A mix of control and power" },
+    ],
+  },
+  {
+    id: "paddleShape",
+    title: "Which paddle shape do you prefer?",
+    description: "Select the shape that aligns with your playing style and comfort",
+    options: [
+      { value: "traditional", label: "Traditional/Classic", description: "A balanced shape offering good control and maneuverability" },
+      { value: "elongated", label: "Elongated", description: "Provides greater reach and more power in strokes" },
+      { value: "wide", label: "Wide/Oversized", description: "Offers a larger sweet spot for easier contact and enhanced control" },
     ],
   },
   {
@@ -119,6 +130,7 @@ const Questionnaire = () => {
     defaultValues: existingPreferences || {
       skillLevel: undefined,
       playingStyle: undefined,
+      paddleShape: undefined,
       spinImportance: undefined,
       price: undefined,
       weight: undefined,
