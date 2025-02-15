@@ -82,7 +82,6 @@ const Questionnaire = () => {
 
   useEffect(() => {
     if (existingPreferences) {
-      // Find the last answered question
       const answeredQuestions = Object.entries(existingPreferences)
         .filter(([_, value]) => value !== undefined)
         .length;
@@ -102,7 +101,7 @@ const Questionnaire = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-muted to-background">
+    <div className="min-h-screen bg-gradient-to-b from-accent to-background">
       <div className="container max-w-2xl mx-auto px-4 py-12">
         <div className="w-full bg-secondary rounded-full h-2 mb-8">
           <div
@@ -123,7 +122,7 @@ const Questionnaire = () => {
                 className="space-y-6"
               >
                 <div className="text-center space-y-2">
-                  <h2 className="text-2xl font-bold">{currentQuestion.title}</h2>
+                  <h2 className="text-2xl font-bold text-foreground">{currentQuestion.title}</h2>
                   <p className="text-muted-foreground">
                     {currentQuestion.description}
                   </p>
@@ -151,7 +150,7 @@ const Questionnaire = () => {
                               >
                                 <RadioGroupItem value={option.value} id={option.value} />
                                 <div className="flex flex-col">
-                                  <span className="text-sm font-medium leading-none">
+                                  <span className="text-sm font-medium leading-none text-foreground">
                                     {option.label}
                                   </span>
                                   <span className="text-sm text-muted-foreground">
