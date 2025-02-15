@@ -11,7 +11,8 @@ import {
   crbnPaddles,
   diademPaddles,
   dymonPaddles,
-  electrumPaddles
+  electrumPaddles,
+  engagePaddles
 } from "./manufacturers";
 
 const paddles: Paddle[] = [
@@ -25,7 +26,8 @@ const paddles: Paddle[] = [
   ...crbnPaddles,
   ...diademPaddles,
   ...dymonPaddles,
-  ...electrumPaddles
+  ...electrumPaddles,
+  ...engagePaddles
 ];
 
 export default paddles;
