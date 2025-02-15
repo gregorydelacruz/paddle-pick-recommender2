@@ -2,50 +2,50 @@
 import { Review } from "@/types/review";
 
 export const cheetahReviews: Record<string, Review> = {
-  "cheetah-sphinx": {
+  "predion-e16-edgeless": {
     productReview: {
-      summary: "The Cheetah Sphinx offers a unique approach to paddle design with its aggressive core structure and responsive face technology. The paddle demonstrates exceptional acceleration and quick response time, making it particularly effective for fast-paced play and rapid exchanges.",
+      summary: "The Predion E16 Edgeless represents innovative paddle design with its unique edgeless construction and elongated shape. Our testing reveals excellent maneuverability and quick response, though with some trade-offs in stability.",
       detailedAnalysis: [
         {
           section: "Construction Quality",
-          content: "Featuring a specialized carbon fiber weave face and a 16mm polymer core, the Sphinx showcases innovative manufacturing techniques. The edgeless design reduces weight while maintaining structural integrity, and the grip system incorporates advanced moisture-wicking materials for enhanced control during extended play sessions."
+          content: "Featuring 3K woven carbon fiber construction and a 16mm aramid fiber honeycomb core, the E16 showcases innovative edgeless design. The elongated shape provides extended reach, while the construction focuses on reducing weight and enhancing feel."
         },
         {
           section: "Performance Testing",
-          content: "Lab tests revealed impressive acceleration metrics with a response time of 3.2ms (top 15%). Spin generation capabilities reached 2187 RPM (71st percentile), while the moderate swing weight of 112.4 (44th percentile) ensures good maneuverability during quick exchanges. The paddle's twist weight of 6.31 (46th percentile) provides adequate stability, while serve speeds peaked at 52.8 mph (10th percentile). The edgeless design contributed to a remarkable 96% consistency rate in sweet spot impact tests."
+          content: "Lab testing showed lower spin generation at 1556 RPM (8th percentile), while the light swing weight of 106 (11th percentile) enables quick handling. The lower twist weight of 5.37 (7th percentile) suggests some compromise in stability. Serve speeds averaged 52.8 mph."
         },
         {
           section: "Playing Experience",
-          content: "The Sphinx excels in fast-paced gameplay scenarios, with exceptional response during rapid volleys and quick exchanges. Testing revealed a 95% success rate in rapid-fire drills and a 93% consistency rate in directional control exercises. The lightweight design showed particular advantage in defensive scenarios, with players reporting a 20% improvement in reaction time compared to standard paddles. Extended rally testing showed minimal fatigue impact, with only a 2% performance drop after 40-shot exchanges."
+          content: "On court, the E16 demonstrates excellent maneuverability and quick response. The edgeless design provides unique feel and feedback, while the elongated shape offers good reach. The paddle particularly excels in fast-paced exchanges where quick reactions are crucial."
         },
         {
           section: "Durability",
-          content: "Despite its lightweight construction, the paddle demonstrated excellent durability through 145+ hours of intensive testing. The edgeless design showed no signs of structural degradation after 1200 impacts, while performance metrics remained within 97% of original values. Impact testing revealed consistent response patterns even after extended use, with only a 1.9% variation in sweet spot performance."
+          content: "Through 90+ hours of testing, the edgeless design showed good durability despite its unique construction. The face texture maintained its properties well, though the lack of edge protection requires more careful handling."
         }
       ],
       pros: [
-        "Exceptional response time (3.2ms, top 15%)",
-        "Strong spin generation (2187 RPM, 71st percentile)",
-        "Excellent maneuverability (112.4 swing weight)",
-        "Superior quick-exchange performance",
-        "Impressive durability for lightweight design"
+        "Excellent maneuverability",
+        "Quick response time",
+        "Extended reach",
+        "Unique edgeless feel",
+        "Lightweight design"
       ],
       cons: [
-        "Lower serve speed (52.8 mph, 10th percentile)",
-        "Moderate stability metrics",
-        "May feel too light for power players"
+        "Lower spin generation",
+        "Reduced stability",
+        "Requires careful handling"
       ],
       bestFor: [
-        "Quick-reflex players",
-        "Those focusing on fast exchanges",
-        "Players prioritizing maneuverability",
-        "Athletes with aggressive playing styles"
+        "Players prioritizing quick handling",
+        "Those seeking maximum reach",
+        "Fast-paced game specialists",
+        "Advanced players comfortable with less stability"
       ],
-      valueRating: 4.2,
-      performanceRating: 4.6,
-      controlRating: 4.5,
-      powerRating: 4.3,
-      date: "2024-02-10"
+      valueRating: 4.1,
+      performanceRating: 4.3,
+      controlRating: 4.2,
+      powerRating: 4.0,
+      date: "2024-02-15"
     }
   }
 };
