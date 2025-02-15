@@ -16,18 +16,16 @@ const Index = () => {
           transition={{ duration: 0.6 }}
           className="text-center space-y-6"
         >
-          <span className="inline-block px-3 py-1 text-sm bg-primary/10 text-primary rounded-full animate-fade-in">
-            Find Your Perfect Paddle
-          </span>
+         
           
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent mt-4">
-            Discover Your Ideal
+            The Paddle Genius Will Pick Your Perfect
             <br />
             Pickleball Paddle
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Answer a few questions and we'll recommend the perfect paddle based on
+            Answer a few questions and I'll recommend the perfect paddle based on
             your playing style and preferences.
           </p>
           
@@ -81,17 +79,17 @@ const Index = () => {
 const features = [
   {
     title: "Personalized Matching",
-    description: "Get paddle recommendations tailored to your unique playing style and preferences.",
+    description: "Get perfrect paddle recommendations customized for you.",
     icon: <motion.div className="w-6 h-6 text-primary">🎯</motion.div>,
   },
   {
     title: "Expert Insights",
-    description: "Benefit from data-driven recommendations based on player experiences.",
+    description: "Benefit from real player experiences.",
     icon: <motion.div className="w-6 h-6 text-primary">💡</motion.div>,
   },
   {
     title: "Quick & Easy",
-    description: "Find your perfect paddle in minutes with our simple questionnaire.",
+    description: "Find your perfect paddle in minutes. It's easy!",
     icon: <motion.div className="w-6 h-6 text-primary">⚡</motion.div>,
   },
 ];
