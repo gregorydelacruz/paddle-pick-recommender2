@@ -17,9 +17,16 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 type QuestionnaireData = {
   skillLevel: "beginner" | "intermediate" | "advanced";
-  playingStyle: "control" | "power" | "balanced";
-  price: "budget" | "midRange" | "premium";
-  weight: "light" | "medium" | "heavy";
+  playingStyle: "defensive" | "offensive" | "balanced";
+  spinImportance: "notImportant" | "somewhat" | "veryImportant";
+  price: "budgetFriendly" | "midRange" | "premium";
+  weight: "lightweight" | "medium" | "heavyweight";
+  balance: "headHeavy" | "evenlyBalanced" | "handleHeavy";
+  priority: "spin" | "power" | "control";
+  materials: {
+    core: "polymer" | "nomex" | "aluminum";
+    surface: "smooth" | "textured";
+  };
 };
 
 const questions = [
@@ -35,32 +42,72 @@ const questions = [
   },
   {
     id: "playingStyle",
-    title: "What's your preferred playing style?",
-    description: "Choose the style that matches your approach to the game",
+    title: "What's your playing style?",
+    description: "Choose the style that best fits how you play",
     options: [
-      { value: "control", label: "Control", description: "Focus on placement and accuracy" },
-      { value: "power", label: "Power", description: "Aggressive play with powerful shots" },
-      { value: "balanced", label: "Balanced", description: "Mix of control and power" },
+      { value: "defensive", label: "Defensive/Control", description: "Prioritize placement and precision" },
+      { value: "offensive", label: "Offensive/Power", description: "Look for strong shots and fast-paced play" },
+      { value: "balanced", label: "Balanced", description: "A mix of control and power" },
+    ],
+  },
+  {
+    id: "spinImportance",
+    title: "How important is spin to your game?",
+    description: "Select the option that reflects your need for spin performance",
+    options: [
+      { value: "notImportant", label: "Not Important", description: "I rarely use spin in my shots" },
+      { value: "somewhat", label: "Somewhat Important", description: "I use spin occasionally" },
+      { value: "veryImportant", label: "Very Important", description: "I rely on spin as a key part of my strategy" },
     ],
   },
   {
     id: "price",
-    title: "What's your budget range?",
-    description: "Select your preferred price range for a paddle",
+    title: "What is your budget for a paddle?",
+    description: "Choose your price range",
     options: [
-      { value: "budget", label: "Budget", description: "$50-$100" },
-      { value: "midRange", label: "Mid-Range", description: "$100-$150" },
-      { value: "premium", label: "Premium", description: "$150+" },
+      { value: "budgetFriendly", label: "Budget-Friendly", description: "Under $50" },
+      { value: "midRange", label: "Mid-Range", description: "$50–$100" },
+      { value: "premium", label: "Premium", description: "Over $100" },
     ],
   },
   {
     id: "weight",
-    title: "Preferred paddle weight?",
-    description: "Choose your ideal paddle weight range",
+    title: "Which paddle weight do you prefer?",
+    description: "Select the weight category that best suits your play",
     options: [
-      { value: "light", label: "Light", description: "7.3-7.7 oz" },
-      { value: "medium", label: "Medium", description: "7.8-8.2 oz" },
-      { value: "heavy", label: "Heavy", description: "8.3+ oz" },
+      { value: "lightweight", label: "Lightweight", description: "Easier maneuverability and faster reactions" },
+      { value: "medium", label: "Medium", description: "A balanced feel with good control and power" },
+      { value: "heavyweight", label: "Heavyweight", description: "More mass for powerful hits, but may reduce speed" },
+    ],
+  },
+  {
+    id: "balance",
+    title: "What balance point suits your preference?",
+    description: "Pick the balance style that feels best for your game",
+    options: [
+      { value: "headHeavy", label: "Head-Heavy", description: "More power in your shots" },
+      { value: "evenlyBalanced", label: "Evenly Balanced", description: "A mix of power and control" },
+      { value: "handleHeavy", label: "Handle-Heavy", description: "Better control and maneuverability" },
+    ],
+  },
+  {
+    id: "priority",
+    title: "Which attribute do you prioritize most in a paddle?",
+    description: "Focus on the key performance factor for your game",
+    options: [
+      { value: "spin", label: "Spin", description: "High Spin RPM and Spin Percentile" },
+      { value: "power", label: "Power", description: "Greater serve and volley speed, high Firepower rating" },
+      { value: "control", label: "Control", description: "Enhanced balance and precise handling" },
+    ],
+  },
+  {
+    id: "materials",
+    title: "What core and surface materials appeal to you?",
+    description: "Consider the construction for optimal performance and feel",
+    options: [
+      { value: "polymer", label: "Polymer Core with Textured Surface", description: "Great for spin and control" },
+      { value: "nomex", label: "Nomex Core with Smooth Surface", description: "Excellent for power and fast play" },
+      { value: "aluminum", label: "Aluminum Core with Mixed Surface", description: "Balanced performance characteristics" },
     ],
   },
 ];
