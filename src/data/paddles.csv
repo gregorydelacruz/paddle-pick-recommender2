@@ -1,33 +1,4 @@
 Company,Paddle,Core Thickness (mm),Price,Shape,Manufacturing Process,Surface Texture,Surface Material,Core Material,Spin RPM,Spin Percentile,Length (in),Width (in),Handle Length (in),Static Weight (oz),Swing Weight,Swing Weight Percentile,Twist Weight,Twist Weight Percentile,Balance Point (cm),Balance Point Percentile,Serve Speed-MPH (Power),Power Percentile,Punch Volley Speed-MPH (Pop),Pop Percentile,Firepower (0-100)
-11Six24,Hurache Control,16,$79.99,Elongated,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2107,52%,16.5,7.5,5.5,7.4,106,11%,5.55,10%,23.7,36%,52.5,6%,33.9,15%,10
-11Six24,Hurache-X Control,16,$139.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber and Kevlar,Polypropylene Honeycomb,1847,19%,16.5,7.5,6,8.2,119,71%,6.4,51%,24.1,61%,55.3,50%,35,44%,47
-11Six24,Hurache-X Control+,14,$139.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2203,73%,16.5,7.5,6,8.2,115.4,53%,6.15,36%,23.9,50%,55.6,57%,36.1,77%,67
-11Six24,Hurache-X Control+,16,$149.90,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber and Fiberglass,Polypropylene Honeycomb,1956,29%,16.5,7.5,6,8,117.4,66%,6.3,45%,24.2,67%,55.5,55%,35.4,59%,57
-11Six24,Monarch All Court,16,$139.99,Wide Body,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2131,59%,15.8,8.2,5.75,8.2,111.2,31%,7.36,96%,23.6,31%,56.2,77%,34.8,37%,57
-11Six24,Monarch Control,16,$149.99,Wide Body,Thermoformed,Peel Ply-Coarse,Kevlar 3K Cloth,Polypropylene Honeycomb,2051,42%,15.8,8.2,5.75,8.2,110.2,29%,7.37,96%,23.4,21%,55.3,50%,35.1,48%,49
-11Six24,Monarch Jelly Bean,16,$99.99,Wide Body,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2209,75%,15.8,8.2,5.75,7.9,107.2,18%,7.09,87%,23.7,36%,53.7,19%,33.6,10%,15
-Ace,Heart,14,$189.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2260,81%,16.5,7.5,5.5,7.8,115.7,55%,5.8,20%,24.3,73%,55.6,57%,34.6,30%,43
-Bird,Ball Hawk Classic,14,$199.00,Standard,Cold Layered,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2099,50%,16,8,4.75,7.9,106,11%,7.05,86%,23.5,25%,51.3,1%,32.4,3%,2
-Body Helix,X4 Gold Kevlar,16,$140.00,Hybrid,Thermoformed,Peel Ply-Coarse,Kevlar 3K Cloth,Polypropylene Honeycomb,2281,86%,16.3,7.8,5.4,8.1,115.9,56%,6.55,60%,24.1,61%,56.2,77%,35.5,63%,70
-Bread & Butter,Fat Boy,16,$189.99,Wide Body,Thermoformed,Peel Ply-Coarse,3K Kevlar-Carbon Fiber Weave,Polypropylene Honeycomb,2069,45%,15.9,8.1,5.3,8,107.8,20%,7.11,89%,23.5,25%,54.4,28%,36.3,80%,54
-Bread & Butter,Filth,16,$165.00,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,1865,23%,16.5,7.4,5.5,7.9,121,79%,6.2,41%,24.2,67%,55.2,49%,35.6,66%,57
-Bread & Butter,Loco,16,$165.00,Hybrid,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2091,49%,16.3,7.7,5.3,7.7,113.7,42%,6.1,31%,24.1,61%,54.6,32%,35.2,51%,42
-Bread & Butter,Shogun,16,$189.99,Elongated,Thermoformed,Peel Ply-Coarse,"Carbon Fiber & PET Fibers (""Titanium"")",Polypropylene Honeycomb,2004,36%,16.5,7.4,5.5,8.2,121.6,83%,6.13,34%,24.5,80%,55,42%,34.6,30%,36
-Cheetah,Predion E16 Edgeless,16,$200.00,Elongated,Thermoformed,Grit,3K Woven Carbon Fiber,Aramid Fiber Honeycomb,1556,8%,16.5,7.5,5.5,7.7,106,11%,5.37,7%,23.3,18%,52.8,10%,34.3,23%,17
-Cheetah,Predion E16-with lead tape,16,$200.00,Elongated,Thermoformed,Grit,3K Woven Carbon Fiber,Aramid Fiber Honeycomb,1556,8%,16.5,7.5,5.5,8.4,115,49%,7.23,92%,23.5,25%,54.1,23%,34.3,23%,23
-Chorus,Shapeshifter,16,$189.99,Hybrid,Thermoformed,Peel Ply-Coarse,18K Toray Carbon Fiber,Polypropylene Honeycomb,2139,60%,16.3,7.8,5.3,8.1,116.7,61%,6.61,67%,24.1,61%,55.7,63%,35.3,56%,59
-Chorus,Shapeshifter with 5 grams tungsten tape,16,$189.99,Hybrid,Thermoformed,Peel Ply-Coarse,18K Toray Carbon Fiber,Polypropylene Honeycomb,2139,60%,16.3,7.8,5.3,8.4,117.8,67%,7,84%,23.7,36%,55.9,69%,35.2,51%,60
-Chorus,Shapeshifter with 5 grams tungsten tape & 28-gram Slyce cap,16,$189.99,Hybrid,Thermoformed,Peel Ply-Coarse,18K Toray Carbon Fiber,Polypropylene Honeycomb,2139,60%,16.3,7.8,5.3,9.3,121.3,82%,7.11,89%,21.8,2%,56,71%,35.7,68%,70
-Chorus,Supercourt,16,$119.99,Standard,Cold Layered,Peel Ply-Coarse,Carbon Fiber,Polypropylene Honeycomb,2033,40%,16,8,6.25,8,107,16%,6,27%,23.1,11%,55.9,69%,34.7,34%,51
-Core,Reaction Pro Elongated,16,$124.99,Elongated,Cold Layered,Peel Ply-Fine,T700 Carbon Fiber,Polypropylene Honeycomb,1863,22%,16.5,7.4,5.8,8.2,125.4,93%,6.03,29%,24.8,94%,54.4,28%,33.9,15%,21
-Core,Reaction Pro Standard,16,$124.99,Standard,Cold Layered,Peel Ply-Fine,T700 Carbon Fiber,Polypropylene Honeycomb,1892,25%,15.8,8,5.13,8.2,111.7,35%,7.25,93%,23.8,43%,53.5,17%,34,16%,16
-CRBN,CRBN 1X,14,$229.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2244,80%,16.5,7.3,5.5,8,116,56%,5.78,20%,24.2,67%,54.7,35%,34.4,25%,30
-CRBN,CRBN 2X,16,$229.99,Standard,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1975,32%,15.8,8,4.75,8,110,27%,7.5,99%,23.5,25%,53.5,17%,34.4,25%,21
-Diadem,Edge 18K,16,$229.95,Elongated,Cold Layered,Peel Ply-Coarse,18k Carbon Fiber,Polypropylene Honeycomb,2304,88%,16.4,7.5,5.3,7.9,122,84%,6.25,44%,24.1,61%,53,13%,34.1,17%,15
-Diadem,Hush,18,$189.95,Elongated,Thermoformed,Textured polyurethane,Thermoplastic Polyurethane,Carbon fiber frame with BASF materials,2776,100%,16.5,7.2,5.6,8.3,122.7,90%,5.13,2%,24.5,80%,62,100%,38.3,99%,100
-Diadem,Icon V2 XL,13.7,$199.95,Standard,Hot Molded,Grit,Carbon Fiber (Japanese-Sourced),Polypropylene Honeycomb (2 sheets),1718,12%,16,7.6,5.25,8.2,125,92%,5.69,13%,24.5,80%,54.2,24%,35,44%,34
-Diadem,Warrior,19,$229.95,Elongated,Cold Layered,Grit,Carbon Fiber,Polypropylene + Aramid,1744,13%,16.4,7.4,5.3,8.6,133,100%,7.25,93%,24.7,91%,52.6,7%,31,0%,4
-Dymon,Mayhem,16,$199.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Kevlar honeycomb,2366,96%,16.5,7.5,4.25,7.8,110.6,30%,6.31,46%,23.8,43%,56.1,74%,35.7,68%,71
 Electrum,Model E Elite,16,$199.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2028,38%,16.5,7.4,5.25,8.4,124,90%,7.14,90%,24.7,91%,55.7,63%,35.7,68%,66
 Electrum,Model E Stealth,16,$220.00,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1810,16%,16.5,7.3,5.38,7.7,107,16%,5,1%,23.3,18%,55.6,57%,35.6,66%,61
 Electrum,Model E Stealth-with 0.5 oz. lead tape,16,$220.00,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1810,16%,16.5,7.3,5.38,8.2,109,25%,6.1,31%,23.2,15%,55,42%,35,44%,43
