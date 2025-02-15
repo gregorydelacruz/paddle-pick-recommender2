@@ -23,10 +23,7 @@ type QuestionnaireData = {
   weight: "lightweight" | "medium" | "heavyweight";
   balance: "headHeavy" | "evenlyBalanced" | "handleHeavy";
   priority: "spin" | "power" | "control";
-  materials: {
-    core: "polymer" | "nomex" | "aluminum";
-    surface: "smooth" | "textured";
-  };
+  materials: "polymerTextured" | "nomexSmooth" | "aluminumMixed";
 };
 
 const questions = [
@@ -105,9 +102,9 @@ const questions = [
     title: "What core and surface materials appeal to you?",
     description: "Consider the construction for optimal performance and feel",
     options: [
-      { value: "polymer", label: "Polymer Core with Textured Surface", description: "Great for spin and control" },
-      { value: "nomex", label: "Nomex Core with Smooth Surface", description: "Excellent for power and fast play" },
-      { value: "aluminum", label: "Aluminum Core with Mixed Surface", description: "Balanced performance characteristics" },
+      { value: "polymerTextured", label: "Polymer Core with Textured Surface", description: "Great for spin and control" },
+      { value: "nomexSmooth", label: "Nomex Core with Smooth Surface", description: "Excellent for power and fast play" },
+      { value: "aluminumMixed", label: "Aluminum Core with Mixed Surface", description: "Balanced performance characteristics" },
     ],
   },
 ];
@@ -122,8 +119,12 @@ const Questionnaire = () => {
     defaultValues: existingPreferences || {
       skillLevel: undefined,
       playingStyle: undefined,
+      spinImportance: undefined,
       price: undefined,
       weight: undefined,
+      balance: undefined,
+      priority: undefined,
+      materials: undefined,
     },
   });
 
