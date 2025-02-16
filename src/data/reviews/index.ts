@@ -16,6 +16,11 @@ import { franklinReviews } from "./franklin";
 import { gammaReviews } from "./gamma";
 import { gearboxReviews } from "./gearbox";
 import { gentleBoomsReviews } from "./gentle-booms";
+import { gruvnReviews } from "./gruvn";
+import { hudeReviews } from "./hude";
+import { joolaReviews } from "./joola";
+import { komodoReviews } from "./komodo";
+import { maverixReviews } from "./maverix";
 
 const reviews: Record<string, Review> = {
   ...dymonReviews,
@@ -34,6 +39,11 @@ const reviews: Record<string, Review> = {
   ...gammaReviews,
   ...gearboxReviews,
   ...gentleBoomsReviews,
+  ...gruvnReviews,
+  ...hudeReviews,
+  ...joolaReviews,
+  ...komodoReviews,
+  ...maverixReviews,
 };
 
 export default reviews;
