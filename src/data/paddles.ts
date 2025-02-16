@@ -1,4 +1,3 @@
-
 import { Paddle } from "@/types/paddle";
 import { 
   elevenSix24Paddles,
@@ -17,7 +16,12 @@ import {
   franklinPaddles,
   gammaPaddles,
   gearboxPaddles,
-  gentleBoomsPaddles
+  gentleBoomsPaddles,
+  gruvnPaddles,
+  hudePaddles,
+  joolaPaddles,
+  komodoPaddles,
+  maverixPaddles
 } from "./manufacturers";
 
 const paddles: Paddle[] = [
@@ -37,7 +41,12 @@ const paddles: Paddle[] = [
   ...franklinPaddles,
   ...gammaPaddles,
   ...gearboxPaddles,
-  ...gentleBoomsPaddles
+  ...gentleBoomsPaddles,
+  ...gruvnPaddles,
+  ...hudePaddles,
+  ...joolaPaddles,
+  ...komodoPaddles,
+  ...maverixPaddles
 ];
 
 export default paddles;

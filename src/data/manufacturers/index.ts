@@ -1,4 +1,3 @@
-
 export { default as elevenSix24Paddles } from "./11Six24";
 export { default as birdPaddles } from "./Bird";
 export { default as bodyHelixPaddles } from "./BodyHelix";
@@ -16,3 +15,8 @@ export { default as franklinPaddles } from "./Franklin";
 export { default as gammaPaddles } from "./Gamma";
 export { default as gearboxPaddles } from "./Gearbox";
 export { default as gentleBoomsPaddles } from "./GentleBooms";
+export { default as gruvnPaddles } from "./Gruvn";
+export { default as hudePaddles } from "./Hude";
+export { default as joolaPaddles } from "./Joola";
+export { default as komodoPaddles } from "./Komodo";
+export { default as maverixPaddles } from "./Maverix";
