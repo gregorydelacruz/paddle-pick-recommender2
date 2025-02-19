@@ -23,16 +23,8 @@ const PaddleDetail = () => {
     `${p.Company}-${p.Paddle}`.toLowerCase().replace(/\s+/g, '-') === slug
   );
 
-  const reviewSlug = slug?.split('-').slice(1).join('-');
-  const paddleReview = reviews[reviewSlug || ""];
-
-  console.log({
-    fullSlug: slug,
-    reviewSlug,
-    hasReview: !!paddleReview,
-    paddleName: paddle?.Paddle,
-    availableReviews: Object.keys(reviews)
-  });
+  const reviewSlug = slug ? slug.split('-').slice(1).join('-') : "";
+  const paddleReview = reviews[reviewSlug];
 
   if (!paddle) {
     return (
