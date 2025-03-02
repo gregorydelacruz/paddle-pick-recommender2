@@ -21,6 +21,7 @@ import { hudeReviews } from "./hude";
 import { joolaReviews } from "./joola";
 import { komodoReviews } from "./komodo";
 import { maverixReviews } from "./maverix";
+import { ethosReviews } from "./ethos";
 
 const reviews: Record<string, Review> = {
   ...dymonReviews,
@@ -44,6 +45,7 @@ const reviews: Record<string, Review> = {
   ...joolaReviews,
   ...komodoReviews,
   ...maverixReviews,
+  ...ethosReviews,
 };
 
 export default reviews;

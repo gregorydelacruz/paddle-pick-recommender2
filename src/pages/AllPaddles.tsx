@@ -8,21 +8,27 @@ import { motion } from "framer-motion";
 import { Filter, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import { Checkbox } from "@/components/ui/checkbox";
 
 const AllPaddles = () => {
   const navigate = useNavigate();
   const [selectedCompany, setSelectedCompany] = useState<string>("all");
   const [selectedShape, setSelectedShape] = useState<string>("all");
+  const [selectedCore, setSelectedCore] = useState<string>("all");
   const [maxPrice, setMaxPrice] = useState<number>(250);
+  const [showHighPerformance, setShowHighPerformance] = useState<boolean>(false);
 
   const companies = Array.from(new Set(paddles.map(paddle => paddle.Company)));
   const shapes = Array.from(new Set(paddles.map(paddle => paddle.Shape)));
+  const coreThicknesses = Array.from(new Set(paddles.map(paddle => paddle.CoreThickness.toString())));
 
   const filteredPaddles = paddles.filter(paddle => {
     const companyMatch = selectedCompany === "all" ? true : paddle.Company === selectedCompany;
     const shapeMatch = selectedShape === "all" ? true : paddle.Shape === selectedShape;
+    const coreMatch = selectedCore === "all" ? true : paddle.CoreThickness.toString() === selectedCore;
     const priceMatch = paddle.Price <= maxPrice;
-    return companyMatch && shapeMatch && priceMatch;
+    const performanceMatch = showHighPerformance ? paddle.Firepower >= 60 : true;
+    return companyMatch && shapeMatch && priceMatch && coreMatch && performanceMatch;
   });
 
   return (
@@ -82,13 +88,44 @@ const AllPaddles = () => {
                 </div>
 
                 <div className="space-y-2">
+                  <Label>Core Thickness</Label>
+                  <Select value={selectedCore} onValueChange={setSelectedCore}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="All Core Thicknesses" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Core Thicknesses</SelectItem>
+                      {coreThicknesses.sort((a, b) => parseFloat(a) - parseFloat(b)).map(thickness => (
+                        <SelectItem key={thickness} value={thickness}>
+                          {thickness}mm
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                <div className="space-y-2">
                   <Label>Max Price: ${maxPrice}</Label>
                   <Slider
                     value={[maxPrice]}
                     onValueChange={(value) => setMaxPrice(value[0])}
-                    max={250}
+                    max={300}
                     step={10}
                   />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <Checkbox 
+                    id="highPerformance" 
+                    checked={showHighPerformance}
+                    onCheckedChange={(checked) => setShowHighPerformance(checked as boolean)}
+                  />
+                  <label
+                    htmlFor="highPerformance"
+                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  >
+                    High Performance Only (60+ Firepower)
+                  </label>
                 </div>
               </div>
             </div>
@@ -96,10 +133,13 @@ const AllPaddles = () => {
 
           {/* Paddles Grid */}
           <div className="flex-1">
+            <div className="mb-4">
+              <p className="text-muted-foreground">{filteredPaddles.length} paddles found</p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredPaddles.map((paddle, index) => (
                 <motion.div
-                  key={`${paddle.Company}-${paddle.Paddle}`}
+                  key={`${paddle.Company}-${paddle.Paddle}-${paddle.CoreThickness}`}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}
@@ -113,8 +153,13 @@ const AllPaddles = () => {
                       <p className="text-foreground">Shape: {paddle.Shape}</p>
                       <p className="text-foreground">Price: ${paddle.Price}</p>
                       <p className="text-sm text-muted-foreground">
-                        Core: {paddle.CoreMaterial}
+                        Core: {paddle.CoreMaterial} ({paddle.CoreThickness}mm)
                       </p>
+                      <div className="mt-2 flex items-center">
+                        <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
+                          Firepower: {paddle.Firepower}
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </motion.div>
