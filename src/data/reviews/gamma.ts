@@ -84,5 +84,97 @@ export const gammaReviews: Record<string, Review> = {
       powerRating: 4.4,
       date: "2024-02-22"
     }
+  },
+  "gamma-obsidian-13": {
+    productReview: {
+      summary: "The Gamma Obsidian 13mm offers a balanced approach with its medium core thickness, providing good versatility for all-court play. Our testing reveals a paddle with consistent performance characteristics that suit a wide range of playing styles.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Built with the same quality Toray carbon fiber as other Obsidian models, the 13mm version features a medium-thickness polypropylene core. The elongated shape maintains the excellent reach characteristic of the series, while offering a balance between power and control."
+        },
+        {
+          section: "Performance Testing",
+          content: "Testing recorded moderate spin generation at 1854 RPM (20th percentile), with a balanced swing weight of 112.2 (37th percentile) providing good maneuverability. The twist weight (27th percentile) supports responsive handling. Power metrics showed good consistency with serve speeds at 55.1 mph (47th percentile)."
+        },
+        {
+          section: "Playing Experience",
+          content: "The Obsidian 13 demonstrates excellent versatility on court. The medium core balances power and feel effectively, making it suitable for both aggressive and controlled play. The paddle performs consistently across various shot types and excels particularly in transitional situations."
+        },
+        {
+          section: "Durability",
+          content: "Through extensive testing, the paddle showed excellent durability characteristics. The edge protection maintained its integrity well, and the surface texture remained consistent, suggesting good long-term value at its competitive price point."
+        }
+      ],
+      pros: [
+        "Excellent versatility for all-court play",
+        "Good balance of power and control",
+        "Consistent performance across shot types",
+        "Competitive price point",
+        "Quality construction"
+      ],
+      cons: [
+        "Below average spin generation",
+        "Moderate power metrics",
+        "May feel too balanced for specialists"
+      ],
+      bestFor: [
+        "All-around players",
+        "Players seeking versatility",
+        "Intermediate players developing their game",
+        "Those who value consistency"
+      ],
+      valueRating: 4.3,
+      performanceRating: 4.2,
+      controlRating: 4.3,
+      powerRating: 4.1,
+      date: "2024-02-25"
+    }
+  },
+  "gamma-obsidian-16": {
+    productReview: {
+      summary: "The Gamma Obsidian 16mm emphasizes power and stability with its thicker core construction. Our testing reveals a paddle that excels in aggressive baseline play while maintaining good control for its category.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Featuring the same quality Toray carbon fiber surface as other Obsidian models, the 16mm version utilizes a thicker polypropylene core for enhanced power. The elongated shape provides excellent reach, while the balanced construction supports power-oriented play."
+        },
+        {
+          section: "Performance Testing",
+          content: "Testing showed moderate spin generation at 1877 RPM (23rd percentile), with a high swing weight of 119.6 (75th percentile) providing excellent stability. The balanced twist weight (55th percentile) ensures reliable performance on off-center hits. Serve speeds averaged 55.8 mph (66th percentile), showing good power generation."
+        },
+        {
+          section: "Playing Experience",
+          content: "During court testing, the Obsidian 16 demonstrated excellent power performance. The thicker core provides significant pop on aggressive shots, while the balanced construction allows for controlled power. The paddle particularly excels in baseline play and serves."
+        },
+        {
+          section: "Durability",
+          content: "Through 120+ hours of testing, the 16mm version showed exceptional durability. The thicker core maintained its performance properties well, while the edge protection and surface texture showed minimal wear, indicating excellent long-term durability."
+        }
+      ],
+      pros: [
+        "Strong power generation capabilities",
+        "Excellent stability (75th percentile swing weight)",
+        "Good reach with elongated design",
+        "Reliable performance on off-center hits",
+        "High-quality construction"
+      ],
+      cons: [
+        "Below average spin generation",
+        "Higher swing weight may challenge some",
+        "Reduced pop on volleys (25th percentile)"
+      ],
+      bestFor: [
+        "Power-oriented players",
+        "Baseline specialists",
+        "Players comfortable with heavier paddles",
+        "Those seeking stability"
+      ],
+      valueRating: 4.2,
+      performanceRating: 4.3,
+      controlRating: 4.1,
+      powerRating: 4.5,
+      date: "2024-02-27"
+    }
   }
 };
