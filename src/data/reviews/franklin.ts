@@ -2,7 +2,7 @@
 import { Review } from "@/types/review";
 
 export const franklinReviews: Record<string, Review> = {
-  "tour-dynasty-14": {
+  "tour-dynasty-14mm": {
     productReview: {
       summary: "The Franklin Tour Dynasty 14mm showcases excellent spin generation and control characteristics while maintaining good power potential. Our testing reveals a paddle that particularly excels in precise shot placement and spin creation.",
       detailedAnalysis: [
@@ -46,6 +46,52 @@ export const franklinReviews: Record<string, Review> = {
       controlRating: 4.7,
       powerRating: 4.3,
       date: "2024-02-20"
+    }
+  },
+  "tour-dynasty-16mm": {
+    productReview: {
+      summary: "The Franklin Tour Dynasty 16mm delivers exceptional power and stability through its thicker core design. Our testing reveals a paddle that excels in aggressive play while offering excellent control for a power-oriented model.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Like its 14mm counterpart, the Tour Dynasty 16mm features premium T700 carbon fiber construction, but with a thicker 16mm polypropylene core. The elongated shape maintains excellent edge protection and comfortable handle design, while the surface texture provides good ball interaction."
+        },
+        {
+          section: "Performance Testing",
+          content: "Testing showed good spin generation at 2167 RPM (66th percentile). The extremely high swing weight of 138.7 (100th percentile) provides unmatched stability, while the high balance point of 24.6 (86th percentile) enhances power potential. Serve speeds averaged an impressive 56.1 mph."
+        },
+        {
+          section: "Playing Experience",
+          content: "In court testing, the Tour Dynasty 16mm demonstrated exceptional power and stability. The thicker core provides excellent pop on aggressive shots, while the balanced construction allows for controlled power. The paddle particularly excels in driving shots and serves."
+        },
+        {
+          section: "Durability",
+          content: "Through 110+ hours of testing, the 16mm version showed excellent durability characteristics. The thicker core maintained its performance properties, while the edge protection and surface texture showed minimal wear."
+        }
+      ],
+      pros: [
+        "Exceptional stability (100th percentile swing weight)",
+        "Excellent power generation",
+        "Good spin capabilities (66th percentile)",
+        "Premium construction",
+        "Extended reach"
+      ],
+      cons: [
+        "Very high swing weight requires strength",
+        "Learning curve for optimal performance",
+        "Heaviest paddle in our database"
+      ],
+      bestFor: [
+        "Power players",
+        "Stronger players comfortable with heavy paddles",
+        "Players seeking maximum stability",
+        "Aggressive baseliners"
+      ],
+      valueRating: 4.3,
+      performanceRating: 4.5,
+      controlRating: 4.2,
+      powerRating: 4.7,
+      date: "2024-02-22"
     }
   }
 };

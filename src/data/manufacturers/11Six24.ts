@@ -1,3 +1,4 @@
+
 import { Paddle, formatPrice, formatPercentile } from "@/types/paddle";
 
 const rawData = [
@@ -15,7 +16,7 @@ const rawData = [
     SpinPercentile: "52%",
     Length: 16.5,
     Width: 7.5,
-    HandleLength: 5.5,
+    HandleLength: 4.25,
     StaticWeight: 7.4,
     SwingWeight: 106,
     SwingWeightPercentile: "11%",
@@ -59,7 +60,7 @@ const rawData = [
   },
   {
     Company: "11Six24",
-    Paddle: "Hurache-X Control+",
+    Paddle: "Hurache-X Control+ 14mm",
     CoreThickness: 14,
     Price: "$139.99",
     Shape: "Elongated",
@@ -87,7 +88,7 @@ const rawData = [
   },
   {
     Company: "11Six24",
-    Paddle: "Hurache-X Control+",
+    Paddle: "Hurache-X Control+ 16mm",
     CoreThickness: 16,
     Price: "$149.90",
     Shape: "Elongated",

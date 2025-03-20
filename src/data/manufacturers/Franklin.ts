@@ -4,7 +4,7 @@ import { Paddle } from "@/types/paddle";
 const franklinPaddles: Paddle[] = [
   {
     Company: "Franklin",
-    Paddle: "Tour Dynasty",
+    Paddle: "Tour Dynasty 14mm",
     CoreThickness: 14,
     Price: 149.99,
     Shape: "Elongated",
@@ -32,7 +32,7 @@ const franklinPaddles: Paddle[] = [
   },
   {
     Company: "Franklin",
-    Paddle: "Tour Dynasty",
+    Paddle: "Tour Dynasty 16mm",
     CoreThickness: 16,
     Price: 149.99,
     Shape: "Elongated",

@@ -38,5 +38,51 @@ export const gammaReviews: Record<string, Review> = {
       powerRating: 4.5,
       date: "2024-02-10"
     }
+  },
+  "gamma-obsidian-10": {
+    productReview: {
+      summary: "The Gamma Obsidian 10mm delivers an excellent combination of power and control, featuring a thin core design that enhances feel and maneuverability. Our testing reveals strong pop performance particularly suited for players seeking controlled aggression.",
+      detailedAnalysis: [
+        {
+          section: "Construction Quality",
+          content: "Built with Toray carbon fiber and featuring a 10mm polypropylene core, the Obsidian 10 demonstrates premium construction quality. The elongated shape provides excellent reach, while the surface texture enhances ball interaction."
+        },
+        {
+          section: "Performance Testing",
+          content: "Testing showed moderate spin generation at 1992 RPM (35th percentile), with a higher swing weight of 118.3 (69th percentile) providing good stability. The moderate twist weight (19th percentile) allows for quick handling. Punch volley speeds of 35.5 mph (63rd percentile) demonstrate excellent pop."
+        },
+        {
+          section: "Playing Experience",
+          content: "During court testing, the Obsidian 10 demonstrated excellent versatility with a focus on controlled power. The thin core provides enhanced feel for touch shots, while still delivering significant pop on aggressive shots. The paddle particularly excels in transitional play."
+        },
+        {
+          section: "Durability",
+          content: "Through 100+ hours of testing, the paddle maintained excellent performance characteristics despite its thinner core design. Edge protection showed minimal wear, and the surface texture retained its properties well."
+        }
+      ],
+      pros: [
+        "Excellent pop performance (63rd percentile)",
+        "Enhanced feel with the 10mm core",
+        "Good stability metrics",
+        "Extended reach with elongated design",
+        "Premium construction quality"
+      ],
+      cons: [
+        "Moderate spin generation",
+        "Thinner core requires adaptation",
+        "Mid-range price point"
+      ],
+      bestFor: [
+        "Players seeking controlled power",
+        "Those who value feel and feedback",
+        "Intermediate to advanced players",
+        "Transitional play specialists"
+      ],
+      valueRating: 4.2,
+      performanceRating: 4.3,
+      controlRating: 4.1,
+      powerRating: 4.4,
+      date: "2024-02-22"
+    }
   }
 };

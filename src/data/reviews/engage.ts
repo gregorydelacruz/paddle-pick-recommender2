@@ -12,7 +12,7 @@ export const engageReviews: Record<string, Review> = {
         },
         {
           section: "Performance Testing",
-          content: "Lab testing revealed moderate spin generation at 1915 RPM (27th percentile), while the balanced swing weight of 117.7 (66th percentile) provides good stability. The high balance point of 24.4 (76th percentile) enhances reach and control. Serve speeds averaged 53.2 mph, focusing on control over raw power."
+          content: "Testing revealed moderate spin generation at 1915 RPM (27th percentile), while the balanced swing weight of 117.7 (66th percentile) provides good stability. The high balance point of 24.4 (76th percentile) enhances reach and control. Serve speeds averaged 53.2 mph, focusing on control over raw power."
         },
         {
           section: "Playing Experience",
