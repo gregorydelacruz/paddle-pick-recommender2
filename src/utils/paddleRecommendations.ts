@@ -4,19 +4,19 @@ import paddlesData from "@/data/paddles";
 
 type UserPreferences = {
   skillLevel: "beginner" | "intermediate" | "advanced";
-  playingStyle: "control" | "power" | "balanced";
-  price: "budget" | "midRange" | "premium";
-  weight: "light" | "medium" | "heavy";
+  playingStyle: "defensive" | "offensive" | "balanced";
+  price: "budgetFriendly" | "midRange" | "premium";
+  weight: "lightweight" | "medium" | "heavyweight";
 };
 
 const getPriceRange = (price: string): [number, number] => {
   switch (price) {
-    case "budget":
-      return [0, 130];
+    case "budgetFriendly":
+      return [0, 50];
     case "midRange":
-      return [130, 220];
+      return [50, 100];
     case "premium":
-      return [220, Infinity];
+      return [100, Infinity];
     default:
       return [0, Infinity];
   }
@@ -24,11 +24,11 @@ const getPriceRange = (price: string): [number, number] => {
 
 const getWeightRange = (weight: string): [number, number] => {
   switch (weight) {
-    case "light":
+    case "lightweight":
       return [0, 7.7];
     case "medium":
       return [7.8, 8.2];
-    case "heavy":
+    case "heavyweight":
       return [8.3, Infinity];
     default:
       return [0, Infinity];
@@ -52,9 +52,9 @@ const scorePlayingStyle = (paddle: Paddle, style: string): number => {
   const popPct = paddle.PopPercentile ?? 0;
   
   switch (style) {
-    case "control":
+    case "defensive":
       return (spinScore + (100 - powerPct)) / 2;
-    case "power":
+    case "offensive":
       return (powerPct + firepower) / 2;
     case "balanced":
       return (spinScore + powerPct + popPct) / 3;
@@ -68,9 +68,9 @@ const PADDLES_PER_RANGE = 10;
 
 const buildCuratedPool = (): Paddle[] => {
   const ranges: [number, number][] = [
-    [0, 130],    // budget
-    [130, 220],  // midRange
-    [220, Infinity], // premium
+    [0, 50],       // budgetFriendly
+    [50, 100],     // midRange
+    [100, Infinity], // premium
   ];
 
   const pool: Paddle[] = [];
@@ -86,26 +86,50 @@ const buildCuratedPool = (): Paddle[] => {
 
 const curatedPool = buildCuratedPool();
 
-const getRecommendedPaddles = (preferences: UserPreferences): Paddle[] => {
+type RecommendationResult = {
+  paddles: Paddle[];
+  isFallback: boolean;
+  fallbackMessage?: string;
+};
+
+const getRecommendedPaddles = (preferences: UserPreferences): RecommendationResult => {
   const [minPrice, maxPrice] = getPriceRange(preferences.price);
   const [minWeight, maxWeight] = getWeightRange(preferences.weight);
 
-  const filteredPaddles = curatedPool.filter(paddle => 
+  let filteredPaddles = curatedPool.filter(paddle => 
     paddle.Price >= minPrice &&
     paddle.Price <= maxPrice &&
     paddle.StaticWeight >= minWeight &&
     paddle.StaticWeight <= maxWeight
   );
 
+  let isFallback = false;
+  let fallbackMessage: string | undefined;
+
+  // If no paddles found in price range (e.g. <$50), widen to next range
+  if (filteredPaddles.length === 0) {
+    isFallback = true;
+    fallbackMessage = "There are no paddles that fit your specifications in your budgeted price range, but here are some great alternatives";
+    filteredPaddles = curatedPool.filter(paddle =>
+      paddle.StaticWeight >= minWeight &&
+      paddle.StaticWeight <= maxWeight
+    );
+  }
+
   const scoredPaddles = filteredPaddles.map(paddle => ({
     paddle,
     score: scorePlayingStyle(paddle, preferences.playingStyle)
   }));
 
-  return scoredPaddles
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 3)
-    .map(item => item.paddle);
+  return {
+    paddles: scoredPaddles
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 3)
+      .map(item => item.paddle),
+    isFallback,
+    fallbackMessage,
+  };
 };
 
 export { getRecommendedPaddles };
+export type { RecommendationResult };
