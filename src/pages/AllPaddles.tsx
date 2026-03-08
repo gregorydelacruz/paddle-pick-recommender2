@@ -18,9 +18,9 @@ const AllPaddles = () => {
   const [maxPrice, setMaxPrice] = useState<number>(350);
   const [showHighPerformance, setShowHighPerformance] = useState<boolean>(false);
 
-  const companies = Array.from(new Set(paddles.map(paddle => paddle.Company))).sort();
-  const shapes = Array.from(new Set(paddles.map(paddle => paddle.Shape))).sort();
-  const coreThicknesses = Array.from(new Set(paddles.map(paddle => paddle.CoreThickness.toString())));
+  const companies = Array.from(new Set(paddles.map(paddle => paddle.Company))).filter(Boolean).sort();
+  const shapes = Array.from(new Set(paddles.map(paddle => paddle.Shape))).filter(Boolean).sort();
+  const coreThicknesses = Array.from(new Set(paddles.map(paddle => paddle.CoreThickness.toString()))).filter(v => v && v !== '0');
 
   const filteredPaddles = paddles.filter(paddle => {
     const companyMatch = selectedCompany === "all" ? true : paddle.Company === selectedCompany;
