@@ -19,11 +19,11 @@ export const PaddleSpecifications = ({ paddle }: PaddleSpecificationsProps) => {
           <CardTitle>Physical Specifications</CardTitle>
         </CardHeader>
         <CardContent className="space-y-2">
-          <p>Length: {paddle.Length} inches</p>
-          <p>Width: {paddle.Width} inches</p>
-          <p>Handle Length: {paddle.HandleLength} inches</p>
-          <p>Static Weight: {paddle.StaticWeight} oz</p>
+          {paddle.GripLength && <p>Grip Length: {paddle.GripLength} inches</p>}
+          {paddle.GripSize && <p>Grip Size: {paddle.GripSize} inches</p>}
+          <p>Weight: {paddle.StaticWeight} oz</p>
           <p>Shape: {paddle.Shape}</p>
+          <p>Core Thickness: {paddle.CoreThickness}mm</p>
         </CardContent>
       </Card>
 
@@ -32,11 +32,12 @@ export const PaddleSpecifications = ({ paddle }: PaddleSpecificationsProps) => {
           <CardTitle>Construction</CardTitle>
         </CardHeader>
         <CardContent className="space-y-2">
-          <p>Manufacturing Process: {paddle.ManufacturingProcess}</p>
-          <p>Surface Texture: {paddle.SurfaceTexture}</p>
-          <p>Surface Material: {paddle.SurfaceMaterial}</p>
-          <p>Core Material: {paddle.CoreMaterial}</p>
-          <p>Core Thickness: {paddle.CoreThickness}mm</p>
+          <p>Build Style: {paddle.BuildStyle}</p>
+          <p>Grit Type: {paddle.GritType}</p>
+          {paddle.FaceMaterial && <p>Face Material: {paddle.FaceMaterial}</p>}
+          {paddle.PaddleType && <p>Paddle Type: {paddle.PaddleType}</p>}
+          {paddle.ApprovalBody && <p>Approval: {paddle.ApprovalBody}</p>}
+          {paddle.YearReleased && <p>Year Released: {paddle.YearReleased}</p>}
         </CardContent>
       </Card>
 
@@ -45,13 +46,13 @@ export const PaddleSpecifications = ({ paddle }: PaddleSpecificationsProps) => {
           <CardTitle>Performance Metrics</CardTitle>
         </CardHeader>
         <CardContent className="space-y-2">
-          <p>Spin RPM: {paddle.SpinRPM} (Top {paddle.SpinPercentile}%)</p>
+          {paddle.SpinRPM != null && <p>Spin: {paddle.SpinRPM} RPM ({paddle.SpinRating})</p>}
           <p>Swing Weight: {paddle.SwingWeight} (Top {paddle.SwingWeightPercentile}%)</p>
           <p>Twist Weight: {paddle.TwistWeight} (Top {paddle.TwistWeightPercentile}%)</p>
-          <p>Balance Point: {paddle.BalancePoint} (Top {paddle.BalancePointPercentile}%)</p>
-          <p>Serve Speed: {paddle.ServeSpeed} mph (Top {paddle.PowerPercentile}%)</p>
-          <p>Punch Volley Speed: {paddle.PunchVolleySpeed} mph (Top {paddle.PopPercentile}%)</p>
-          <p>Firepower Rating: {paddle.Firepower}</p>
+          <p>Balance Point: {paddle.BalancePoint}mm</p>
+          {paddle.Power != null && <p>Power: {paddle.Power} mph (Top {paddle.PowerPercentile}%)</p>}
+          {paddle.Pop != null && <p>Pop: {paddle.Pop} mph (Top {paddle.PopPercentile}%)</p>}
+          {paddle.Firepower != null && <p>Firepower: {paddle.Firepower} ({paddle.FirepowerTier})</p>}
         </CardContent>
       </Card>
     </div>

@@ -15,19 +15,19 @@ const AllPaddles = () => {
   const [selectedCompany, setSelectedCompany] = useState<string>("all");
   const [selectedShape, setSelectedShape] = useState<string>("all");
   const [selectedCore, setSelectedCore] = useState<string>("all");
-  const [maxPrice, setMaxPrice] = useState<number>(250);
+  const [maxPrice, setMaxPrice] = useState<number>(350);
   const [showHighPerformance, setShowHighPerformance] = useState<boolean>(false);
 
-  const companies = Array.from(new Set(paddles.map(paddle => paddle.Company)));
-  const shapes = Array.from(new Set(paddles.map(paddle => paddle.Shape)));
-  const coreThicknesses = Array.from(new Set(paddles.map(paddle => paddle.CoreThickness.toString())));
+  const companies = Array.from(new Set(paddles.map(paddle => paddle.Company))).filter(Boolean).sort();
+  const shapes = Array.from(new Set(paddles.map(paddle => paddle.Shape))).filter(Boolean).sort();
+  const coreThicknesses = Array.from(new Set(paddles.map(paddle => paddle.CoreThickness.toString()))).filter(v => v && v !== '0');
 
   const filteredPaddles = paddles.filter(paddle => {
     const companyMatch = selectedCompany === "all" ? true : paddle.Company === selectedCompany;
     const shapeMatch = selectedShape === "all" ? true : paddle.Shape === selectedShape;
     const coreMatch = selectedCore === "all" ? true : paddle.CoreThickness.toString() === selectedCore;
     const priceMatch = paddle.Price <= maxPrice;
-    const performanceMatch = showHighPerformance ? paddle.Firepower >= 60 : true;
+    const performanceMatch = showHighPerformance ? (paddle.Firepower ?? 0) >= 60 : true;
     return companyMatch && shapeMatch && priceMatch && coreMatch && performanceMatch;
   });
 
@@ -109,7 +109,7 @@ const AllPaddles = () => {
                   <Slider
                     value={[maxPrice]}
                     onValueChange={(value) => setMaxPrice(value[0])}
-                    max={300}
+                    max={400}
                     step={10}
                   />
                 </div>
@@ -142,7 +142,7 @@ const AllPaddles = () => {
                   key={`${paddle.Company}-${paddle.Paddle}-${paddle.CoreThickness}`}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.05 }}
+                  transition={{ delay: index * 0.02 }}
                   onClick={() => navigate(`/paddle/${paddle.Company}-${paddle.Paddle}`.toLowerCase().replace(/\s+/g, '-'))}
                   className="cursor-pointer"
                 >
@@ -153,13 +153,20 @@ const AllPaddles = () => {
                       <p className="text-foreground">Shape: {paddle.Shape}</p>
                       <p className="text-foreground">Price: ${paddle.Price}</p>
                       <p className="text-sm text-muted-foreground">
-                        Core: {paddle.CoreMaterial} ({paddle.CoreThickness}mm)
+                        {paddle.BuildStyle} · {paddle.CoreThickness}mm
                       </p>
-                      <div className="mt-2 flex items-center">
-                        <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
-                          Firepower: {paddle.Firepower}
-                        </span>
-                      </div>
+                      {paddle.Firepower != null && (
+                        <div className="mt-2 flex items-center gap-2">
+                          <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
+                            Firepower: {paddle.Firepower}
+                          </span>
+                          {paddle.FirepowerTier && (
+                            <span className="text-xs bg-secondary text-secondary-foreground px-2 py-1 rounded-full">
+                              {paddle.FirepowerTier}
+                            </span>
+                          )}
+                        </div>
+                      )}
                     </div>
                   </div>
                 </motion.div>

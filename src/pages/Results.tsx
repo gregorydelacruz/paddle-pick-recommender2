@@ -9,8 +9,6 @@ import {
   Table,
   TableBody,
   TableCell,
-  TableHead,
-  TableHeader,
   TableRow,
 } from "@/components/ui/table";
 
@@ -106,17 +104,21 @@ const Results = () => {
                               <TableCell>{paddle.CoreThickness}mm</TableCell>
                             </TableRow>
                             <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Manufacturing</TableCell>
-                              <TableCell>{paddle.ManufacturingProcess}</TableCell>
+                              <TableCell className="font-medium">Build Style</TableCell>
+                              <TableCell>{paddle.BuildStyle}</TableCell>
                             </TableRow>
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Surface Material</TableCell>
-                              <TableCell>{paddle.SurfaceMaterial}</TableCell>
-                            </TableRow>
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Core Material</TableCell>
-                              <TableCell>{paddle.CoreMaterial}</TableCell>
-                            </TableRow>
+                            {paddle.FaceMaterial && (
+                              <TableRow className="hover:bg-primary/5">
+                                <TableCell className="font-medium">Face Material</TableCell>
+                                <TableCell>{paddle.FaceMaterial}</TableCell>
+                              </TableRow>
+                            )}
+                            {paddle.PaddleType && (
+                              <TableRow className="hover:bg-primary/5">
+                                <TableCell className="font-medium">Paddle Type</TableCell>
+                                <TableCell>{paddle.PaddleType}</TableCell>
+                              </TableRow>
+                            )}
                           </TableBody>
                         </Table>
                       </div>
@@ -130,39 +132,47 @@ const Results = () => {
                         </h3>
                         <Table>
                           <TableBody className="divide-y divide-primary/10">
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Spin Rating</TableCell>
-                              <TableCell>
-                                <div className="flex items-center justify-between">
-                                  <span>{paddle.SpinRPM} RPM</span>
-                                  <span className="text-primary font-semibold">{paddle.SpinPercentile}%</span>
-                                </div>
-                              </TableCell>
-                            </TableRow>
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Serve Speed</TableCell>
-                              <TableCell>
-                                <div className="flex items-center justify-between">
-                                  <span>{paddle.ServeSpeed} mph</span>
-                                  <span className="text-primary font-semibold">{paddle.PowerPercentile}%</span>
-                                </div>
-                              </TableCell>
-                            </TableRow>
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Volley Speed</TableCell>
-                              <TableCell>
-                                <div className="flex items-center justify-between">
-                                  <span>{paddle.PunchVolleySpeed} mph</span>
-                                  <span className="text-primary font-semibold">{paddle.PopPercentile}%</span>
-                                </div>
-                              </TableCell>
-                            </TableRow>
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Firepower</TableCell>
-                              <TableCell>
-                                <span className="text-primary font-semibold">{paddle.Firepower}</span>
-                              </TableCell>
-                            </TableRow>
+                            {paddle.SpinRPM != null && (
+                              <TableRow className="hover:bg-primary/5">
+                                <TableCell className="font-medium">Spin</TableCell>
+                                <TableCell>
+                                  <div className="flex items-center justify-between">
+                                    <span>{paddle.SpinRPM} RPM</span>
+                                    <span className="text-primary font-semibold">{paddle.SpinRating}</span>
+                                  </div>
+                                </TableCell>
+                              </TableRow>
+                            )}
+                            {paddle.Power != null && (
+                              <TableRow className="hover:bg-primary/5">
+                                <TableCell className="font-medium">Power</TableCell>
+                                <TableCell>
+                                  <div className="flex items-center justify-between">
+                                    <span>{paddle.Power} mph</span>
+                                    <span className="text-primary font-semibold">{paddle.PowerPercentile}%</span>
+                                  </div>
+                                </TableCell>
+                              </TableRow>
+                            )}
+                            {paddle.Pop != null && (
+                              <TableRow className="hover:bg-primary/5">
+                                <TableCell className="font-medium">Pop</TableCell>
+                                <TableCell>
+                                  <div className="flex items-center justify-between">
+                                    <span>{paddle.Pop} mph</span>
+                                    <span className="text-primary font-semibold">{paddle.PopPercentile}%</span>
+                                  </div>
+                                </TableCell>
+                              </TableRow>
+                            )}
+                            {paddle.Firepower != null && (
+                              <TableRow className="hover:bg-primary/5">
+                                <TableCell className="font-medium">Firepower</TableCell>
+                                <TableCell>
+                                  <span className="text-primary font-semibold">{paddle.Firepower} ({paddle.FirepowerTier})</span>
+                                </TableCell>
+                              </TableRow>
+                            )}
                           </TableBody>
                         </Table>
 
@@ -172,26 +182,19 @@ const Results = () => {
                         </h3>
                         <Table>
                           <TableBody className="divide-y divide-primary/10">
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Dimensions</TableCell>
-                              <TableCell>{paddle.Length}" × {paddle.Width}"</TableCell>
-                            </TableRow>
-                            <TableRow className="hover:bg-primary/5">
-                              <TableCell className="font-medium">Handle Length</TableCell>
-                              <TableCell>{paddle.HandleLength}"</TableCell>
-                            </TableRow>
+                            {paddle.GripLength && (
+                              <TableRow className="hover:bg-primary/5">
+                                <TableCell className="font-medium">Grip Length</TableCell>
+                                <TableCell>{paddle.GripLength}"</TableCell>
+                              </TableRow>
+                            )}
                             <TableRow className="hover:bg-primary/5">
                               <TableCell className="font-medium">Weight</TableCell>
                               <TableCell>{paddle.StaticWeight}oz</TableCell>
                             </TableRow>
                             <TableRow className="hover:bg-primary/5">
                               <TableCell className="font-medium">Balance Point</TableCell>
-                              <TableCell>
-                                <div className="flex items-center justify-between">
-                                  <span>{paddle.BalancePoint}"</span>
-                                  <span className="text-primary font-semibold">{paddle.BalancePointPercentile}%</span>
-                                </div>
-                              </TableCell>
+                              <TableCell>{paddle.BalancePoint}mm</TableCell>
                             </TableRow>
                           </TableBody>
                         </Table>

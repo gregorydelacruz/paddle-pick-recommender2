@@ -1,146 +1,432 @@
-Company,Paddle,Core Thickness (mm),Price,Shape,Manufacturing Process,Surface Texture,Surface Material,Core Material,Spin RPM,Spin Percentile,Length (in),Width (in),Handle Length (in),Static Weight (oz),Swing Weight,Swing Weight Percentile,Twist Weight,Twist Weight Percentile,Balance Point (cm),Balance Point Percentile,Serve Speed-MPH (Power),Power Percentile,Punch Volley Speed-MPH (Pop),Pop Percentile,Firepower (0-100)
-Engage,Evolution Extreme V2.14,14,$159.99,Elongated,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1915,27%,16.5,7.5,5.25,8,117.7,66%,6.38,49%,24.4,76%,53.2,14%,34.7,34%,24
-Engage,Evolution Extreme V2.16,16,$159.99,Elongated,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2082,48%,16.4,7.5,5.25,8.2,121.8,83%,6.66,70%,24.5,80%,54.6,32%,34.4,25%,29
-Engage,Pursuit EX 6.0 Maxx,16,$259.99,Standard,Cold Layered with Edge Foam,Frosted RCF,Toray Carbon Fiber,Polypropylene Honeycomb,1666,10%,16,8,5,8,115.6,54%,7.43,97%,24.5,80%,54.2,24%,35.3,56%,40
-Engage,Pursuit EX 6.0 Pro,16,$259.99,Standard,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2260,81%,16,8,5,8.1,114.7,48%,7.32,95%,23.5,25%,55,42%,36.3,80%,61
-Engage,Pursuit EX Pro,13,$259.99,Standard,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2366,96%,16,8,5,8.2,116.2,57%,7.29,94%,23.7,36%,54.9,40%,36.6,88%,64
-Engage,Pursuit MX 6.0 Maxx,16,$199.99,Elongated,Cold Layered with Edge Foam,Frosted RCF,Toray Carbon Fiber,Polypropylene Honeycomb,1716,11%,16.5,7.5,5.75,7.8,116.2,57%,5.8,20%,24.2,67%,56.1,74%,35.2,51%,63
-Engage,Pursuit MX 6.0 Pro,16,$259.99,Elongated,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2258,81%,16.5,7.5,5.75,8.1,129.1,97%,6.65,69%,25.3,98%,56.3,78%,35.4,59%,69
-Engage,Pursuit MX Pro,13,$259.99,Elongated,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2264,83%,16.5,7.5,5.75,8,119.3,74%,5.85,22%,24.1,61%,56.2,77%,36.3,80%,78
-Engage,Pursuit Pro 1 6.0-Light,16,$259.99,Elongated,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2207,75%,16.5,7.5,5.88,7.7,115.2,52%,5.75,17%,23.7,36%,56.4,79%,35.4,59%,69
-Engage,Pursuit Pro 1-Light,13,$259.99,Elongated,Cold Layered with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2178,68%,16.5,7.5,5.88,7.7,109.5,26%,5.57,10%,23.3,18%,56,71%,35.5,63%,67
-Ethos,Dunamis,14,$179.95,Standard,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,1678,10%,16,8,5.35,7.5,99.6,3%,6.18,40%,23.1,11%,53.5,17%,34.5,28%,22
-Franklin,Tour Dynasty,14,$149.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2288,87%,16.5,7.5,5.6,8.2,126,94%,6.6,65%,24.7,91%,55.3,50%,35.4,59%,55
-Franklin,Tour Dynasty,16,$149.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2167,66%,16.5,7.5,5.6,9.2,138.7,100%,7.45,98%,24.6,86%,56.1,74%,34.3,23%,49
-Franklin,Tour Tempo,16,$149.99,Standard,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2094,50%,15.9,8,5,8.9,122,84%,7.5,99%,23.5,25%,55.7,63%,35.6,66%,64
-Franklin,Tour Tempo,14,$149.99,Standard,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2199,72%,15.9,8,5,8.5,116.3,59%,7.13,90%,23.4,21%,55.2,49%,35.8,72%,60
-Franklin,Tour Tempo,12,$149.99,Standard,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2252,80%,15.9,8,5,7.4,101.4,6%,6.15,36%,23.6,31%,55,42%,36.1,77%,60
-Franklin,Carbon STK,14.5,$149.99,Elongated,Cold Layered,Unknown,Carbon Fiber,Polypropylene Honeycomb,1251,4%,16.5,7.5,4.25,7.6,118,67%,5.76,18%,24.6,86%,51.7,3%,30.9,0%,2
-Gamma,Airbender,10,$199.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1988,34%,16.5,7.4,5.5,8.1,111.2,31%,5.08,2%,23.5,25%,55.7,63%,35.8,72%,67
-Gamma,Obsidian 10,10,$159.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1992,35%,16.4,7.6,5.75,8,118.3,69%,5.77,19%,24.4,76%,54.7,35%,35.5,63%,49
-Gamma,Obsidian 13,13,$159.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1854,20%,16.4,7.6,5.75,7.9,112.2,37%,6,27%,23.8,43%,55.1,47%,35.2,51%,49
-Gamma,Obsidian 16,16,$159.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1877,23%,16.4,7.6,5.75,8.1,119.6,75%,6.46,55%,24.5,80%,55.8,66%,34.4,25%,46
-Gearbox,CX14H Ultimate Power,14,$249.99,Standard,Unibody Edgeless,Grit,3K Woven Carbon Fiber,Toray T700 Carbon Fiber,1962,30%,15.6,8,5.38,8.5,107,16%,5.78,20%,22,2%,51.1,1%,33.1,5%,3
-Gearbox,G2 Elongated,14,$119.99,Elongated,Unibody Edgeless,Grit,Carbon Fiber; Fiberglass,Polypropylene Honeycomb,2030,39%,16.5,7.4,5.5,7.9,122.9,90%,5.35,6%,25.4,99%,54.4,28%,32.7,4%,16
-Gearbox,G2 Integra,14,$139.99,Hybrid,Unibody Edgeless,Grit,Carbon Fiber; Fiberglass,Polypropylene Honeycomb,2113,55%,16,7.4,5.5,7.9,113.3,41%,5.64,12%,24.5,80%,54.2,24%,32.6,4%,14
-Gearbox,G2 Quad,14,$99.99,Standard,Unibody Edgeless,Grit,Carbon Fiber; Fiberglass,Polypropylene Honeycomb,2139,60%,15.9,8,4.75,7.9,108,21%,6.23,44%,23.7,36%,53.3,16%,33.4,7%,11
-Gearbox,Pro Control Elongated,14,$274.99,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Toray Carbon Fiber,Carbon fiber + foam,2130,59%,16.5,7.4,5.5,8.1,122,84%,5.07,2%,25,97%,56,71%,35.1,48%,59
-Gearbox,Pro Control Integra,14,$274.99,Hybrid,Gen-3 Foam Enhanced,Peel Ply-Coarse,Toray Carbon Fiber,Carbon fiber + foam,2091,49%,16,7.4,5.5,8,115,49%,5.14,3%,24.5,80%,55.8,66%,35.4,59%,62
-Gearbox,Pro Power Elongated,14,$274.99,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Toray Carbon Fiber,Carbon fiber + foam,2062,43%,16.5,7.4,5.5,8,120,76%,5.22,4%,24.9,96%,57.7,96%,36.9,91%,93
-Gearbox,Pro Power Elongated with 10 grams tungsten,14,$274.99,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Toray Carbon Fiber,Carbon fiber + foam,1827,18%,16.5,7.4,5.5,8.5,122,84%,5.67,13%,24.3,73%,61.3,100%,38,98%,99
-Gearbox,Pro Power Integra,14,$274.99,Hybrid,Gen-3 Foam Enhanced,Peel Ply-Coarse,Toray Carbon Fiber,Carbon fiber + foam,2113,55%,16,7.4,5.5,8,112,35%,5.14,3%,24.2,67%,57.9,96%,37,93%,94
-Gearbox,Pro Ultimate Elongated,16,$274.99,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Toray Carbon Fiber,Carbon fiber + foam,1983,33%,16.5,7.4,5.5,7.9,122.3,88%,5.43,7%,25.6,100%,57.2,93%,35.6,66%,79
-Gearbox,Pro Ultimate Hyper,16,$274.99,Standard,Gen-3 Foam Enhanced,Peel Ply-Coarse,Toray Carbon Fiber,Carbon fiber + foam,2178,68%,16,8,5.5,8,112.3,37%,6.4,51%,24.7,91%,57.1,91%,35.7,68%,80
-Gentle Booms Sports,GBS-001,11,$49.99,Standard,Welded,Grit,Aluminum,Aluminum Honeycomb,1493,7%,15.7,7.8,5,8.5,115,49%,6.65,69%,23.1,11%,51.9,4%,31.7,2%,3
-Honolulu Pickleball Co.,Sword & Shield-J3,16,$130.50,Standard,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1778,14%,16,8,6,8,111.4,33%,7,84%,23.6,31%,55.1,47%,34.5,28%,37
-Honolulu Pickleball Co.,Sword & Shield-J5,16,$166.50,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2067,44%,17,7,5.75,8.6,130.1,99%,6.15,36%,24.3,73%,55.7,63%,34.2,21%,42
-Hudef,Mage Pro,16,$99.00,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2004,36%,16.5,7.4,5.35,8.1,119,71%,6.4,51%,24.2,67%,54.1,23%,34.1,17%,20
-Hudef,Mage Pro Gen 2,14,$169.99,Hybrid,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2056,42%,16.1,7.8,5.3,7.9,108.6,24%,6.6,65%,23.8,43%,55.1,47%,34.8,37%,42
-Hudef,Viva Pro Gen1,16,$99.00,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2077,45%,16.5,7.4,5.5,8.1,122,84%,6.16,39%,24.4,76%,52.1,4%,33.9,15%,9
-Hudef,Viva Pro Gen2,16,$129.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2060,43%,16.5,7.4,5.5,8.1,128,97%,6.5,57%,25.3,98%,55.5,55%,34.8,37%,46
-JOOLA,Hyperion 3S,16,$279.95,Elongated,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2139,60%,16.5,7.5,5.5,7.9,115.1,52%,6.03,29%,24.3,73%,56.8,84%,36.5,86%,85
-JOOLA,Magnus 3 Tyson McGuffin,14,$280.00,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2425,99%,16.5,7.5,5,8,114.7,48%,6.05,29%,24.1,61%,57.3,93%,37.2,94%,94
-JOOLA,Magnus 3S,16,$279.95,Elongated,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2117,57%,16.5,7.5,5,7.9,114,46%,6.12,33%,24.1,61%,57.1,91%,36.3,80%,86
-JOOLA,Perseus 3 Ben Johns,16,$280.00,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2487,100%,16.5,7.5,5.5,8,119.2,73%,6.08,31%,24.2,67%,57.6,94%,37.3,96%,95
-JOOLA,Perseus 3 Ben Johns,14,$280.00,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2193,71%,16.5,7.5,5.5,8,116.9,62%,5.83,22%,24.2,67%,56.9,86%,38.3,99%,93
-JOOLA,Perseus 3S,14,$279.95,Elongated,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2141,62%,16.5,7.5,5.5,8,120.4,78%,6.07,30%,24.5,80%,56.9,86%,36.7,89%,88
-JOOLA,Perseus 3S,16,$279.95,Elongated,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2148,62%,16.5,7.5,5.5,7.9,118.6,70%,6.15,36%,24.7,91%,56.9,86%,36.5,86%,86
-JOOLA,Perseus MOD TA-15,16,$280.00,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2126,58%,16.5,7.5,5.5,8.8,119.2,72%,6.12,33%,24.6,86%,58.7,97%,37.1,93%,95
-JOOLA,Perseus MOD TA-15,16,$280.00,Elongated,Gen-3 Foam Enhanced,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2243,79%,16.5,7.5,5.5,8,119.2,72%,6.12,33%,24.6,86%,57.5,93%,36.9,91%,92
-JOOLA,Scorpeus 3 Anna Bright,14,$280.00,Standard,Gen-3 Foam Enhanced,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2310,90%,16,8,5.25,7.8,109.3,25%,6.64,68%,24,57%,56.9,86%,38.6,100%,93
-JOOLA,Scorpeus 3 Collin Johns,16,$280.00,Standard,Gen-3 Foam Enhanced,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2115,57%,16,8,5.25,8,111.7,34%,6.94,83%,23.7,36%,57,91%,38,98%,94
-JOOLA,Scorpeus 3S,16,$279.95,Standard,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene + Foam,2213,77%,16,8,5.25,8,111.6,34%,7,84%,23.9,50%,56.2,77%,37.1,93%,85
-JOOLA,Scorpeus Collin Johns,16,$249.95,Standard,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene Honeycomb,1889,25%,16,8,5.25,8.1,114,44%,6.95,84%,23.9,50%,52.2,5%,34.1,17%,11
-Komodo,Katana,16,$227.97,Elongated,Cold Layered,Peel Ply-Coarse,Kevlar 3K Cloth,Polypropylene Honeycomb,2032,39%,16.5,7.5,5.25,7.5,106.5,15%,5.75,17%,23.8,43%,53.9,21%,33.4,7%,14
-Komodo,Tonto 18K,14,$227.97,Elongated,Thermoformed,Peel Ply-Coarse,18K Carbon Fiber,Polypropylene Honeycomb,1854,20%,16.5,7.4,5.8,7.1,100,4%,5.32,6%,23.3,18%,54.5,31%,35.3,56%,43
-Komodo,Tonto Unidirectional,14,$227.97,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,1765,13%,16.5,7.4,5.8,8.1,118.5,69%,5.64,12%,23.6,31%,54.8,38%,35.3,56%,47
-Maverix,Clash-15 All Court,15,$164.99,Hybrid,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2161,65%,16.2,7.7,5.4,8.1,117.2,65%,6.55,60%,23.9,50%,55.1,47%,35,44%,45
-Maverix,Clash-15 Pro,15,$179.99,Hybrid,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,1986,34%,16.2,7.7,5.4,8.2,116.2,58%,6.42,53%,23.9,50%,55.4,53%,35.1,48%,50
-Maverix,Havik-15 All Court,15,$164.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2028,38%,16.5,7.5,5.5,8.2,117.2,65%,6.36,49%,23.9,50%,55,42%,35.1,48%,45
-Maverix,Havik-15 Pro,15,$179.99,Elongated,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2002,35%,16.5,7.5,5.5,8.3,118.7,70%,6.58,64%,24.1,61%,55.6,57%,34.9,40%,48
-Neonic,Flare Titanium,16,$149.99,Standard,Thermoformed,Peel Ply-Coarse,Carbon Fiber & Titanium,Polypropylene Honeycomb,2204,73%,16,8,5.5,8.1,113.5,42%,7.01,86%,23.8,43%,55.9,69%,34.8,37%,53
-Neonic,Flow,16,$119.99,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2310,90%,16.3,7.6,5.5,8.1,116.3,58%,6.53,59%,23.9,50%,54.9,40%,34.6,30%,35
-Nexus,ProStar,16,$169.99,Elongated,Thermoformed,Peel Ply-Coarse,"Carbon Fiber & PET Fibers (""Titanium"")",Foam-filled polypropylene honeycomb,1797,15%,16.5,7.5,5.5,8.2,122.6,89%,6.38,49%,24.4,76%,55.7,63%,36.3,80%,71
-OM,Aero,14,$245.00,Wide Body,Thermoformed,Grit,T700 Carbon Fiber,Polypropylene Honeycomb,1584,9%,15.8,8.2,5,7.9,106.7,15%,6.48,56%,23.5,25%,56.9,86%,36.3,80%,83
-Owl,Owl CXE,16,$169.00,Elongated,Cold Layered,Acoustene Composite,Acoustene Composite,Polypropylene Honeycomb,2380,97%,16.5,7.5,5.3,7.9,118.5,69%,5.51,8%,25.6,100%,54.7,35%,34.5,28%,31
-PaddleTek,Bantam ALW-C,12.7,$229.99,Standard,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2241,79%,15.9,7.9,5.25,7.8,103.4,6%,6.51,58%,23.5,25%,56.9,86%,37.2,94%,90
-PaddleTek,Bantam ALW-C,14.3,$229.99,Standard,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2390,98%,15.9,7.9,5.25,7.7,107.9,21%,6.76,75%,23.7,36%,56.9,86%,36.8,90%,88
-PaddleTek,Bantam ESQ-C,12.7,$249.99,Standard,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2339,94%,15.9,8,5.5,7.6,102.5,6%,6.6,65%,23.2,15%,57,91%,37.2,94%,92
-PaddleTek,Bantam ESQ-C,14.3,$249.99,Standard,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2304,88%,15.9,8,5.5,7.7,106.9,16%,6.7,72%,24.1,61%,56.8,84%,36.6,88%,86
-PaddleTek,Bantam TKO-C,12.7,$229.99,Elongated,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2314,91%,16.5,7.5,5.25,7.7,113,40%,6.55,60%,24.4,76%,56.1,74%,37.2,94%,84
-PaddleTek,Bantam TKO-CX,14.3,$229.99,Elongated,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2293,88%,16.5,7.5,5.75,7.9,121.7,83%,6.38,49%,25,97%,56.5,81%,36.4,83%,82
-PaddleTek,Tempest TKO-C,14.3,$209.99,Standard,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2204,73%,16.5,7.5,5.25,8.3,124,90%,6.59,65%,24.6,86%,56.6,82%,36.4,83%,83
-PaddleTek,Tempest Wave Pro-C,14.3,$209.99,Standard,Cold Layered,Peel Ply-Coarse,Toray Carbon Fiber & Fiberglass,Polypropylene Honeycomb,2302,88%,15.9,8,5.25,8.2,112.4,38%,7.19,91%,23.7,36%,55.5,55%,36.5,86%,71
-PCKL,Pro 13,13,$159.99,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1834,18%,16.3,7.5,5.5,8.1,120,76%,5.91,24%,23.2,15%,51.3,1%,32.3,3%,2
-PCKL,Pro 16,16,$159.99,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1853,20%,16.3,7.5,5.5,7.8,121,79%,6.56,63%,23.8,43%,52.8,10%,32.1,2%,6
-Pickleball Apes,Pro Line Energy,16.5,$149.99,Elongated,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Narrow-Cell Honeycomb,2081,47%,17,7,6.25,8.3,122,84%,5.7,14%,24.7,91%,55.3,50%,34.9,40%,45
-Pickleball Apes,Pro Line Energy S,16.5,$169.99,Elongated,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Narrow-Cell Honeycomb,2192,71%,16.4,7.6,5.5,8.1,118,67%,6.34,47%,24.2,67%,55.9,69%,35.6,66%,67
-Pickleball Apes,Pulse E,16.5,$199.99,Elongated,Thermoformed,Peel Ply-Coarse,Kevlar & Nylon,Polypropylene + Foam,2286,87%,16.9,7.1,6,8.3,129.3,98%,5.88,23%,24.8,94%,56.7,82%,36.1,77%,80
-Pickleball Apes,Pulse S,16.5,$199.99,Hybrid,Thermoformed,Peel Ply-Coarse,Kevlar & Nylon,Polypropylene + Foam,2183,69%,16.3,7.6,5.5,8,114.4,47%,6.26,45%,24.1,61%,56.4,79%,36.2,79%,79
-Pickleball Apes,Pulse V,16.5,$199.99,Wide Body,Thermoformed,Peel Ply-Coarse,Kevlar & Nylon,Polypropylene + Foam,2160,64%,15.8,8.1,5.5,8.2,112.5,38%,7.47,98%,23.8,43%,56.3,78%,36.4,83%,81
-PIKKL,Hurricane Pro,14,$159.99,Standard,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2280,86%,16,8,5.5,7.8,107.7,19%,6.6,65%,23.6,31%,55,42%,35.4,59%,50
-PIKKL,Hurricane Pro,16,$159.99,Standard,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2404,98%,16,8,5.5,7.8,108.6,23%,6.79,76%,23.9,50%,54.4,28%,35.2,51%,40
-PIKKL,Vantage Pro,14,$139.99,Elongated,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene Honeycomb,2367,97%,16.3,7.5,5.35,7.9,111.5,33%,6.19,41%,23.8,43%,55.8,66%,35,44%,55
-PIKKL,Vantage Pro,16,$139.99,Elongated,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene Honeycomb,2260,81%,16.3,7.5,5.35,8.4,121.2,81%,6.64,68%,23.9,50%,56,71%,34.8,37%,54
-ProDrive,Drive Carbon,19,$199.00,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene + Kevlar,1870,23%,16.4,7.6,5.3,8.6,130,99%,7.24,92%,24.5,80%,55.6,57%,33.4,7%,32
-ProDrive,Encounter,16,$219.00,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene + Kevlar,2020,38%,16.5,7.3,5.5,8.2,119.2,73%,5.49,8%,24.1,61%,56.7,82%,34.5,28%,55
-ProDrive,Ghost,16,$189.00,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Kevlar,1817,17%,16.4,7.6,5.3,8,117,63%,6.73,73%,23.9,50%,55.6,57%,35.1,48%,52
-ProKennex,Black Ace Pro,10,$250.00,Standard,Hot Molded,Peel Ply,Toray Carbon Fiber,Polypropylene Honeycomb,1848,19%,15.8,7.6,5.3,8.1,105,9%,6.17,39%,22.6,5%,54.5,31%,37.4,97%,64
-ProKennex,Black Ace Pro,10,$250.00,Standard,Hot Molded,Peel Ply,Toray Carbon Fiber,Polypropylene Honeycomb,1525,7%,15.8,7.6,5.3,8.1,105,9%,6.17,39%,22.6,5%,54.5,31%,37.4,97%,64
-PROLITE,K2 Power,14,$180.00,Standard,Thermoformed,Grit,Toray Carbon Fiber,Polypropylene Honeycomb,1628,10%,15.7,8.1,4.75,7.8,101,4%,6.4,51%,22.7,6%,54,22%,33.6,10%,16
-Proton,Series Four,15,$300.00,Elongated,Thermoformed,Peel Ply-Coarse,3K Kevlar-Carbon Fiber Weave,Polypropylene Honeycomb,2114,56%,16.5,7.5,5.5,8,116.4,60%,5.61,11%,24.1,61%,56.4,79%,35.5,63%,71
-Proton,Series One-Type A,11,$280.00,Standard,Cold Layered,NanoTac,Carbon Fiber,Polypropylene Honeycomb,2112,55%,15.8,8.3,5.25,8.1,114.5,48%,6.75,74%,24.1,61%,55.3,50%,36.6,88%,69
-Proton,Series One-Type A,15,$280.00,Standard,Cold Layered,NanoTac,Carbon Fiber,Polypropylene Honeycomb,2276,85%,15.8,8.3,5.25,8.4,119.1,72%,7.2,91%,23.9,50%,54.8,38%,33.4,7%,22
-Proton,Series One-Type B,15,$280.00,Elongated,Thermoformed,NanoTac,Carbon Fiber,Nomex Honeycomb,2336,93%,16.8,7.3,5.25,8.8,129.6,98%,6.55,60%,24.3,73%,56.1,74%,34.2,21%,47
-Proton,Series Three,15.6,$240.00,Elongated,Thermoformed,Peel Ply-Coarse,Carbon Fiber,Polypropylene Honeycomb,1755,13%,16.5,7.5,5.38,8.2,122.5,89%,6.72,72%,24.5,80%,56.1,74%,33.7,12%,43
-Proton,Series Two,16.2,$220.00,Hybrid,Thermoformed,Grit,Carbon Fiber,Polypropylene Honeycomb,1818,17%,16.5,7.5,5.38,8.3,120.6,78%,5.98,27%,24.2,67%,53.1,13%,34.4,25%,19
-ProXR,Connor Garnett,14,$209.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2163,65%,16.5,7.5,6,8.2,110,27%,5.52,9%,22.5,3%,54.1,23%,34.1,17%,20
-ProXR,Signature,16,$209.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2264,83%,16.5,7.5,6,8.4,116.3,60%,5.77,19%,23.2,15%,55.8,66%,35.2,51%,59
-ProXR,Sweet Spot,16,$209.99,Standard,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2169,66%,16,8,5.25,8.4,115.6,55%,6.98,84%,23.5,25%,54.2,24%,35.3,56%,40
-ProXR,"Zane Navratil ""The Standard""",14,$209.99,Standard,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2260,81%,16,8,5.25,8.2,107,16%,6.92,82%,22.7,6%,54.6,32%,34.7,34%,33
-Reload,RLD 1-16,16,$200.00,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2108,54%,16.5,7.5,5.5,8.3,125.7,94%,6.54,60%,24.6,86%,54.8,38%,34.9,40%,39
-Revolin,Revo Pro Pure Hybrid,16,$219.99,Hybrid,Cold Layered,Peel Ply-Coarse,Basalt epoxy,Polypropylene Honeycomb,2189,70%,15.9,7.8,5.25,8.1,104.5,9%,6.44,54%,22.7,6%,56.4,79%,34.1,17%,48
-Revolin,Revo Pro Reach Hybrid,16,$219.99,Elongated,Cold Layered,Peel Ply-Coarse,Basalt epoxy,Polypropylene Honeycomb,2034,41%,16.4,7.3,6,8,107.8,20%,5.54,9%,23,11%,56.9,86%,33.8,12%,49
-Rokne,Republic 2.16 Standard,16,$209.99,Hybrid,Cold Layered,Grit,Mitsubishi T700 Carbon Fiber,Polypropylene Honeycomb,1176,3%,16.3,7.5,5.5,8.4,126.2,95%,6.5,57%,24.6,86%,52.7,10%,32.8,5%,7
-Selkirk,AMPED Control Invikta,16,$160.00,Elongated,Cold Layered,Grit,Fiberglass,Polypropylene Honeycomb,1855,21%,16.5,7.4,5.25,8.2,119.4,75%,5.93,25%,24,57%,54.2,24%,34.1,17%,21
-Selkirk,Amped Pro Air Epic,16,$180.00,Standard,Unibody Edgeless,Grit,Fiberglass,Polypropylene Honeycomb,2252,80%,15.8,8,5.25,8,111.3,32%,6.67,71%,24,57%,55.6,57%,35.3,56%,56
-Selkirk,Amped Pro Air Invikta,16,$180.00,Elongated,Unibody Edgeless,Grit,Fiberglass,Polypropylene Honeycomb,2080,47%,16.5,7.5,5.25,8,121.2,81%,5.93,25%,24.8,94%,55.6,57%,35.6,66%,61
-Selkirk,Labs 007 Epic,10,$333.00,Elongated,Thermoformed,Grit,Carbon Fiber,Polypropylene Honeycomb & Titanium,2269,84%,16.5,7.5,5.35,7.7,104.4,8%,5.88,23%,23.5,25%,56.8,84%,36.9,91%,87
-Selkirk,Labs 007 Invikta,14,$333.00,Elongated,Thermoformed,Grit,Carbon Fiber,Polypropylene Honeycomb & Titanium,2198,71%,16.5,7.5,5.35,8.4,124.5,92%,6.14,35%,24.6,86%,56,71%,36.4,83%,77
-Selkirk,Luxx Control Air Invikta,20,$250.00,Elongated,Unibody Edgeless,Grit,Fiberglass & Carbon Fiber,Polypropylene Honeycomb,2229,78%,16.5,7.5,5.35,8.1,120,76%,5.96,27%,24.4,76%,51.6,2%,33.1,5%,3
-Selkirk,SLK Halo Power XL,13,$140.00,Elongated,Cold Layered,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,1849,20%,16.4,7.4,5.75,7.5,115,49%,5.27,4%,24.2,67%,51.9,4%,31.7,2%,3
-Selkirk,SLK Halo Pro,14,$150.00,Standard,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2028,38%,15.9,7.9,4.75,8,108.1,22%,6.9,80%,23.5,25%,55.3,50%,35.6,66%,58
-Selkirk,Vanguard Power Air Invikta,12.7,$250.00,Elongated,Unibody Edgeless,Grit,Fiberglass & Carbon Fiber,Polypropylene Honeycomb,1172,3%,16.5,7.4,5.25,7.8,106,11%,5.31,5%,23.1,11%,52.6,7%,35.8,72%,40
-Six Zero,Black Diamond Power,14,$180.00,Hybrid,Thermoformed,Peel Ply-Coarse,Fiberglass,Polypropylene Honeycomb,2104,52%,16.3,7.7,5.5,7.9,111.7,34%,6.38,49%,23.9,50%,56.8,84%,35.7,68%,76
-Six Zero,Double Black Diamond,14,$180.00,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2077,45%,16.3,7.7,5.5,8.1,112,35%,6.33,47%,23.6,31%,53.7,19%,35.1,48%,33
-Six Zero,Double Black Diamond,16,$180.00,Hybrid,Thermoformed,Peel Ply-Fine,Toray Carbon Fiber,Polypropylene Honeycomb,2062,43%,16.3,7.7,5.5,8.1,114,44%,6.66,70%,23.9,50%,54.7,35%,33.6,10%,22
-Six Zero,Infinity Black Diamond,16,$220.00,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Fiberglass,Polypropylene Honeycomb,2273,85%,16.3,7.7,5.5,8,106.2,13%,5.7,14%,23,11%,54.5,31%,35.2,51%,41
-Six Zero,Infinity Double Black Diamond,16,$220.00,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2077,45%,16.3,7.7,5.5,8.1,110,27%,5.8,20%,23.2,15%,53.6,19%,34.6,30%,24
-Six Zero,Quartz,15,$89.99,Standard,Cold Layered,Peel Ply-Coarse,Carbon Fiber,Polypropylene Honeycomb,1925,28%,16,7.9,5,7.9,107.8,21%,6.43,53%,23.6,31%,53.5,17%,35.1,48%,32
-Six Zero,Ruby,14,$199.00,Hybrid,Thermoformed,Peel Ply-Coarse,Dupont Kevlar,Polypropylene Honeycomb,2124,58%,16.3,7.7,5.5,8.2,114.1,46%,6.5,57%,23.7,36%,55.4,53%,35.9,74%,63
-Six Zero,Ruby,16,$199.00,Hybrid,Thermoformed,Peel Ply-Coarse,Dupont Kevlar,Polypropylene Honeycomb,2271,84%,16.3,7.7,5.5,8.3,117,63%,6.81,78%,23.7,36%,55.6,57%,34.5,28%,42
-Six Zero,Triple Black Diamond (Willinator),15,$220.00,Elongated,Thermoformed,Peel Ply-Coarse,18K Toray Carbon Fiber,Polypropylene Honeycomb,1959,30%,16.6,7.6,6,8.2,126,94%,6.45,55%,24.8,94%,54.7,35%,34.9,40%,37
-Spartus,Apollo,16,$129.99,Wide Body,Thermoformed,Peel Ply-Coarse,Dupont Kevlar,Polypropylene Honeycomb,2130,59%,15.9,8.2,5.5,8.1,110.1,28%,7.56,100%,23.4,21%,54.4,28%,34.2,21%,24
-Spartus,Olympus,14,$199.99,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Foam-filled polypropylene honeycomb,2058,43%,16.4,7.7,5.5,8,110.5,30%,6.13,34%,23.5,25%,56.4,79%,36.3,80%,80
-Speedup,Fire 14,14,$119.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2016,37%,16.5,7.5,6,7.8,117,63%,5.85,22%,24.3,73%,54.7,35%,35.1,48%,41
-Speedup,Ice 16,16,$119.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1863,22%,16.5,7.5,6,7.8,122,84%,6.05,29%,24.9,96%,54.9,40%,33.4,7%,24
-Standout,KC1,16,$195.00,Elongated,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2042,41%,16.5,7.5,5.5,8,119.4,74%,5.59,11%,24.5,80%,55.6,57%,34.9,40%,48
-Synergy,Royale,16,$200.00,Elongated,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2324,91%,16.5,7.5,5.5,8.4,127.4,96%,6.51,58%,24.6,86%,55.8,66%,34.5,28%,47
-Synergy,Supreme,13,$200.00,Elongated,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2305,89%,16.5,7.5,5.5,7.8,115.3,52%,5.82,22%,24.3,73%,55.3,50%,36,76%,63
-Thompson,515-Twill,14.25,$249.00,Hybrid,Cold Layered with Urethane Sidewall,Peel Ply-Coarse,Carbon Fiber (American-Sourced),Polypropylene Honeycomb,2418,99%,16.4,7.6,5.25,8.6,112.5,39%,6.83,79%,22.9,9%,56.5,81%,36.2,79%,80
-Thompson,515-Uni,14.25,$249.00,Hybrid,Cold Layered with Urethane Sidewall,Peel Ply-Coarse,Carbon Fiber (American-Sourced),Polypropylene Honeycomb,2484,99%,16.4,7.6,5.25,8.2,107.5,19%,6.48,56%,22.9,9%,56.8,84%,36.7,89%,86
-Thrive,Azul (medium-light),16,$199.99,Hybrid,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2155,64%,16.3,7.7,5.5,8.2,116.5,60%,6.62,67%,23.8,43%,55.6,57%,36.4,83%,70
-Thrive,Azul (medium),16,$199.99,Hybrid,Thermoformed,Peel Ply-Coarse,Kevlar & Carbon Fiber,Polypropylene Honeycomb,2144,62%,16.3,7.7,5.5,8.2,117.3,65%,6.65,69%,23.9,49%,55.9,69%,35.3,56%,62
-Thrive,Surge,16,$199.99,Hybrid,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2215,77%,16.3,7.7,5.3,8,116.3,59%,6.73,73%,24.3,73%,55,42%,35.5,63%,53
-Vatic Pro,Prism Flash,16,$99.99,Hybrid,Gen 1.5 Unibody with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2200,72%,16.3,7.7,5.3,7.8,111,31%,6.25,44%,24,57%,54.8,38%,34.3,23%,30
-Vatic Pro,Saga Flash,16,$149.99,Hybrid,Gen 1.5 Unibody with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2157,64%,16.3,7.7,5.3,8.3,116.8,62%,6.67,71%,24,57%,56.7,82%,34.7,34%,58
-Vatic Pro,Saga Flash LH,16,$149.99,Elongated,Gen 1.5 Unibody with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2186,70%,16.4,7.6,5.75,8.2,121,79%,6.21,42%,24.6,86%,56.9,86%,34.9,40%,63
-Vatic Pro,Saga V7,16,$149.99,Hybrid,Gen 1.5 Unibody with Edge Foam,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,2209,75%,16.5,7.5,5.3,8.1,119.8,76%,6.59,65%,24.6,86%,56.9,86%,34.6,30%,58
-Vatic Pro,V7,16,$139.99,Elongated,Thermoformed,Peel Ply-Coarse,Toray Carbon Fiber,Polypropylene Honeycomb,1981,33%,16.5,7.5,5.3,8.2,124,90%,6.68,71%,23.2,15%,53.2,14%,33.4,7%,10
-Versix,Vector,15,$129.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2103,52%,16.5,7.5,6,8.4,122.2,88%,6.93,83%,24.3,73%,56.8,84%,36,76%,80
-Volair,Alto,16,$99.99,Elongated,Cold Layered,Grit,Fiberglass,Polypropylene Honeycomb,1737,12%,16.5,7.5,5.5,8.2,119.8,75%,6.2,41%,24.4,76%,53.8,20%,34.1,17%,19
-Volair,Corto,16,$99.99,Wide Body,Cold Layered,Grit,Fiberglass,Polypropylene Honeycomb,1984,33%,15.9,8.1,5.5,8.1,110.1,29%,7.1,88%,23.8,43%,53.8,20%,33.6,10%,15
-Volair,Mach 1,16,$139.99,Elongated,Cold Layered,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2002,35%,16.5,7.5,5.5,7.7,110,27%,5.72,16%,24,57%,52.8,10%,33.8,12%,11
-Volair,Mach 1 Forza,14,$179.99,Elongated,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2332,93%,16.5,7.5,5.5,7.8,111,31%,6.16,39%,23.9,50%,52.8,10%,35,44%,27
-Volair,Mach 2,14,$139.99,Wide Body,Cold Layered,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2345,96%,15.9,8.1,5.5,7.8,105.3,10%,6.75,74%,23.3,18%,52.3,5%,34,16%,11
-Volair,Mach 2 Forza,16,$179.99,Wide Body,Thermoformed,Peel Ply-Coarse,T700 Carbon Fiber,Polypropylene Honeycomb,2330,93%,15.9,8.1,5.5,8.1,113.4,41%,7.3,94%,23.8,43%,54.7,35%,34,16%,25
+﻿Brand,Paddle Name,Price,Year Released,Approval Body,Shape,Face Material,Grit Type,Build Style,Paddle Type,Core Thickness (mm),Grip Length (in),Grip Size (in),Weight (oz),Swingweight,Swingweight Percentile,Twistweight,Twistweight Percentile,Balance Point (mm),Spin Rating,Spin (RPM),Power (MPH),Power Percentile,Pop (MPH),Pop Percentile,Firepower Percentile,Firepower Z,Firepower Z Tier
+11SIX24,All Court Hurache-X,$149.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,16,6,4.125,8.18,121,86%,6.33,49%,245,Very High,2027,55.7,42%,36,41%,41%,53,Firepower Balanced
+11SIX24,All Court Pegasus,$129.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,16,5.5,4.125,8.2,113,36%,7.26,95%,237,Very High,2032,55.2,29%,35.5,23%,26%,42,Firepower Control+
+11SIX24,All Court Vapor,$129.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,16,5.75,4.125,8.16,117,64%,6.8,79%,241,Very High,2059,55.3,32%,35.4,20%,26%,43,Firepower Control+
+11SIX24,Alpha Pro Power Hurache-X,$199.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,6,4.125,8.1,118,71%,6.29,45%,238,,,,,,,,,
+11SIX24,Alpha Pro Power Pegasus,$199.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.125,8,107,6%,7.12,91%,229,,,,,,,,,
+11SIX24,Alpha Pro Power Vapor,$199.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.75,4.125,8,112,29%,6.76,77%,236,,,,,,,,,
+11SIX24,Jelly Bean Hurache-X,$99.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5,Control,16,6,4.125,8.14,122,89%,6.36,51%,242,,,,,,,,,
+11SIX24,Jelly Bean Vapor,$99.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,Control,16,5.75,4.125,8,115,50%,6.67,71%,240,,,,,,,,,
+11SIX24,Power 2 Hurache X,$209.99 ,2026,UPA-A,Elongated,,Durable Texture,Gen 4,Power,16,5.75,4.125,8,117,64%,6.12,32%,241,Very High,2092,57,93%,36.9,85%,89%,76,Firepower High
+11SIX24,Power 2 Pegasus,$209.99 ,2026,UPA-A,Widebody,,Durable Texture,Gen 4,Power,16,6,4.125,8.1,110,17%,7.23,94%,236,Very High,2109,56.9,90%,36.6,71%,81%,73,Firepower High
+11SIX24,Power 2 Vapor,$209.99 ,2026,UPA-A,Hybrid,,Durable Texture,Gen 4,Power,16,5.75,4.125,7.92,111,23%,6.7,74%,236,Very High,2139,56.7,84%,36.9,85%,85%,72,Firepower High
+11SIX24,Power Hurache-X,$169.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,6,4.125,8.15,117,64%,6.4,53%,240,Very High,2033,56.3,68%,36,41%,54%,61,Firepower Balanced
+11SIX24,Power Pegasus,$169.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.125,8.33,111,23%,7.6,99%,233,Very High,2085,55.8,48%,36.2,51%,49%,56,Firepower Balanced
+11SIX24,Power Vapor,$169.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.75,4.125,8.3,116,57%,7.1,90%,237,Very High,2065,56,57%,36.1,46%,51%,58,Firepower Balanced
+Adidas,Metalbone EVA 16mm (red no weights),$249 ,2025,Unapproved,Elongated,Carbon,Paint Grit,Gen 4,Power,16,5.5,4.25,8.3,124,95%,5.63,8%,247,Very High,2085,58.2,100%,37.6,99%,99%,98,Firepower Elite
+Adidas,Metalbone PP 14.5mm (no weights),$229 ,2025,USAP/UPA-A,Elongated,Carbon,Paint Grit,Gen 2,All-Court,14.5,5.5,4.25,8,111,23%,5.1,1%,236,Very High,2011,54.1,13%,35.1,15%,14%,25,Firepower Soft
+Adidas,Metalbone PP 16mm (no weights),$249 ,2025,USAP,Elongated,Carbon,Paint Grit,Gen 2,Control,16,5.5,4.25,8.1,116,57%,5.26,2%,241,Very High,2086,54.2,15%,35.4,20%,17%,29,Firepower Soft
+Adidas,Metalbone Team EVA 16mm (blue),$209 ,2025,Unapproved,Elongated,Carbon,Paint Grit,Gen 4,Power,16,5.5,4.25,7.9,113,36%,5.03,1%,241,High,1978,57.8,99%,37.3,97%,98%,90,Firepower Elite
+Adidas,PRO-EDT 14,$189 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,14,5.5,4.25,8,122,89%,6.48,58%,242,Very High,2022,56.5,77%,36.4,62%,70%,66,Firepower High
+Adidas,PRO-EDT 16,$189 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.5,7.95,126,98%,6.3,46%,246,Very High,2078,57,93%,35.8,34%,63%,68,Firepower High
+Adidas,PRO-EDT 16 C,$189 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.5,8.05,119,79%,7.26,95%,241,Very High,2089,56.4,74%,36,41%,57%,62,Firepower Balanced
+Aireo,Cyclone,$189 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.67,114,44%,6.41,54%,243,Very High,2054,57,93%,37,90%,91%,77,Firepower High
+Babolat,Baller +,$219.99 ,2025,USAP,Hybrid,Carbon,Paint Grit,Gen 2,All-Court,16,5.5,4.125,8.33,113,36%,6.08,29%,234,High,1932,56,57%,35.8,34%,45%,55,Firepower Balanced
+Babolat,Strkr+,$219.99 ,2025,USAP,Extra-elongated,Carbon,Paint Grit,Gen 2/Edgeless,Power,13,5.5,4,8.05,120,83%,5.43,4%,240,Low,1815,55.7,42%,36,41%,41%,53,Firepower Balanced
+Babolat,WZRD,$219.99 ,2025,USAP,Widebody,Carbon,Paint Grit,Gen 2,Control,20,5,4.125,8.57,109,13%,6.4,53%,226,High,1952,55.8,48%,35.6,27%,37%,51,Firepower Balanced
+Body Helix,Flik F1 TerraCore XC Elongated,$190 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.25,4.25,7.86,114,44%,6.07,28%,240,Very High,2088,57.4,97%,38,100%,99%,90,Firepower Elite
+Body Helix,X2 Lite,$160 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,6,4.25,8.12,123,92%,6.32,49%,245,Low,1842,52.8,2%,33.7,1%,2%,0,Firepower Soft
+Body Helix,X2 Pro,$180 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,19,6,4.25,8.88,134,100%,6.74,76%,246,High,1981,54.9,22%,34.8,8%,15%,33,Firepower Soft
+Body Helix,X3 Lite,$160 ,2023,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,6,4.25,8.25,125,97%,6.03,27%,245,Medium,1920,52.8,2%,34.8,8%,5%,6,Firepower Soft
+Body Helix,X3 Pro,$180 ,2023,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,Power,18,6,4.25,8.73,132,99%,6.65,70%,246,High,1949,54.7,20%,34.2,3%,11%,26,Firepower Soft
+Body Helix,X4 Gold Kevlar,$140 ,2024,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2,Power,16,5.25,4.25,8.1,116,57%,6.63,68%,239,High,1972,56,57%,36.5,67%,62%,61,Firepower Balanced
+Bread & Butter,Fat Boy,$189.99 ,2024,USAP,Widebody,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.3,4.25,8.17,112,29%,7.29,95%,236,High,1935,54.9,22%,36.6,72%,47%,47,Firepower Control+
+Bread & Butter,Filth Elongated,$165 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.6,4.125,8.18,123,92%,6.24,41%,243,Medium,1905,55.8,48%,35.7,31%,39%,52,Firepower Balanced
+Bread & Butter,Filth Hybrid,$165 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,8.07,113,36%,6.77,77%,238,Medium,1908,55.4,34%,35.9,36%,35%,48,Firepower Control+
+Bread & Butter,Filth Standard,$165 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.3,4.125,8.26,111,23%,7.47,98%,234,Medium,1919,55.6,39%,35.8,34%,36%,50,Firepower Balanced
+Bread & Butter,Invader,$189.99 ,2024,USAP,Hybrid,Titanium/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.3,4.25,8.18,118,71%,6.85,82%,239,High,1985,55.8,48%,36.2,51%,49%,56,Firepower Balanced
+Bread & Butter,Loco Elongated,$199.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.9,120,83%,6.18,36%,245,Very High,2010,56.9,90%,36.8,82%,86%,75,Firepower High
+Bread & Butter,Loco Hybrid,$199.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.98,113,36%,6.67,71%,238,Very High,2032,56.7,84%,37,90%,87%,73,Firepower High
+Bread & Butter,Loco Standard,$199.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.25,8.06,110,17%,7.33,96%,235,Very High,2004,56.4,74%,36.6,72%,73%,67,Firepower High
+Bread & Butter,Shogun,$189.99 ,2024,USAP,Elongated,Titanium/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,8.18,122,89%,6.2,38%,244,Medium,1928,54.4,17%,35.4,20%,18%,31,Firepower Soft
+Bread & Butter,Wild Thing,$189.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.3,7.7,113,36%,5.91,19%,239,Medium,1907,55.8,48%,35.6,27%,37%,51,Firepower Balanced
+Chorus,Shapeshifter EX,$174.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.6,4.25,7.8,115,50%,6.18,36%,242,Very High,2104,56,57%,35.9,36%,46%,56,Firepower Balanced
+Chorus,Shapeshifter HX,$174.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.6,4.25,7.8,114,44%,6.46,57%,240,Very High,2071,55.8,48%,35.6,27%,37%,51,Firepower Balanced
+Chorus,Shapeshifter SX,$174.99 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.6,4.25,7.7,107,6%,6.83,81%,235,Very High,2063,54.5,18%,35.1,15%,17%,30,Firepower Soft
+Chorus,Supercourt EX,$119 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.6,4.25,7.8,116,57%,6.45,56%,243,Very High,2020,56.2,65%,36,41%,53%,59,Firepower Balanced
+Chorus,Supercourt HX,$119 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.6,4.25,7.8,115,50%,6.8,79%,242,High,1969,56,57%,35.8,34%,45%,55,Firepower Balanced
+Chorus,Supercourt SX,$119 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.6,4.25,7.7,107,6%,7.16,92%,237,High,1986,56,57%,35.7,31%,44%,55,Firepower Balanced
+CRBN,Barrage 2,$279.99 ,2026,USAP/UPA-A,Widebody,,Raw Texture/Peel Ply,Gen 4,,14,5.5,,7.95,110,17%,6.9,84%,237,,,,,,,,,
+CRBN,Barrage 4,$279.99 ,2026,USAP/UPA-A,Hybrid,,Raw Texture/Peel Ply,Gen 4,,14,5.5,,8,112,29%,6.66,70%,237,,,,,,,,,
+CRBN,CRBN 1 Orginal (16 mm),$179.99 ,2021,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.5,4.25,8.25,118,71%,5.77,11%,238,,,,,,,,,
+CRBN,CRBN 1X Power Series (14 mm),$229.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,14,5.5,4.25,7.87,118,71%,5.88,16%,243,Medium,1917,54.3,16%,35.4,20%,18%,30,Firepower Soft
+CRBN,CRBN 1X Power Series (16 mm),$229.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,8.11,124,95%,6.18,36%,244,Medium,1915,55,25%,34.9,11%,18%,35,Firepower Control+
+CRBN,CRBN 2 Orignal (16 mm),$179.99 ,2021,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,4.75,4.25,7.94,109,13%,7.03,88%,236,,,,,,,,,
+CRBN,CRBN 2X Power Series (14 mm),$229.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Power,14,4.75,4.25,7.8,105,3%,6.88,84%,232,,,,,,,,,
+CRBN,CRBN 2X Power Series (16 mm),$229.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,4.75,4.25,8.2,112,29%,7.75,100%,237,,,,,,,,,
+CRBN,CRBN 3X Power Series (14 mm),$229.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,14,5.25,4.25,7.87,116,57%,6.39,52%,240,,,,,,,,,
+CRBN,CRBN 3X Power Series (16 mm),$229.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.25,4.25,8.18,119,79%,6.79,79%,241,Medium,1920,54.9,22%,35.6,27%,24%,39,Firepower Control+
+CRBN,TruFoam Genesis 1,$279.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.5,4.125,7.9,118,71%,5.51,5%,244,Very High,2036,55.8,48%,36.6,72%,60%,59,Firepower Balanced
+CRBN,TruFoam Genesis 2,$279.99 ,2025,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.25,4.125,8.2,113,36%,6.7,74%,238,High,1992,55.5,37%,36.8,82%,60%,56,Firepower Balanced
+CRBN,TruFoam Genesis 3,$279.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.25,4.125,8.3,122,89%,6.3,46%,243,Very High,2030,55.9,52%,36.4,62%,57%,58,Firepower Balanced
+CRBN,TruFoam Genesis 4,$279.99 ,2025,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.5,4.25,8,109,13%,6.3,46%,232,Very High,2040,55.8,48%,36.2,51%,49%,56,Firepower Balanced
+CRBN,TruFoam Waves 1,$279.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.6,4.25,7.9,119,79%,5.93,21%,245,High,1995,56.5,77%,36.2,51%,64%,65,Firepower High
+CRBN,TruFoam Waves 2,$279.99 ,2025,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.5,4.25,8.12,112,29%,7.02,88%,235,Very High,2021,56.2,65%,36.6,72%,69%,64,Firepower Balanced
+CRBN,TruFoam Waves 3,$279.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.3,4.25,8.18,119,79%,6.61,67%,240,High,1988,56.4,73%,36.4,62%,68%,65,Firepower High
+CRBN,TruFoam Waves 4,$279.99 ,2025,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.5,4.25,8,112,29%,6.68,73%,237,Very High,2056,56,57%,36.5,67%,62%,61,Firepower Balanced
+Diadem,BluCore Max 19mm,$280 ,2025,USAP,Widebody,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 4,Control,19,5,4.25,8.4,108,10%,7.45,98%,228,Medium,1926,54.9,22%,36.2,51%,36%,44,Firepower Control+
+Diadem,BluCore Pro 16mm,$280 ,2025,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 4,Control,16,5.5,4.25,8.1,112,29%,5.81,13%,234,High,1936,53.4,8%,35,12%,10%,15,Firepower Soft
+Diadem,BluCore Standard 14mm,$280 ,2025,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 4,Control,14,5.25,4.25,7.8,107,6%,5.58,6%,232,High,1935,53.4,8%,36,41%,24%,23,Firepower Soft
+Diadem,Edge 18k,$229.95 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5,4.125,7.8,117,64%,6.21,39%,244,,,,,,,,,
+Diadem,Edge 18k Power Max,$239.95 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5,4.125,8.16,109,13%,7.87,100%,232,,,,,,,,,
+Diadem,Edge 18k Speed Pro,$239.95 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.7,4.125,8.03,124,95%,6.31,48%,249,,,,,,,,,
+Diadem,Edge Blucore Hybrid 14,$249.95 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.7,4.125,8,110,17%,6.4,53%,232,Very High,2081,56.1,61%,36.5,67%,64%,62,Firepower Balanced
+Diadem,Edge Blucore Hybrid 16,$249.95 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.7,4.125,8.14,115,50%,6.75,77%,236,Very High,2112,56.3,68%,36.1,46%,57%,61,Firepower Balanced
+Diadem,Edge Blucore Pro 14,$249.95 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.7,4.125,7.9,117,64%,6.1,30%,241,,,,,,,,,
+Diadem,Edge Blucore Pro 16,$249.95 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.7,4.125,8.12,122,89%,6.65,70%,243,,,,,,,,,
+Diadem,Icon Infinity Max,$219.95 ,2024,USAP,Widebody,Carbon,Paint Grit,Gen 2,All-Court,13.7,5,4.125,8.25,113,36%,7.35,96%,236,,,,,,,,,
+Element 6,Zephyr,$139.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.82,108,10%,6.84,82%,234,Very High,2021,58,99%,37.4,98%,99%,94,Firepower Elite
+Element6,Fuego,$199.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.2,8,121,86%,6.61,67%,246,Very High,2016,55.7,42%,35.4,20%,31%,48,Firepower Control+
+Element6,Surtr,$199 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,8.1,115,50%,6.54,61%,240,High,1961,57.2,96%,36.3,57%,77%,75,Firepower High
+Engage,Alpha Pro 14,$259.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.25,8,112,29%,5.96,22%,240,Very High,2097,56.6,81%,36.3,57%,69%,67,Firepower High
+Engage,Alpha Pro 16,$259.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.25,8,113,36%,6.21,39%,238,Very High,2085,56.4,74%,36.2,51%,62%,64,Firepower Balanced
+Engage,Profoam,$229.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,14,5.25,4.25,8.06,122,89%,6.4,53%,247,High,1955,56.5,77%,36,41%,59%,63,Firepower Balanced
+Engage,Pursuit Pro EX,$259.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Power,13,5,4.25,8,110,17%,6.77,77%,236,High,1952,55.2,29%,36.6,72%,51%,51,Firepower Balanced
+Engage,Pursuit Pro EX 6.0,$259.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,16,5,4.25,7.92,115,50%,7.37,97%,243,High,1946,55.7,42%,36.1,46%,44%,54,Firepower Balanced
+Engage,Pursuit Pro MX,$259.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,13,5.75,4.25,8.06,119,79%,5.88,16%,239,,,56.1,61%,36.5,67%,64%,62,Firepower Balanced
+Engage,Pursuit Pro MX 6.0,$259.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,16,5.75,4.25,7.87,125,97%,6.57,64%,254,,,56.8,86%,35.7,31%,58%,65,Firepower High
+Engage,Pursuit Pro1 (Lite),$259.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,13,5.875,4.25,7.85,112,29%,5.83,14%,234,High,1964,55.4,34%,36.6,72%,53%,53,Firepower Balanced
+Engage,Pursuit Pro1 (Standard),$259.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,13,5.875,4.25,8.04,114,44%,5.94,21%,232,High,1956,55.9,52%,36.4,62%,57%,58,Firepower Balanced
+Engage,Pursuit Pro1 6.0 (Lite),$259.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,16,5.875,4.25,7.66,115,50%,5.81,13%,241,High,1948,55.8,48%,37.1,93%,70%,62,Firepower Balanced
+Engage,Pursuit Pro1 6.0 (Standard),$259.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,16,5.875,4.25,8.01,115,50%,5.83,14%,235,High,1959,55.6,39%,36.6,72%,56%,56,Firepower Balanced
+Engage,Pursuit Pro1 6.0 Hybrid,$259.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1,Control,15.2,5.5,4.25,7.96,111,23%,6.22,39%,237,High,1961,54.1,13%,35,12%,12%,24,Firepower Soft
+Engage,Pursuit Pro1 6.0 Widebody,$259.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,15.2,5,4.25,8.06,113,36%,7.6,99%,240,High,1980,54.8,21%,35,12%,16%,33,Firepower Soft
+Engage,Pursuit Pro1 Hybrid,$259.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,12.7,5.5,4.25,7.96,101,1%,5.5,5%,220,Very High,2026,53.4,8%,36,41%,24%,23,Firepower Soft
+Engage,Pursuit Pro1 Innovation 12.7,$279.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,12.7,5.6,4.25,7.9,120,83%,5.9,18%,244,Very High,2059,56.1,61%,36.6,72%,67%,63,Firepower Balanced
+Engage,Pursuit Pro1 Innovation 15.2,$279.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,15.2,5.6,4.25,7.92,125,97%,6.31,48%,252,Very High,2020,55.8,48%,36,41%,44%,54,Firepower Balanced
+Engage,Pursuit Pro1 Widebody,$259.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,12.7,5,4.25,8.1,105,3%,6.64,69%,224,Very High,2019,53.2,6%,35.5,23%,14%,16,Firepower Soft
+Engage,Pursuit V2,$179.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,15.2,5.3,4.25,7.85,111,23%,5.94,21%,235,Very High,2119,55.2,29%,36.3,57%,43%,48,Firepower Control+
+Enhance,Duo Elongated,$174.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,8.1,119,79%,6.3,46%,243,Very High,2063,56.9,90%,36.7,80%,85%,74,Firepower High
+Enhance,Gen 4.5,$175 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.1,8.2,122,89%,6.2,38%,241,Very High,2036,56.3,68%,36.3,57%,63%,63,Firepower Balanced
+Enhance,Turbo EPP Elongated,$119.99 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,7.95,117,64%,6.25,42%,241,,,,,,,,,
+Enhance,Turbo EPP Hybrid,$119.99 ,2026,USAP,Hybrid,,Raw Texture/Peel Ply,Gen 4,Power,16,6,4.125,8,112,29%,6.45,56%,236,,,,,,,,,
+Enhance,Turbo EPP Widebody,$119.99 ,2026,USAP,Widebody,,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,8,109,13%,6.92,85%,233,,,,,,,,,
+Enhance,Turbo MPP Elongated,$119.99 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,8,119,79%,6.3,46%,242,,,,,,,,,
+F+B,Runout E,$200 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,12.7,5.5,4.1,8,114,44%,5.76,11%,239,Very High,2001,56,57%,35.9,36%,46%,56,Firepower Balanced
+F+B,Runout H,$200 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,12.7,5.5,4.1,8.1,113,36%,6.25,42%,237,Very High,2010,55.7,42%,36,41%,41%,53,Firepower Balanced
+F+B,Runout S,$200 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,12.7,5.5,4.1,8.18,110,17%,6.65,70%,234,Very High,2018,55.4,34%,36.2,51%,42%,50,Firepower Balanced
+Flik,F3 Elongated,$190 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.5,4.125,7.95,118,71%,5.97,23%,245,Very High,2102,56.2,68%,36.7,82%,75%,65,Firepower High
+Flik,F3 Hybrid,$190 ,2026,USAP,Hybrid,,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.5,4.125,7.98,116,57%,6.23,40%,245,Very High,2111,56.1,61%,36.6,71%,66%,62,Firepower Balanced
+Flik,F3 Widebody,$190 ,2026,USAP,Widebody,,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.5,4.125,8,113,36%,6.64,69%,241,Very High,2093,56,61%,36.9,89%,75%,64,Firepower Balanced
+Franklin,C45 Dynasty 14,$229.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.6,4.3,7.9,117,64%,5.94,21%,231,Very High,2068,56.6,81%,36.4,62%,71%,68,Firepower High
+Franklin,C45 Dynasty 16,$229.99 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.6,4.3,7.8,117,64%,5.94,21%,232,Very High,2034,56.4,74%,35.9,36%,55%,61,Firepower Balanced
+Franklin,C45 Hybrid,$229.99 ,2025,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,14,5.5,4.125,7.55,106,5%,5.6,7%,237,High,1982,54.8,21%,35.3,17%,19%,36,Firepower Control+
+Franklin,C45 Parris Todd,$229.99 ,2025,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,,13.25,,4.125,7.5,104,3%,5.47,4%,234,,,,,,,,,
+Franklin,C45 Tempo 14,$229.99 ,2025,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,14,5,4.3,7.8,105,3%,6.34,50%,242,Very High,2016,56.1,61%,36,41%,51%,58,Firepower Balanced
+Franklin,C45 Tempo 16,$229.99 ,2025,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5,4.3,7.9,105,3%,6.53,61%,243,Very High,2037,55.9,52%,35.8,34%,43%,54,Firepower Balanced
+Franklin,Dynasty 12 Feather Weight,$149.99 ,2024,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,12,5.75,4.3,7.25,109,13%,5.7,9%,242,High,1936,55.7,42%,35.2,16%,29%,47,Firepower Control+
+Franklin,FS Tour Dynasty (14mm),$150 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,14,5.6,4.3,8.28,124,95%,6.56,63%,242,High,1975,55.6,39%,35.4,20%,29%,47,Firepower Control+
+Franklin,FS Tour Dynasty (16mm),$150 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.6,4.3,8.69,134,100%,7.22,93%,246,Medium,1864,56.1,61%,34.4,4%,33%,46,Firepower Control+
+Franklin,FS Tour Tempo (14mm),$150 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5,4.3,8.47,117,64%,7.23,94%,235,Medium,1920,55.9,52%,35.2,16%,34%,49,Firepower Control+
+Franklin,FS Tour Tempo (16mm),$150 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5,4.3,8.9,123,92%,7.68,99%,234,Medium,1925,55.7,42%,33.7,1%,22%,36,Firepower Control+
+Friday,Aura E,$129 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 4,,16,,,8.1,118,71%,5.75,11%,240,,,,,,,,,
+Friday,Aura H,$129 ,2026,USAP,Hybrid,,Raw Texture/Peel Ply,Gen 4,,16,,,7.8,112,29%,5.98,24%,238,,,,,,,,,
+Friday,Aura Pro E,$169 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 4,,16,,,7.95,116,57%,6.02,26%,239,,,,,,,,,
+Friday,Aura W,$129 ,2026,USAP,Widebody,,Raw Texture/Peel Ply,Gen 4,,16,,,7.83,106,5%,6.44,56%,234,,,,,,,,,
+Friday,Challenger,$89 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,7.7,112,29%,5.8,12%,238,Medium,1889,55.7,42%,36.2,51%,46%,54,Firepower Balanced
+Friday,Fever,$99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,7.75,113,36%,5.66,9%,241,Very High,2035,56.3,68%,36.1,46%,57%,61,Firepower Balanced
+Friday,Fever 2,$99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.25,8.03,112,29%,6.95,86%,238,Very High,2015,55.9,52%,35.6,27%,39%,52,Firepower Balanced
+Friday,Original,$69 ,2024,USAP,Hybrid,Carbon,Paint Grit,Gen 2,All-Court,16,5.5,4.25,8.2,118,71%,6.29,45%,239,Medium,1926,56.3,68%,35.3,17%,43%,55,Firepower Balanced
+Gamma,RCF-Airbender 16,$199.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.3,4.125,8.45,118,71%,5.8,12%,,Medium,1896,54.9,22%,34.9,11%,17%,34,Firepower Soft
+Gamma,RCF-Obsidian 10,$159.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,10,5.75,4.125,7.9,116,57%,5.87,16%,243,Low,1813,55,25%,36.1,46%,35%,44,Firepower Control+
+Gamma,RCF-Obsidian 13,$159.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,13,5.75,4.125,8.03,116,57%,6.18,36%,240,Medium,1893,54.4,17%,34.8,8%,12%,27,Firepower Soft
+Gamma,RCF-Obsidian 16,$159.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.75,4.125,8.13,120,83%,6.53,61%,244,Medium,1897,55.2,29%,34.6,6%,17%,36,Firepower Control+
+Gearbox,CX14H Ultimate Power,$249.99 ,2023,USAP,Widebody,Carbon,Paint Grit,Gen 1/Edgeless,All-Court,14,5.5,4,8.5,96,0%,5.31,2%,203,,,,,,,,,
+Gearbox,GX2 Elongated,$269.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,No Gen,All-Court,16,5.5,4.125,7.94,120,83%,5.65,8%,250,Very High,2047,56,57%,36.1,46%,51%,58,Firepower Balanced
+Gearbox,GX2 Hyper,$269.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,No Gen,All-Court,16,5.5,4.125,8,109,13%,6.51,60%,240,Very High,2009,55.4,34%,36.1,46%,40%,50,Firepower Balanced
+Gearbox,GX2 Integra XL,$269.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,No Gen,All-Court,16,5.5,4.125,7.91,118,71%,5.69,9%,248,Very High,2025,55.9,52%,35.9,36%,44%,55,Firepower Balanced
+Gearbox,GX2 Power Elongated,$279.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,No Gen,Power,16,5.5,4.125,8,118,71%,6.22,39%,246,Very High,2021,56.9,90%,36.5,67%,79%,72,Firepower High
+Gearbox,GX2 Power Hybrid,$279.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,No Gen,Power,16,5.5,4.125,7.9,113,36%,6.66,70%,242,Very High,2049,56.8,86%,36.6,72%,79%,72,Firepower High
+Gearbox,Pro Control Elongated,$274.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3/Edgeless,All-Court,14,5.5,4,8.07,123,92%,5.01,0%,247,Medium,1914,54.1,13%,34.2,3%,8%,18,Firepower Soft
+Gearbox,Pro Control Integra,$274.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3/Edgeless,All-Court,14,5.5,4,7.95,116,57%,5.12,1%,246,High,1954,53.9,11%,34.8,8%,10%,20,Firepower Soft
+Gearbox,Pro Power Elongated,$274.99 ,2023,Unapproved,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3/Edgeless,Power,14,5.5,4,7.88,121,86%,5.16,1%,248,High,1986,57.4,97%,36.9,85%,91%,82,Firepower Elite
+Gearbox,Pro Power Integra,$274.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3/Edgeless,Power,14,5.5,4,7.98,114,44%,4.96,0%,241,High,1951,56.1,61%,36.1,46%,53%,59,Firepower Balanced
+Gearbox,Pro Ultimate Elongated 14,$275 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3/Edgeless,Power,14,5.5,4,8.05,125,97%,5.34,2%,255,High,1993,56.8,86%,36,41%,63%,67,Firepower High
+Gearbox,Pro Ultimate Elongated 16,$274.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3/Edgeless,Power,16,5.5,4,8,124,95%,5.38,3%,256,High,1987,56.8,86%,35.9,36%,61%,67,Firepower High
+Gearbox,Pro Ultimate Hyper,$274.99 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3/Edgeless,Power,16,5.25,4,8,115,50%,6.36,51%,248,High,1986,56.1,61%,36.6,72%,67%,63,Firepower Balanced
+Gherkin,Draco,$179.99 ,2026,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,8,113,36%,6.66,70%,235,Very High,2062,56.8,86%,37,90%,88%,75,Firepower High
+Gherkin,Nightshade E,$135 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.5,4.125,7.9,116,57%,6.01,25%,242,,,,,,,,,
+Gherkin,Nightshade H,$135 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.5,4.125,7.98,113,36%,6.15,34%,238,Very High,2007,54.6,19%,36.2,51%,35%,40,Firepower Control+
+Gherkin,Wraith E,$135 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.25,8,116,57%,5.96,22%,241,Very High,2061,56.7,84%,36.2,51%,68%,67,Firepower High
+Gherkin,Wraith H,$135 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.25,8,111,23%,6.1,30%,236,Very High,2035,56.7,84%,36.4,62%,73%,69,Firepower High
+Gherkin,Wraith S,$135 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.25,7.96,107,6%,6.5,59%,232,Very High,2043,56.6,81%,36.5,67%,74%,68,Firepower High
+Gruvn,LAZR-16S,$169.99 ,2024,USAP,Hybrid,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.4,4.125,8,108,10%,7.13,91%,234,,,,,,,,,
+Gruvn,LAZR-16X,$169.99 ,2024,USAP,Hybrid,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,8,118,71%,6.41,54%,241,,,,,,,,,
+Gruvn,LAZR-16X Full Foam,$169 ,2026,USAP,Elongated,Kevlar,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,7.98,118,71%,6.34,50%,245,Very High,2023,56.6,81%,36.5,67%,74%,68,Firepower High
+Gruvn,MUVN-13S,$159 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,13,5.5,4.125,7.9,100,0%,6.4,53%,224,,,,,,,,,
+Gruvn,MUVN-16HD Full Foam,$169 ,2026,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,8.2,115,50%,6.67,71%,240,Very High,2031,55.3,32%,35.8,34%,33%,46,Firepower Control+
+Head,Boom Tour EX,$200 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,11,5.5,4.125,7.84,116,57%,5.46,4%,244,Very High,2074,56.5,77%,38.2,100%,89%,80,Firepower Elite
+Head,Radical Nite,$219 ,2024,USAP,Elongated,Carbon,Paint Grit,Gen 2,Control,15,5.5,4.125,8.11,115,50%,5.91,19%,236,,,,,,,,,
+Head,Radical Pro15,$200 ,2026,USAP,Widebody,,Raw Texture/Peel Ply,Gen 3,,15,5,4.125,8.5,120,83%,6.85,82%,235,,,,,,,,,
+Head,Radical ProEX15,$200 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 3,,15,5.5,4.125,8.13,113,36%,6.56,63%,235,,,,,,,,,
+Head,Tour Radical Raw EX,$169.95 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,15,5.5,4.125,8.17,115,50%,5.56,6%,236,,,,,,,,,
+Holbrook,Aero Metallic TI (16mm),$219.99 ,2024,USAP,Elongated,Titanium/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,7.95,117,64%,5.85,15%,240,High,1982,55.3,32%,35.5,23%,28%,44,Firepower Control+
+Holbrook,Aero S (16mm),$199.99 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5,4.25,7.8,105,3%,6.63,68%,232,,,,,,,,,
+Holbrook,Aero T (14mm),$199.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.5,4.25,7.8,115,50%,5.7,9%,241,High,1968,55.7,42%,36.3,57%,50%,55,Firepower Balanced
+Holbrook,Aero T (16mm),$199.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,7.81,113,36%,5.69,9%,238,Very High,2016,55.9,52%,36.2,51%,51%,57,Firepower Balanced
+Holbrook,Aero X (14mm),$199.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.25,4.25,7.8,112,29%,5.83,14%,239,High,1974,55.2,29%,36.2,51%,40%,48,Firepower Control+
+Holbrook,Aero X (16mm),$199.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.25,4.25,7.82,113,36%,5.82,14%,238,High,1974,55.8,48%,36.1,46%,47%,55,Firepower Balanced
+Holbrook,Arma S,$279.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,,4.25,8.1,112,29%,7.11,91%,236,,,,,,,,,
+Holbrook,Arma T,$279.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.25,8,117,64%,6.23,40%,242,,,,,,,,,
+Holbrook,Arma X,$279.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,,4.25,8.2,118,71%,6.38,52%,240,,,,,,,,,
+Holbrook,Fuze Elongated 14,$229.99 ,2026,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,14,5.5,4.25,7.8,114,44%,6.2,38%,242,Very High,2016,57,93%,36.7,80%,86%,75,Firepower High
+Holbrook,Fuze Elongated 16,$229.99 ,2026,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.94,116,57%,5.95,22%,242,Very High,2058,57.2,96%,36.9,85%,91%,79,Firepower High
+Holbrook,Fuze Hybrid 16,$229.99 ,2026,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.9,113,36%,6.23,40%,240,Very High,2021,56.9,90%,37.1,93%,91%,77,Firepower High
+Holbrook,Fuze Widebody 16,$229.99 ,2026,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.9,112,29%,6.8,79%,239,Very High,2042,56.9,90%,36.8,82%,86%,75,Firepower High
+Holbrook,Mav Pro,$219.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,13,5.5,4.25,8.17,123,92%,6.1,30%,245,,,,,,,,,
+Holbrook,Power Pro,$219.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,8.03,121,86%,6.39,52%,241,,,,,,,,,
+Holbrook,Pro Power E,$219.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.25,4.25,8.25,122,89%,6.68,73%,241,,,,,,,,,
+Honolulu Pickleball,J2FC+,$195 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.125,8,111,23%,6.7,74%,235,Very High,2002,56.3,68%,36.5,67%,67%,64,Firepower Balanced
+Honolulu Pickleball,J2NF,$195 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.125,7.95,110,17%,6.67,71%,236,Very High,2054,56.1,61%,36.2,51%,56%,60,Firepower Balanced
+Honolulu Pickleball,J2NF LH,$195 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,6,4.125,8,109,13%,6.6,66%,235,Very High,2060,56.2,65%,36.3,57%,61%,62,Firepower Balanced
+Honolulu Pickleball,J2NFK,$195 ,2025,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.125,8.1,112,29%,6.81,80%,236,Very High,2041,56.4,74%,36.3,57%,65%,64,Firepower Balanced
+Honolulu Pickleball,J2NFT,$195 ,2025,USAP,Hybrid,Titanium/Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.125,8.3,114,44%,6.89,84%,236,Very High,2084,56.3,68%,36,41%,54%,61,Firepower Balanced
+Honolulu Pickleball,J3NF,$195 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,6,4.125,7.98,110,17%,6.7,74%,235,Very High,2073,56.3,68%,36.5,67%,67%,64,Firepower Balanced
+Honolulu Pickleball,J6CR,$195 ,2026,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,6,4.25,8,112,29%,6.22,39%,236,Very High,2048,56.7,84%,36.7,80%,82%,71,Firepower High
+Honolulu Pickleball,J6FC+,$195 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,6,4.25,8.13,118,71%,6.6,66%,239,,,,,,,,,
+Honolulu Pickleball,J6NF,$195 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,6,4.25,8.1,118,71%,6.57,64%,240,Very High,2050,56.3,68%,36.4,62%,65%,64,Firepower Balanced
+Honolulu Pickleball,J7NF,$195 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,6,4.125,8,116,57%,5.91,19%,239,,,,,,,,,
+Honolulu Pickleball,Sword & Shield J2,$145 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,7.95,110,17%,6.81,80%,236,,,,,,,,,
+Honolulu Pickleball,Sword & Shield J2K,$155 ,2024,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,8.22,115,50%,7.1,90%,237,High,1948,55.1,28%,36.4,62%,45%,48,Firepower Control+
+Honolulu Pickleball,Sword & Shield J2K+,$165 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.125,8.26,115,50%,7.1,90%,238,High,1983,55,25%,36,41%,33%,44,Firepower Control+
+Honolulu Pickleball,Sword & Shield J2Ti,$155 ,2024,USAP,Hybrid,Titanium/Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,8.05,111,23%,6.6,66%,235,,,,,,,,,
+Honolulu Pickleball,Sword & Shield J2Ti+,$165 ,2025,USAP,Hybrid,Titanium/Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.125,8.3,116,57%,7.16,92%,239,,,,,,,,,
+Honolulu Pickleball,Sword & Shield J3k,$155 ,2024,USAP,Widebody,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,6,4.125,8.28,117,64%,7.22,93%,239,,,,,,,,,
+Honolulu Pickleball,Sword & Shield J7K,$155 ,2024,USAP,Extra-elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,Power,16,6,4.125,8.25,123,92%,6.36,51%,242,,,,,,,,,
+Hudef,Mage Pro,$99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.35,4,7.77,113,36%,6.13,33%,241,,,,,,,,,
+Hudef,Viva Pro Gen 2,$129.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,8.06,125,97%,6.43,55%,251,Medium,1854,55.5,37%,35.4,20%,28%,46,Firepower Control+
+Hudef,Viva Pro Gen 3,$169.99 ,2024,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,7.76,119,79%,6.16,35%,250,,,,,,,,,
+JOOLA,Agassi Edge (16mm),$99.95 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.5,4.25,7.8,109,13%,5.47,4%,236,,,,,,,,,
+JOOLA,Agassi Pro (14mm),$279.95 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,8.1,116,57%,6.02,26%,240,Very High,2026,56.4,74%,36.8,82%,78%,68,Firepower High
+JOOLA,Agassi Pro (16mm),$279.95 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,8.17,117,64%,6.14,33%,238,Very High,2014,,,,,,,
+JOOLA,Agassi Pro V (16mm),$299.95 ,2026,USAP/UPA-A,Elongated,,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,,8.15,118,71%,6.25,42%,245,,,,,,,,,
+JOOLA,Hyperion 3S (14mm),$279.95 ,2024,UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,7.85,115,50%,6.01,25%,245,High,1967,55.9,52%,36.2,51%,51%,57,Firepower Balanced
+JOOLA,Hyperion 3S (16mm),$279.95 ,2024,UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,7.9,115,50%,6.12,32%,244,High,1989,57.2,96%,36.9,85%,91%,79,Firepower High
+JOOLA,Hyperion Pro V (14mm),$299.95 ,2026,USAP/UPA-A,Elongated,,Raw Texture/Peel Ply,Gen 3,All-Court,14,5.5,,7.78,111,23%,6.02,26%,240,,,,,,,,,
+JOOLA,Hyperion Pro V (16mm),$299.95 ,2026,USAP/UPA-A,Elongated,,Raw Texture/Peel Ply,Gen 3,All-Court,14,5.5,,8.03,115,50%,6.17,36%,242,,,,,,,,,
+JOOLA,Kosmos Pro V (16mm),$299.95 ,2026,USAP/UPA-A,Hybrid,,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.25,,8,114,44%,6.68,73%,242,Very High,2057,56.3,68%,36.6,72%,70%,65,Firepower High
+JOOLA,Magnus 3S (14mm),$279.95 ,2024,UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5,4.125,7.9,113,36%,6.13,33%,240,,,,,,,,,
+JOOLA,Magnus 3S (16mm),$275 ,2024,UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,8.14,118,71%,6.45,56%,242,High,1949,,,,,,,
+JOOLA,Mod TA-15 (16mm),$279.95 ,2024,Unapproved,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,7.84,116,57%,6.1,30%,244,Very High,2014,57.8,99%,37.2,95%,97%,89,Firepower Elite
+JOOLA,Mod-TA-15 (14mm),$279.95 ,2024,Unapproved,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,7.56,112,29%,5.77,11%,243,Very High,2044,58.4,100%,37.9,99%,100%,100,Firepower Elite
+JOOLA,Perseus (14 mm),$249.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,14,5.5,4.125,7.93,121,86%,5.77,11%,247,,,,,,,,,
+JOOLA,Perseus (16 mm),$249.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.25,7.85,117,64%,5.87,16%,244,Low,1818,52.8,2%,34.8,8%,5%,6,Firepower Soft
+JOOLA,Perseus 3S (14mm),$279.95 ,2024,UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,7.9,117,64%,6,24%,244,,,56.4,74%,37,90%,82%,70,Firepower High
+JOOLA,Perseus Pro IV (14mm),$279.95 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,7.95,116,57%,6.08,29%,241,High,1964,56.1,61%,37.1,93%,77%,66,Firepower High
+JOOLA,Perseus Pro IV (16mm),$279.95 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,8.2,118,71%,6.29,45%,242,High,1971,56.6,81%,36.9,85%,83%,71,Firepower High
+JOOLA,Perseus Pro V (16mm),$299.95 ,2026,USAP/UPA-A,Elongated,,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,,7.95,117,64%,6.26,43%,244,Very High,2060,56.4,74%,36.6,72%,73%,67,Firepower High
+JOOLA,Scorpeus (14 mm),$249.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.25,4.125,7.65,108,10%,6.45,56%,238,Medium,1856,52.8,2%,35.6,27%,14%,12,Firepower Soft
+JOOLA,Scorpeus (16 mm),$249.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.25,4.25,8.02,113,36%,6.86,83%,238,Low,1845,52.6,2%,34.6,6%,4%,2,Firepower Soft
+JOOLA,Scorpeus 3S (14mm),$279.95 ,2024,UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,7.85,111,23%,6.78,78%,240,Very High,2068,56,57%,36.5,67%,62%,61,Firepower Balanced
+JOOLA,Scorpeus 3S (16mm),$279.95 ,2024,UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,8.12,116,57%,7.23,94%,241,Very High,2011,56.2,65%,37.2,95%,80%,68,Firepower High
+JOOLA,Scorpeus Pro IV (14mm),$279.95 ,2025,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,8.16,111,23%,7.04,89%,237,Very High,2002,56.7,84%,36.4,62%,73%,69,Firepower High
+JOOLA,Scorpeus Pro IV (16 mm),$279.95 ,2025,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,8.16,111,23%,7.09,90%,236,Very High,2027,56.6,81%,36.7,80%,80%,70,Firepower High
+JOOLA,Scorpeus Pro V (14mm),$299.95 ,2026,USAP/UPA-A,Widebody,,Raw Texture/Peel Ply,Gen 3,All-Court,14,5.25,,7.8,107,6%,6.84,82%,238,,,,,,,,,
+JOOLA,Scorpeus Pro V (16mm),$299.95 ,2026,USAP/UPA-A,Widebody,,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.25,,8.13,113,36%,7.21,93%,241,,,,,,,,,
+JOOLA,Hyperion 3S (16mm),$279.95 ,2024,UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,7.89,115,50%,6.1,30%,243,Very High,2010,56.6,81%,36.6,72%,76%,69,Firepower High
+JOOLA,Perseus 3S (16mm),$279.95 ,2024,UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,8,121,86%,6.27,44%,245,High,1983,56.4,74%,36.7,80%,77%,67,Firepower High
+Luzz,Glider,$129 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.3,4.15,7.87,107,6%,6.14,33%,236,Very High,2077,56.1,61%,36.2,51%,56%,60,Firepower Balanced
+LUZZ,Pro Blade 2,$169.99 ,2026,USAP/UPA-A,,,Raw Texture/Peel Ply,Gen 4,,14,5.5,4.125,7.9,116,57%,6.01,25%,240,,,,,,,,,
+Luzz,Pro Cannon,$109 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,7.9,119,79%,6.21,39%,244,Very High,2076,56.8,86%,36.6,72%,79%,72,Firepower High
+Luzz,Pro-4 Inferno,$229 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.88,119,79%,6.17,36%,244,Very High,2027,57.1,95%,37.1,93%,94%,79,Firepower High
+Luzz,Tornazo,$229 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.25,7.9,118,71%,6.05,28%,245,Very High,2111,56.9,90%,36.9,85%,88%,75,Firepower High
+Mark,02 R3,$189.99 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 4,Power,16,5.6,4.125,8,117,64%,5.89,17%,242,,,,,,,,,
+Mark,One,$159.99 ,2024,USAP,Hybrid,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.3,4.125,8.18,119,79%,6.57,64%,242,,,,,,,,,
+Mark,OneX,$159.99 ,2024,USAP,Hybrid,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.75,4.125,7.94,117,64%,6.46,57%,244,,,,,,,,,
+Mark,Two,$159.99 ,2024,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.3,4.125,8.24,123,92%,6.66,70%,245,,,,,,,,,
+Maverix,Havik-15 All-Court,$180 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,15,5.3,4.125,8.18,118,71%,6.57,64%,239,Medium,1893,55.2,29%,36.1,46%,38%,47,Firepower Control+
+Maverix,Havik-15 Pro,$200 ,2024,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,15,5.3,4.125,8.23,118,71%,6.46,57%,240,Medium,1889,55.5,37%,36.6,72%,54%,55,Firepower Balanced
+Neonic,Flare Prime X,$139.99 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.5,4.125,7.77,107,6%,6.75,77%,237,Very High,2003,55.6,39%,35.6,27%,33%,48,Firepower Control+
+Neonic,Flare Titanium 16mm,$149.99 ,2024,USAP,Widebody,Titanium/Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,8.15,114,44%,7.06,89%,239,Very High,2015,55.2,29%,35.5,23%,26%,42,Firepower Control+
+Neonic,Flow,$129.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.2,4.125,8.14,117,64%,6.58,65%,238,Medium,1914,54.2,15%,34.7,7%,11%,23,Firepower Soft
+Neonic,Flow Prime X,$139.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,7.8,111,23%,6.11,31%,240,,,,,,,,,
+Neonic,Force,$99.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.3,4.125,8.06,116,57%,6.35,50%,238,Low,1814,54.3,16%,34.8,8%,12%,25,Firepower Soft
+Paddletek,Bantam ALW-C 12.7,$250 ,2024,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Power,12.7,5.25,4.25,7.55,102,1%,6.54,61%,234,Very High,2083,55.7,42%,37.1,93%,67%,61,Firepower Balanced
+Paddletek,Bantam ALW-C 14.3,$250 ,2024,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,14.3,5.25,4.25,7.7,105,3%,6.5,59%,237,Very High,2056,55.4,34%,36.3,57%,46%,51,Firepower Balanced
+Paddletek,Bantam ESQ-C 12.7,$250 ,2024,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Power,12.7,5.5,4.25,7.82,103,2%,6.78,78%,236,Very High,2071,55.9,52%,37.2,95%,74%,64,Firepower Balanced
+Paddletek,Bantam ESQ-C 14.3,$250 ,2024,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,14.3,5.5,4.25,7.85,106,5%,6.69,74%,232,Very High,2059,55.6,39%,36.6,72%,56%,56,Firepower Balanced
+Paddletek,Bantam GTO-C 12.7,$250 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1,Power,12.7,5.75,5.75,7.9,118,71%,7.55,99%,247,,,,,,,,,
+Paddletek,Bantam GTO-C 14.3,$250 ,2025,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,14.3,5.75,5.75,7.93,117,64%,6.69,74%,244,,,,,,,,,
+Paddletek,Bantam TKO-C 12.7,$229.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,12.7,5.25,4.25,7.78,114,44%,6.6,66%,243,Medium,1903,56.6,81%,37.7,99%,90%,77,Firepower High
+Paddletek,Bantam TKO-C 14.3,$229.99 ,2024,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,14.3,5.25,4.25,7.75,115,50%,6.48,58%,245,Medium,1910,56.8,86%,37.4,98%,92%,78,Firepower High
+Paddletek,Bantam TKO-CX 12.7,$229.99 ,2024,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,12.7,5.75,4.25,7.82,117,64%,6.97,87%,247,,,,,,,,,
+Paddletek,Bantam TKO-CX 14.3,$229.99 ,2024,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,14.3,5.75,4.25,8.06,123,92%,7.35,96%,250,,,,,,,,,
+Paddletek,Tempest Wave Pro-C,$209.99 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,14.3,5.25,4.25,7.92,108,10%,6.98,87%,236,Low,1835,54.5,18%,35.7,31%,25%,35,Firepower Control+
+Pickleball Apes,Charm S,$199.99 ,2025,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.5,4.25,8.1,115,50%,6.32,49%,240,Very High,2051,56.5,77%,36.3,57%,67%,66,Firepower High
+Pickleball Apes,Charm V,$199.99 ,2025,USAP,Widebody,Kevlar,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.5,4.25,8.14,111,23%,7.36,97%,236,Very High,2012,56.5,77%,36.4,62%,70%,66,Firepower High
+Pickleball Apes,Charm X,$199.99 ,2025,USAP,Elongated,Kevlar,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.75,4.25,8.18,124,95%,6.3,46%,246,Very High,2075,56.3,68%,36.5,67%,67%,64,Firepower Balanced
+Pickleball Apes,Harmony S,$179.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,Control,16,5.5,4.25,7.9,114,44%,6.25,42%,240,,,,,,,,,
+Pickleball Apes,Harmony V,$179.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Control,16,5.5,4.25,7.9,109,13%,7.23,94%,234,,,,,,,,,
+Pickleball Apes,Harmony X,$179.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Control,16,5.75,4.25,8,120,83%,6.12,32%,245,Very High,2035,53.7,10%,35.5,23%,16%,23,Firepower Soft
+Pickleball Apes,Joy S,$109.99 ,2026,USAP,Hybrid,,Raw Texture/Peel Ply,Gen 4,,16,5.3,4.125,7.8,110,17%,6.08,29%,237,,,,,,,,,
+Pickleball Apes,Joy S +,$109.99 ,2026,USAP,Hybrid,,Raw Texture/Peel Ply,Gen 4,,16,5.3,4.125,7.97,111,23%,6.61,67%,237,,,,,,,,,
+Pickleball Apes,Pro Line Energy,$149.99 ,2023,USAP,Extra-elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,Power,16.5,6.25,4.25,8.16,127,98%,5.89,17%,248,,,54.9,22%,,,,,
+Pickleball Apes,Pro Line Energy S,$169.99 ,2023,USAP,Hybrid,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16.5,5.5,4.25,8.1,116,57%,6.26,43%,238,,,52,1%,,,,,
+Pickleball Apes,Pulse E,$199.99 ,2024,USAP,Extra-elongated,Kevlar/Nylon,Raw Texture/Peel Ply,Gen 3,All-Court,16.5,6.25,4.25,8.26,127,98%,5.89,17%,247,High,1986,55.7,42%,35.9,36%,39%,52,Firepower Balanced
+Pickleball Apes,Pulse S,$199.99 ,2024,USAP,Hybrid,Kevlar/Nylon,Raw Texture/Peel Ply,Gen 3,All-Court,16.5,5.5,4.25,7.98,114,44%,6.24,41%,240,High,1971,54.9,22%,36.2,51%,36%,44,Firepower Control+
+Pickleball Apes,Pulse V,$199.99 ,2024,USAP,Widebody,Kevlar/Nylon,Raw Texture/Peel Ply,Gen 3,All-Court,16.5,5.5,4.25,8.13,112,29%,7.37,97%,237,High,1978,54.7,20%,36.1,46%,33%,40,Firepower Control+
+Pickleball Apes,Pulse X,$199.99 ,2025,USAP,Elongated,Kevlar,Raw Texture/Peel Ply,Gen 3,All-Court,16,5.5,4.25,8.1,121,86%,6.14,33%,245,,,,,,,,,
+PIKKL,Hurricane Pro 14mm,$159.99 ,2024,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,14,5.5,4.25,7.83,108,10%,6.67,71%,237,High,1979,53.1,6%,35.5,23%,14%,15,Firepower Soft
+PIKKL,Hurricane Pro 16mm,$159.99 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.25,7.9,111,23%,6.95,86%,238,High,1991,52.8,2%,35.3,17%,10%,9,Firepower Soft
+PIKKL,Vantage Pro 14mm,$139.99 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,Control,14,5.3,4.25,8.04,115,50%,6.28,45%,236,High,1998,53.2,6%,,,,,
+PIKKL,Vantage Pro 16mm,$139.99 ,2023,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.3,4.25,8.4,121,86%,6.69,74%,237,High,1996,53.7,10%,,,,,
+Prokennex,Black Ace 14,$279 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1.5/Edgeless,All-Court,14,5.3,4,7.8,102,1%,6.57,64%,224,Very High,2042,54.9,22%,37.1,93%,57%,51,Firepower Balanced
+Prokennex,Black Ace 16,$279 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1.5/Edgeless,Control,16,5.3,4,8,109,13%,6.92,85%,234,Very High,2056,55.4,34%,36.3,57%,46%,51,Firepower Balanced
+Prokennex,Black Ace LG 14,$279 ,2024,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5/Edgeless,Power,14,5.9,4,7.8,107,6%,5.6,7%,229,Very High,2056,55.7,42%,37.1,93%,67%,61,Firepower Balanced
+Prokennex,Black Ace XF 14,$279 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5/Edgeless,All-Court,14,5.1,4,7.8,101,1%,5.4,3%,221,High,1993,54.7,20%,36.4,62%,41%,43,Firepower Control+
+Proton,Project Flamingo,$280 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,15,5.25,4.25,8.16,121,86%,6.78,78%,242,High,1982,55.9,52%,37.4,98%,75%,66,Firepower High
+Proton,Project Peacock,$280 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,15,5.25,4.25,8,116,57%,6.27,44%,243,Very High,2093,56.8,86%,36.9,85%,86%,74,Firepower High
+Proton,Series 1 Type A Elongated 11mm,$280 ,2024,USAP,Elongated,Carbon,Nanotak,Gen 1,,11,5.5,4.25,8.14,124,95%,5.91,19%,247,,,,,,,,,
+Proton,Series 1 Type A Elongated 15mm,$280 ,2024,USAP,Elongated,Carbon,Nanotak,Gen 1,,15,5.5,4.25,8.6,135,100%,6.52,60%,251,High,1938,55.9,52%,35.9,36%,44%,55,Firepower Balanced
+Proton,Series 1 Type A Square Shape 11mm,$280 ,2024,USAP,Widebody,Carbon,Nanotak,Gen 1,,11,5.25,4.25,7.96,114,44%,6.59,66%,242,High,2000,54.4,17%,36.1,46%,31%,36,Firepower Control+
+Proton,Series 2,$220 ,2024,USAP,Hybrid,Carbon,Paint Grit,Gen 1/Edgeless,,15,5.375,4.25,8.38,121,86%,5.92,20%,240,,,,,,,,,
+Proton,Series 3,$250 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,,16,5.3,4.25,8.2,124,95%,6.88,84%,245,,,,,,,,,
+Proton,Series 4,$300 ,2024,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2/Edgeless,,16,5.3,4.25,7.8,111,23%,5.51,5%,237,High,1944,54.9,22%,34.6,6%,14%,32,Firepower Soft
+ProXR,Sweet Spot 13,$210 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,,13,5.25,4,8.1,115,50%,6.99,87%,238,,,,,,,,,
+ProXR,Zane Navtratil Signature,$209.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,14,6,4,8.24,115,50%,5.71,10%,233,,,,,,,,,
+Reload,RLD-1,$200 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,8.17,122,89%,6.37,52%,245,High,1973,55.5,37%,35.1,15%,26%,43,Firepower Control+
+Rev,Zeus,$149 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,Power,14,5.25,4.2,8,113,36%,6.35,50%,239,,,,,,,,,
+Revolin,Drift Pure,$174.99 ,2025,USAP,Widebody,Bio Flex,Raw Texture/Peel Ply,Gen 1,All-Court,16,5,4.25,8.08,109,13%,6.55,63%,232,Very High,2072,55.6,39%,35.9,36%,37%,51,Firepower Balanced
+Revolin,Drift Reach,$174.99 ,2025,USAP,Elongated,Bio Flex,Raw Texture/Peel Ply,Gen 1,All-Court,16,5.5,4.25,8.23,118,71%,5.72,10%,237,High,1980,55.7,42%,36.1,46%,44%,54,Firepower Balanced
+Revolin,Revo Pro Pure,$219.99 ,2024,USAP,Widebody,Lava Rock,Raw Texture/Peel Ply,Gen 1,Power,16,5.25,4.25,8,103,2%,6.53,61%,226,High,1958,56,57%,37.1,93%,75%,65,Firepower High
+Revolin,Revo Pro Reach,$219.99 ,2024,USAP,Elongated,Lava Rock,Raw Texture/Peel Ply,Gen 1,Power,16,5.5,4.25,7.91,109,13%,5.59,6%,233,Medium,1851,56.3,68%,36.9,85%,77%,67,Firepower High
+Ronbus,Pulsar FX.R1,$180 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,8.21,120,83%,6.23,40%,243,Medium,1907,55,25%,35.9,36%,31%,43,Firepower Control+
+Ronbus,Pulsar FX.R2,$180 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,8.18,113,36%,7.05,89%,237,Medium,1900,54.9,22%,35.5,23%,22%,39,Firepower Control+
+Ronbus,Pulsar FX.R3,$180 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,8.22,123,92%,6.27,44%,245,High,1946,55.4,34%,35.6,27%,30%,46,Firepower Control+
+Ronbus,Quanta R1,$119 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,7.65,107,6%,5.6,7%,236,,,,,,,,,
+Ronbus,Quanta R2,$119 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,7.68,103,2%,6.25,42%,232,,,,,,,,,
+Ronbus,Quanta R3,$119 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,7.69,113,36%,5.64,8%,240,,,,,,,,,
+Ronbus,Quanta R4,$119 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,7.7,105,3%,5.9,18%,235,Very High,2065,56.5,77%,37,90%,83%,71,Firepower High
+Ronbus,Quanta R5,$119 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.5,4.125,7.7,103,2%,6.15,34%,232,Very High,2110,56.6,81%,36.9,85%,83%,71,Firepower High
+Ronbus,R1 Nova,$180 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,8.14,118,71%,6,24%,242,Medium,1883,54.4,17%,34.2,3%,10%,22,Firepower Soft
+Ronbus,R1 Pulsar,$170 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,7.87,114,44%,6.12,32%,237,,,,,,,,,
+Ronbus,R1.16,$120 ,2022,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.5,4.125,7.96,118,71%,6.11,31%,242,High,1950,53.7,10%,33.7,1%,6%,9,Firepower Soft
+Ronbus,R3 Nova,$180 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,8.07,120,83%,6.04,27%,245,,,55,25%,34.8,8%,17%,35,Firepower Control+
+Ronbus,R3 Pulsar,$170 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.125,7.98,122,89%,6.15,34%,245,Medium,1903,55.2,29%,35.4,20%,24%,42,Firepower Control+
+Ronbus,R3.16,$120 ,2022,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.5,4.125,7.73,119,79%,5.84,15%,247,,,,,,,,,
+Ronbus,Ripple V2 R1.14,$280 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,8.2,128,99%,5.88,16%,250,Very High,2023,57.6,98%,36.6,72%,85%,82,Firepower Elite
+Ronbus,Ripple V2 R2.14,$280 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,8.2,119,79%,6.6,66%,244,Very High,2005,56.9,90%,37.2,95%,93%,78,Firepower High
+Ronbus,Ripple V2 R4.14,$280 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4.125,8,118,71%,5.9,18%,245,Very High,2015,57,93%,37,90%,91%,77,Firepower High
+RPM,Friction Pro Elongated 14,$249.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4,7.81,115,50%,6,24%,242,Very High,2121,56.2,65%,36.5,67%,66%,63,Firepower Balanced
+RPM,Friction Pro Elongated 16,$249.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,7.9,117,64%,6.14,33%,243,Very High,2106,56.6,81%,36.7,80%,80%,70,Firepower High
+RPM,Friction Pro Widebody 14,$249.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,14,5.5,4,7.93,110,17%,7.1,90%,237,Very High,2035,56,57%,36.2,51%,54%,58,Firepower Balanced
+RPM,Friction Pro Widebody 16,$249.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.5,4.25,7.95,110,17%,7.24,94%,236,Very High,2109,56.3,68%,36.3,57%,63%,63,Firepower Balanced
+Selkirk,Amped Epic Control,$160 ,2024,USAP,Widebody,Carbon,Paint Grit,Gen 1,Control,16,5.25,4.25,8,105,3%,6.54,61%,230,,,,,,,,,
+Selkirk,Amped Epic Pro Air,$180 ,2024,USAP,Widebody,Fiberglass,Paint Grit,Gen 1.5/Edgeless,Power,16,5.25,4.25,7.97,112,29%,6.87,83%,240,Medium,1909,55.1,28%,36.1,46%,37%,46,Firepower Control+
+Selkirk,Amped Invikta Pro Air,$180 ,2024,USAP,Elongated,Fiberglass,Paint Grit,Gen 1.5/Edgeless,Power,16,5.25,4.25,7.86,118,71%,5.9,18%,246,Medium,1895,55.5,37%,36.3,57%,47%,52,Firepower Balanced
+Selkirk,Boomstick Elongated,$333 ,2025,USAP,Elongated,Carbon,Durable Texture,Gen 4,Power,16,5.8,4.25,8.4,121,86%,6.92,85%,239,High,1989,57.1,95%,37.3,97%,96%,81,Firepower Elite
+Selkirk,Boomstick Widebody,$333 ,2025,USAP,Widebody,Carbon,Durable Texture,Gen 4,Power,16,5.6,4.25,8.3,113,36%,7.72,100%,233,High,1980,56.8,86%,37.2,95%,91%,76,Firepower High
+Selkirk,Luxx Control Air Epic,$250 ,2023,USAP,Widebody,Carbon,Paint Grit,Gen 1.5/Edgeless,Control,20,5.25,4.25,8.08,112,29%,6.35,50%,238,Medium,1873,51.2,0%,33.1,1%,1%,0,Firepower Soft
+Selkirk,Luxx Control Air Invikta,$250 ,2023,USAP,Elongated,Carbon,Paint Grit,Gen 1.5/Edgeless,Control,20,5.25,4.25,7.96,115,50%,5.78,12%,242,Medium,1858,52,1%,33.2,1%,1%,0,Firepower Soft
+Selkirk,Luxx Control Air Invikta Infinigrit,$280 ,2025,USAP,Elongated,Carbon,Paint Grit,Gen 2,Control,19,5.5,4.25,8.05,117,64%,5.83,14%,243,High,1993,54.2,15%,35.3,17%,16%,28,Firepower Soft
+Selkirk,Luxx Control Air S2,$250 ,2023,USAP,Widebody,Carbon,Paint Grit,Gen 1.5/Edgeless,Control,20,4.5,4.25,8.17,107,6%,7.13,91%,233,Medium,1870,50.3,0%,32.9,0%,0%,0,Firepower Soft
+Selkirk,Power Air Epic,$249.99 ,2022,USAP,Widebody,Fiberglass,Paint Grit,Gen 1.5/Edgeless,Power,13,5.25,4.25,8.04,104,3%,6.35,50%,229,Medium,1884,53.2,6%,36.6,72%,39%,24,Firepower Soft
+Selkirk,Power Air Invikta,$249.99 ,2022,USAP,Elongated,Fiberglass,Paint Grit,Gen 1.5/Edgeless,Power,13,5.25,4.25,8,112,29%,5.62,7%,237,Medium,1894,53.5,9%,36.5,67%,38%,28,Firepower Soft
+Selkirk,SLK Dauntless Elongated,$180 ,2026,USAP,Elongated,,Raw Texture/Peel Ply,Gen 4,Control,16,5.8,4.25,7.9,117,64%,6.56,63%,244,Very High,2064,55.9,52%,35.9,36%,44%,55,Firepower Balanced
+Selkirk,SLK Dauntless Widebody,$180 ,2026,USAP,Widebody,,Raw Texture/Peel Ply,Gen 4,Control,16,5.6,4.25,7.86,110,17%,7.36,97%,240,Very High,2020,55.7,42%,36.1,46%,44%,54,Firepower Balanced
+Selkirk,Vanguard Control Epic (midweight),$200 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.3,4.25,8.14,112,29%,6.37,52%,236,,,,,,,,,
+Selkirk,Vanguard Control Invikta (mideweight),$200 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.5,4.25,7.97,113,36%,5.65,8%,237,,,,,,,,,
+Selkirk,Vanguard Control S2 (midweight),$200 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,4.7,4.25,8.01,105,3%,7.09,90%,230,,,,,,,,,
+Selkirk,Vanguard Pro Power Invikta,$220 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,8.03,114,44%,5.89,17%,237,High,1937,55.7,42%,35.2,16%,29%,47,Firepower Control+
+Selkirk Labs,008 Epic 13mm,$288 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Control,13,5.3,4.25,7.75,102,1%,5.81,13%,229,High,1954,54.8,21%,35.4,20%,20%,36,Firepower Control+
+Selkirk Labs,008 Invikta 10mm,$288 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,10,5.5,4.25,7.9,110,17%,5.2,2%,234,High,1995,55,25%,35.6,27%,26%,41,Firepower Control+
+Selkirk Labs,008 Invikta 13mm,$288 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Control,13,5.5,4.25,7.7,109,13%,5.4,3%,236,High,1965,55.1,28%,35.3,17%,23%,40,Firepower Control+
+Selkirk Labs,008 Tour 13mm,$288 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Control,13,6,4.25,7.9,112,29%,5.36,3%,237,High,1991,54.7,20%,35,12%,16%,32,Firepower Soft
+Selkirk Labs,008 Tour 16mm,$288 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Control,16,6,4.25,8.1,116,57%,5.52,5%,239,High,1969,55.2,29%,34.8,8%,19%,37,Firepower Control+
+Selkirk Labs,Project 005 Epic,$222 ,2023,USAP,Widebody,Fiberglass,Paint Grit,Gen 2/Edgeless,All-Court,16,5.25,4.25,7.97,110,17%,6.88,84%,238,,,,,,,,,
+Selkirk Labs,Project 006 Maxima,$333 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.75,4.25,8.39,118,71%,5.97,23%,236,Low,1848,54.1,13%,34.4,4%,9%,20,Firepower Soft
+Selkirk Labs,Project 007 Epic 14mm,$333 ,2024,USAP,Widebody,Carbon,Durable Texture,Gen 2/Edgeless,Power,14,5.25,4.25,8.13,113,36%,6.5,59%,239,High,1981,55.5,37%,36.8,82%,60%,56,Firepower Balanced
+Selkirk Labs,Project 007 Invikta 14mm,$333 ,2024,USAP,Elongated,Carbon,Durable Texture,Gen 2,Power,14,,4.25,8.13,118,71%,5.94,21%,243,Very High,2005,56.5,77%,36.3,57%,67%,66,Firepower High
+Six Zero,Black Diamond 14mm,$180 ,2024,USAP,Hybrid,Fiberglass,Raw Texture/Peel Ply,Gen 2,Power,14,5.5,4.25,8,112,29%,6.46,57%,237,High,1988,55.6,39%,36.8,82%,61%,57,Firepower Balanced
+Six Zero,Black Diamond 16mm,$179.99 ,2023,USAP,Hybrid,Fiberglass,Raw Texture/Peel Ply,Gen 2,Power,16,5.5,4.25,8.07,114,44%,6.67,71%,239,High,1981,55.9,52%,36.3,57%,54%,58,Firepower Balanced
+Six Zero,Black Diamond Amethyst Pro,$199 ,2023,USAP,Hybrid,Fiberglass,Raw Texture/Peel Ply,Gen 2,Power,16,5.5,4.25,8.23,115,50%,6.72,76%,234,,,,,,,,,
+Six Zero,Black Diamond Infinity 16mm,$220 ,2023,USAP,Hybrid,Fiberglass,Raw Texture/Peel Ply,Gen 2/Edgeless,All-Court,16,5.5,4.25,7.97,107,6%,5.8,12%,229,High,1990,52.8,2%,35.4,20%,11%,10,Firepower Soft
+Six Zero,Black Opal,$250 ,2025,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,14,5.5,4.25,8.1,114,44%,6.3,46%,239,Very High,2024,57.6,98%,37,90%,94%,85,Firepower Elite
+Six Zero,Coral Elongated,$200 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.75,4.25,8,113,36%,6.03,27%,238,Very High,2023,56.4,74%,36.6,72%,73%,67,Firepower High
+Six Zero,Coral Hybrid,$200 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.5,4.25,8.16,112,29%,6.52,60%,236,High,1977,56.3,68%,36.4,62%,65%,64,Firepower Balanced
+Six Zero,Coral Widebody,$200 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,All-Court,16,5.5,4.25,8.26,108,10%,7.33,96%,231,Very High,2001,56.1,61%,36.4,62%,62%,61,Firepower Balanced
+Six Zero,Double Black Diamond (Elongated),$189.99 ,2024,USAP,Extra-elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,15,6,4.25,8.18,122,89%,5.74,10%,242,High,1931,56,57%,36.2,51%,54%,58,Firepower Balanced
+Six Zero,Double Black Diamond 14 mm,$179.99 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.5,4.25,7.87,110,17%,6.18,36%,237,Medium,1925,53.5,9%,36.9,85%,47%,31,Firepower Soft
+Six Zero,Double Black Diamond 16 mm,$179.99 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,8.07,114,44%,6.55,63%,237,,,53.7,10%,35.9,36%,23%,26,Firepower Soft
+Six Zero,Double Black Diamond Infinity 16mm,$220 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2/Edgeless,Control,16,5.5,4.25,8.1,110,17%,5.9,18%,231,,,,,,,,,
+Six Zero,Infinity Ruby,$220 ,2024,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2/Edgeless,Control,16,5.5,4.25,8.5,116,57%,6,24%,234,,,,,,,,,
+Six Zero,Quartz,$89.99 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,15,5,4.25,7.97,108,10%,6.43,55%,234,High,1949,52.8,2%,34.8,8%,5%,6,Firepower Soft
+Six Zero,Ruby,$200 ,2023,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,8.33,117,64%,6.81,80%,238,Low,,53.9,11%,35.3,17%,14%,24,Firepower Soft
+Six Zero,Ruby (14mm),$199.99 ,2024,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2,Power,14,5.5,4.25,8.1,114,44%,6.53,61%,238,High,1965,55.4,34%,36.9,85%,60%,56,Firepower Balanced
+Six Zero,Ruby Pro,$225 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,14,5.5,4.25,8.1,114,44%,6.27,44%,238,,,,,,,,,
+Six Zero,Sapphire,$99.99 ,2023,USAP,Elongated,Carbon,Paint Grit,Gen 1.5,Power,13,5.5,4.25,7.9,111,23%,5.4,3%,224,,,,,,,,,
+Six Zero,Sapphire V2,$139.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,13,5.6,4.25,7.85,116,57%,6.19,38%,241,,,,,,,,,
+SLK,ERA Power Elongated,$200 ,2025,USAP/UPA-A,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.75,4.25,8,117,64%,6.28,45%,241,,,,,,,,,
+SLK,ERA Power Widebody,$200 ,2025,USAP/UPA-A,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Power,16,5.6,4.25,8.14,111,23%,7.16,92%,235,,,,,,,,,
+SLK,Halo Control Max,$139.99 ,2022,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,4.75,4.5,7.94,111,23%,6.94,86%,237,,,,,,,,,
+SLK,Halo Control Max (2024 version),$130 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,4.85,4.25,7.9,110,17%,6.77,77%,237,High,1983,54.1,13%,34.2,3%,8%,18,Firepower Soft
+SLK,Halo Control XL,$139.99 ,2022,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.6,4.5,8.1,122,89%,6.07,28%,244,,,,,,,,,
+SLK,Halo Power Max,$139.99 ,2022,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,13,4.75,4,7.97,110,17%,6.54,61%,234,,,,,,,,,
+SLK,Halo Power Max (2024 version),$130 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,13,4.85,4.25,7.7,103,2%,6.81,80%,231,High,2000,55.5,37%,35.7,31%,34%,48,Firepower Control+
+SLK,Halo Power XL,$139.99 ,2022,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,13,5.6,4,7.97,120,83%,5.59,6%,245,,,,,,,,,
+SLK,Halo Pro Max,$150 ,2024,USAP,Widebody,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,4.85,4.25,7.92,108,10%,7,87%,234,High,1953,55.1,28%,35.5,23%,25%,41,Firepower Control+
+SLK,Halo Pro XL,$150 ,2024,USAP,Elongated,Kevlar/Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.75,4.25,7.98,120,83%,5.9,18%,245,High,1939,55.6,39%,36.6,72%,56%,56,Firepower Balanced
+Spartus,Apollo,$129.99 ,2024,USAP,Widebody,Kevlar,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,8.07,108,10%,7.54,98%,232,Medium,1927,53.5,9%,35,12%,10%,16,Firepower Soft
+Spartus,Ballista,$159.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2/Edgeless,All-Court,16,5.5,4.125,7.94,113,36%,5.59,6%,239,,,,,,,,,
+Spartus,Gladius Centurion,$99.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.125,7.98,121,86%,6.06,28%,243,,,,,,,,,
+Spartus,Odyssey Apex,$89.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.35,4.25,7.9,110,17%,6.56,63%,236,Very High,2019,54.5,18%,35.2,16%,17%,31,Firepower Soft
+Spartus,Olympus,$199.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,14,5.5,4.125,8,113,36%,6.32,49%,238,Very High,2043,55.7,42%,36.5,67%,54%,57,Firepower Balanced
+Spartus,Orion,$89.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.85,4.25,7.93,116,57%,6,24%,241,Very High,2027,55.4,34%,35.5,23%,28%,45,Firepower Control+
+Spartus,P1 Hybrid,$219.99 ,2026,USAP,Hybrid,Carbon,Durable Texture,Gen 4,Power,16,5.3,4.25,8.12,115,50%,6.7,74%,238,Very High,2047,56.8,86%,36.9,85%,86%,74,Firepower High
+Technifibre,TF-Blitz,$209 ,2024,USAP,Extra-elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,15,6,4.25,8.24,124,95%,5.81,13%,244,Very High,2092,56.5,77%,36.8,82%,80%,69,Firepower High
+Technifibre,TF-Command,$209 ,2024,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,15,5,4.25,8.16,110,17%,6.81,80%,233,Very High,2044,55,25%,35.7,31%,28%,41,Firepower Control+
+Technifibre,TF-Select,$209 ,2024,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2,All-Court,15,5.5,4.25,8.1,112,29%,6.43,55%,234,Very High,2093,55.9,52%,36.6,72%,62%,60,Firepower Balanced
+Thrive,Azul 16,$199.99 ,2024,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2,Power,16,5.25,4.25,8.12,117,64%,6.6,66%,240,High,1948,55.7,42%,36,41%,41%,53,Firepower Balanced
+Thrive,Blackout 16,$199.99 ,2024,USAP,Hybrid,Fiberglass,Raw Texture/Peel Ply,Gen 2,Power,16,5.25,4.25,8.28,119,79%,6.71,76%,242,Medium,1897,56.5,77%,36.2,51%,64%,65,Firepower High
+Thrive,Fury Elongate,$199.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,Power,15.5,5.5,4.25,7.9,115,50%,6.13,33%,243,,,,,,,,,
+Thrive,Project Fury,$199.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 3,Power,15.5,5.5,4.25,8,112,29%,6.54,61%,237,Very High,2037,56.2,65%,36.4,62%,64%,62,Firepower Balanced
+Thrive,Rush 13mm,$179.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,13,5.5,4.125,7.9,119,79%,6.1,30%,244,High,1931,55.7,42%,35.6,27%,34%,50,Firepower Balanced
+Thrive,Smoke,$219.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,Power,14.5,5.5,4.25,7.96,119,79%,6.14,33%,242,Very High,2003,56.4,74%,36.2,51%,62%,64,Firepower Balanced
+Thrive,Surge 16,$199.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.25,4.25,8.03,117,64%,6.8,79%,243,High,1937,55.3,32%,35.6,27%,30%,45,Firepower Control+
+Thrive,Threat 16mm,$179.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.25,8,122,89%,6.74,76%,245,Medium,1918,54.4,17%,34.6,6%,11%,25,Firepower Soft
+Vatic Pro,Flash 14 mm,$139.99 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.3,4.125,7.94,110,17%,6.15,34%,235,,,53.9,11%,34.4,4%,8%,17,Firepower Soft
+Vatic Pro,Flash 16 mm,$139.99 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.3,4.125,8.25,115,50%,6.7,74%,237,High,1935,,,,,,,
+Vatic Pro,Prism Bloom 14mm,$99.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1.5,Control,14,5.6,4.125,7.7,107,6%,6.05,28%,238,,,,,,,,,
+Vatic Pro,Prism Bloom 16mm,$99.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1.5,Control,16,5.6,4.125,7.92,112,29%,7.07,89%,238,,,,,,,,,
+Vatic Pro,Prism Flash 14 mm,$99.99 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,14,5.3,4.125,7.8,111,23%,6.11,31%,241,High,1950,53,5%,35,12%,8%,10,Firepower Soft
+Vatic Pro,Prism Flash 16 mm,$99.99 ,2023,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,Control,16,5.3,4.125,7.91,114,44%,6.4,53%,237,High,1942,51.8,1%,33.7,1%,1%,0,Firepower Soft
+Vatic Pro,Prism Flash LH 14,$99.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,14,5.75,4.125,7.94,116,57%,5.89,17%,241,,,,,,,,,
+Vatic Pro,Prism Flash LH 16,$99.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,Control,16,5.75,4.125,8.05,117,64%,6.18,36%,241,,,,,,,,,
+Vatic Pro,Prism V7,$99.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.3,4.125,8.44,128,99%,6.96,87%,244,,,52.8,2%,34.6,6%,4%,4,Firepower Soft
+Vatic Pro,Prism V7 LH,$99.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.6,4.125,7.97,119,79%,6.16,35%,243,,,53.2,6%,34.4,4%,5%,8,Firepower Soft
+Vatic Pro,Saga Bloom 14mm,$149.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,14,5.3,4.125,7.7,107,6%,6.61,67%,239,Very High,2038,55.7,42%,35.7,31%,36%,51,Firepower Balanced
+Vatic Pro,Saga Bloom 16mm,$149.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 1,Control,16,5.6,4.125,8,111,23%,7.02,88%,237,Very High,2028,53.9,11%,34.8,8%,10%,20,Firepower Soft
+Vatic Pro,Saga Flash LH 16mm,$149.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,16,5.75,4.125,8.17,120,83%,6.3,46%,244,,,,,,,,,
+Vatic Pro,Saga Flash SH 14mm,$149.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,14,5.3,4.125,7.7,109,13%,5.95,22%,239,Very High,2015,55.9,52%,35.7,31%,41%,53,Firepower Balanced
+Vatic Pro,Saga Flash SH 16mm,$149.99 ,2024,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,16,5.3,4.125,7.93,114,44%,6.39,52%,240,High,1961,56.5,77%,35.5,23%,50%,60,Firepower Balanced
+Vatic Pro,Saga V7 LH,$149.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,16,5.75,4.125,8.28,125,97%,6.5,59%,246,,,,,0,,,,
+Vatic Pro,Saga V7 SH,$149.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1.5,All-Court,16,5.3,4.125,8.13,120,83%,6.62,68%,243,High,1954,56.8,86%,35.6,27%,56%,64,Firepower Balanced
+Vatic Pro,Saga V7 SH 14mm,$149.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 1,All-Court,14,5.3,4.125,7.9,116,57%,6.23,40%,242,High,1978,56.3,68%,35.5,23%,45%,57,Firepower Balanced
+Vatic Pro,V-Sol Power Bloom,$109.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.6,4.125,7.95,109,13%,7.02,88%,236,Very High,2069,56.3,68%,36.4,62%,65%,64,Firepower Balanced
+Vatic Pro,V-Sol Power Flash,$109.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.125,7.97,110,17%,6.29,45%,235,Very High,2073,57,93%,36.6,72%,82%,74,Firepower High
+Vatic Pro,V-Sol Power V7,$109.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.6,4.125,8.14,117,64%,6.67,71%,239,Very High,2088,57.3,97%,36.7,80%,88%,79,Firepower High
+Vatic Pro,V-Sol Pro Bloom,$109.99 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.6,4.125,7.92,107,6%,6.87,83%,233,Very High,2111,56.2,65%,36.6,72%,69%,64,Firepower Balanced
+Vatic Pro,V-Sol Pro Flash,$109.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.125,8.1,108,10%,6.43,55%,231,Very High,2060,56.8,86%,37,90%,88%,75,Firepower High
+Vatic Pro,V-Sol Pro Flash LH,$109.99 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.6,4.125,8,109,13%,5.99,24%,233,,,,,,,,,
+Vatic Pro,V-Sol Pro V7,$109.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.3,4.125,8.15,114,44%,6.49,58%,236,,2120,57.1,95%,37.1,93%,94%,79,Firepower High
+Vatic Pro,V-Sol Pro V7 LH,$109.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.6,4.125,7.97,114,44%,6.02,26%,237,,,,,,,,,
+Vatic Pro,V7,$139.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.3,4.125,8.32,123,92%,6.93,86%,244,Medium,1916,54.3,16%,35.9,36%,26%,34,Firepower Soft
+Vatic Pro,V-Sol Power V7 LH,$109.99 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,16,5.6,4.125,8,119,79%,6.24,41%,242,,,,,,,,,
+Versix,Vector XL,$129.99 ,2024,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,15,5.75,4.25,8.3,121,86%,6.85,82%,240,Medium,1916,56.1,61%,35.9,36%,49%,57,Firepower Balanced
+Volair,CTRL 1 Forza,$199.99 ,2024,USAP,Hybrid,Kevlar,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.15,8,115,50%,6.26,43%,240,,,,,,,,,
+Volair,CTRL 2 Forza,$199.99 ,2024,USAP,Widebody,Kevlar,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.15,7.96,108,10%,7.16,92%,235,,,,,,,,,
+Volair,Mach 1 14mm,$159.99 ,2022,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.5,4.15,7.84,115,50%,5.82,14%,240,Medium,1900,53.2,6%,36.1,46%,26%,21,Firepower Soft
+Volair,Mach 1 16mm,$159.99 ,2022,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.15,8.06,118,71%,6.02,26%,242,Very High,2005,53.9,11%,34.7,7%,9%,19,Firepower Soft
+Volair,Mach 1 Forza 14mm,$179.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,Power,14,5.5,4.15,7.69,109,13%,5.82,14%,237,High,1954,54,13%,35.7,31%,22%,28,Firepower Soft
+Volair,Mach 1 Forza 16mm,$179.99 ,2023,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.15,8.19,117,64%,6.57,64%,240,High,1988,55,25%,35.5,23%,24%,40,Firepower Control+
+Volair,Mach 2 14mm,$139.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,14,5.5,4.15,7.9,106,5%,6.76,77%,231,High,1967,52.8,2%,35,12%,7%,7,Firepower Soft
+Volair,Mach 2 16 mm,$139.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.15,7.97,108,10%,6.77,77%,231,Very High,2003,53,5%,35,12%,8%,10,Firepower Soft
+Volair,Mach 2 Forza 14mm,$179.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,14,5.5,4.15,7.8,109,13%,6.9,84%,238,High,1998,52.9,5%,35.9,36%,20%,15,Firepower Soft
+Volair,Mach 2 Forza 16mm,$179.99 ,2023,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.15,8.02,111,23%,7.26,95%,238,High,1987,53.5,9%,33.7,1%,5%,7,Firepower Soft
+Volair,Shift EL 14,$189.99 ,2026,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 4,Power,14,5.6,4.125,8.2,122,89%,6.23,40%,246,High,1979,57.2,96%,37,90%,93%,80,Firepower Elite
+Volair,Shift HYB 14,$189.99 ,2026,USAP/UPA-A,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 4,Power,14,5.6,4.125,8.15,117,64%,6.63,68%,242,Very High,2055,56.7,84%,36.7,80%,82%,71,Firepower High
+Volair,Shift WB 14,$189.99 ,2026,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 4,Power,14,5.5,4.125,8.2,108,10%,7.3,96%,234,Very High,2018,56.8,86%,36.8,82%,84%,73,Firepower High
+Volair,V.1F HYB,$199 ,2025,USAP,Hybrid,Carbon,Raw Texture/Peel Ply,Gen 2,All-Court,16,5.5,4.15,8.1,118,71%,6.49,58%,243,Very High,2027,55.3,32%,35,12%,22%,40,Firepower Control+
+Volair,V.1F WB,$199 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 2,Control,16,5.5,4.15,8.1,111,23%,7.42,98%,237,Very High,2035,55.1,28%,35.7,31%,29%,43,Firepower Control+
+Wilson,Vesper Control 17,$249 ,2025,USAP,Widebody,Carbon,Raw Texture/Peel Ply,Gen 3,Control,17,5,4.25,8.05,113,36%,5.96,22%,236,High,1998,55.6,39%,35,12%,25%,44,Firepower Control+
+Wilson,Vesper Power 14,$249 ,2025,USAP,Elongated,Carbon,Raw Texture/Peel Ply,Gen 3,All-Court,14,5,4.25,8,114,44%,5.19,1%,238,High,1978,56.2,65%,35.3,17%,41%,54,Firepower Balanced
