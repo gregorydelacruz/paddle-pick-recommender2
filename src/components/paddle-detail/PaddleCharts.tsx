@@ -27,11 +27,11 @@ interface PaddleChartsProps {
 
 export const PaddleCharts = ({ paddle, paddleReview }: PaddleChartsProps) => {
   const performanceData = [
-    { metric: "Power", value: paddle.PowerPercentile },
-    { metric: "Spin", value: paddle.SpinPercentile },
+    { metric: "Power", value: paddle.PowerPercentile ?? 0 },
+    { metric: "Spin", value: paddle.SwingWeightPercentile },
     { metric: "Control", value: paddle.TwistWeightPercentile },
     { metric: "Maneuverability", value: 100 - paddle.SwingWeightPercentile },
-    { metric: "Balance", value: paddle.BalancePointPercentile },
+    { metric: "Firepower", value: paddle.FirepowerPercentile ?? 0 },
   ];
 
   const reviewMetricsData = [
@@ -41,7 +41,6 @@ export const PaddleCharts = ({ paddle, paddleReview }: PaddleChartsProps) => {
     { name: "Power", value: paddleReview?.productReview.powerRating || 0, color: "#10B981" },
   ];
 
-  // Convert review metrics to the circular format
   const TOTAL_ANGLE = 360;
   const RATING_MAX = 5;
   const circularData = reviewMetricsData.map((metric, index) => ({

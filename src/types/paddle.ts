@@ -2,39 +2,33 @@
 export interface Paddle {
   Company: string;
   Paddle: string;
-  CoreThickness: number;
   Price: number;
-  Shape: "Elongated" | "Wide Body" | "Standard" | "Hybrid";
-  ManufacturingProcess: string;
-  SurfaceTexture: string;
-  SurfaceMaterial: string;
-  CoreMaterial: string;
-  SpinRPM: number;
-  SpinPercentile: number;
-  Length: number;
-  Width: number;
-  HandleLength: number;
+  YearReleased: number | null;
+  ApprovalBody: string;
+  Shape: string;
+  FaceMaterial: string;
+  GritType: string;
+  BuildStyle: string;
+  PaddleType: string;
+  CoreThickness: number;
+  GripLength: number | null;
+  GripSize: number | null;
   StaticWeight: number;
   SwingWeight: number;
   SwingWeightPercentile: number;
   TwistWeight: number;
   TwistWeightPercentile: number;
   BalancePoint: number;
-  BalancePointPercentile: number;
-  ServeSpeed: number;
-  PowerPercentile: number;
-  PunchVolleySpeed: number;
-  PopPercentile: number;
-  Firepower: number;
+  SpinRating: string;
+  SpinRPM: number | null;
+  Power: number | null;
+  PowerPercentile: number | null;
+  Pop: number | null;
+  PopPercentile: number | null;
+  FirepowerPercentile: number | null;
+  Firepower: number | null;
+  FirepowerTier: string;
 }
-
-export const formatPrice = (priceStr: string): number => {
-  return parseFloat(priceStr.replace('$', ''));
-};
-
-export const formatPercentile = (percentStr: string): number => {
-  return parseFloat(percentStr.replace('%', ''));
-};
 
 export const generatePaddleSlug = (company: string, paddle: string): string => {
   return `${company}-${paddle}`.toLowerCase().replace(/\s+/g, '-');
