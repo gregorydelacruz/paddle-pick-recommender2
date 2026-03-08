@@ -22,7 +22,7 @@ const Results = () => {
     return null;
   }
 
-  const recommendedPaddles = getRecommendedPaddles(preferences);
+  const { paddles: recommendedPaddles, isFallback, fallbackMessage } = getRecommendedPaddles(preferences);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-primary/5 via-background to-background">
@@ -49,7 +49,7 @@ const Results = () => {
               Your Perfect Paddle Matches
             </motion.h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Based on your preferences, we've found these paddles that match your playing style
+              {isFallback && fallbackMessage ? fallbackMessage : "Based on your preferences, we've found these paddles that match your playing style"}
             </p>
           </div>
 
