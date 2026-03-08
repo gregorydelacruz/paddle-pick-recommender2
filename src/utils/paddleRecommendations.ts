@@ -63,11 +63,34 @@ const scorePlayingStyle = (paddle: Paddle, style: string): number => {
   }
 };
 
+// Pre-compute a curated pool: top 10 paddles per price range by Firepower
+const PADDLES_PER_RANGE = 10;
+
+const buildCuratedPool = (): Paddle[] => {
+  const ranges: [number, number][] = [
+    [0, 130],    // budget
+    [130, 220],  // midRange
+    [220, Infinity], // premium
+  ];
+
+  const pool: Paddle[] = [];
+  for (const [min, max] of ranges) {
+    const inRange = paddlesData
+      .filter(p => p.Price >= min && p.Price <= max)
+      .sort((a, b) => (b.Firepower ?? 0) - (a.Firepower ?? 0))
+      .slice(0, PADDLES_PER_RANGE);
+    pool.push(...inRange);
+  }
+  return pool;
+};
+
+const curatedPool = buildCuratedPool();
+
 const getRecommendedPaddles = (preferences: UserPreferences): Paddle[] => {
   const [minPrice, maxPrice] = getPriceRange(preferences.price);
   const [minWeight, maxWeight] = getWeightRange(preferences.weight);
 
-  const filteredPaddles = paddlesData.filter(paddle => 
+  const filteredPaddles = curatedPool.filter(paddle => 
     paddle.Price >= minPrice &&
     paddle.Price <= maxPrice &&
     paddle.StaticWeight >= minWeight &&
