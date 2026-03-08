@@ -4,9 +4,9 @@ import paddlesData from "@/data/paddles";
 
 type UserPreferences = {
   skillLevel: "beginner" | "intermediate" | "advanced";
-  playingStyle: "control" | "power" | "balanced";
-  price: "budget" | "midRange" | "premium";
-  weight: "light" | "medium" | "heavy";
+  playingStyle: "defensive" | "offensive" | "balanced";
+  price: "budgetFriendly" | "midRange" | "premium";
+  weight: "lightweight" | "medium" | "heavyweight";
 };
 
 const getPriceRange = (price: string): [number, number] => {
